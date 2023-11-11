@@ -7,6 +7,9 @@ execute if block 0 63 0 minecraft:air run scoreboard players add @a mined 1
 # Replace air at One Block position
 execute if block 0 63 0 minecraft:air run function set-block
 
+# Effects
+function effects/block-spawn
+
 # Teleport falling items on top of the One Block
 execute as @e[type=minecraft:item,rm=1,r=2] run teleport @s 0.5 64.3 0.5
 
