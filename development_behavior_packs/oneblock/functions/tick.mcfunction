@@ -2,7 +2,7 @@
 execute as @a[tag=!init] run function init-player
 
 # If 0 63 0 is air, then the player mined
-execute if block 0 63 0 minecraft:air run execute as @a[tag=init] run scoreboard players add Block block 1
+execute as @a[tag=init] run execute if block 0 63 0 minecraft:air run scoreboard players add Block block 1
 
 # Replace air at One Block position
 execute as @a[tag=init] run execute if block 0 63 0 minecraft:air run function set-block
