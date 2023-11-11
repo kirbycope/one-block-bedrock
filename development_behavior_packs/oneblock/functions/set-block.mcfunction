@@ -1,3 +1,10 @@
+# Particles
+particle minecraft:water_evaporation_bucket_emitter 0.5 63.5 0.5
+particle minecraft:explosion_particle 0.5 63 0.5
+playsound block.bamboo_sapling.place @a 0 63 0
+playsound dig.cloth @a 0 63 0
+
+# Blocks
 execute as @a[scores={mined=1}] run setblock 0 63 0 grass
 execute as @a[scores={mined=2}] run setblock 0 63 0 grass
 execute as @a[scores={mined=3}] run setblock 0 63 0 grass
@@ -34,4 +41,6 @@ execute as @a[scores={mined=43}] run setblock 0 63 0 oak_log
 execute as @a[scores={mined=44..45}] run setblock 0 63 0 grass
 execute as @a[scores={mined=46}] run setblock 0 63 0 oak_log
 execute as @a[scores={mined=47}] run structure load chest00g 0 63 0
+execute as @a[scores={mined=47}] run particle minecraft:heart_particle 0 64 0
 execute as @a[scores={mined=47}] run playsound mob.wanderingtrader.yes @a 0 63 0
+execute as @a[scores={mined=48}] run setblock 0 63 0 bedrock
