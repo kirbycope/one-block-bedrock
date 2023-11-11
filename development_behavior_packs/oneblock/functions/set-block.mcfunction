@@ -1,5 +1,5 @@
-function effects/block-spawn
 kill @e[type=oneblock:label_entity]
+function effects/block-spawn
 
 # Phase 0 (Tutorial)
 summon oneblock:label_entity "§6Break §fthe block below you!" 0 63.7 2
