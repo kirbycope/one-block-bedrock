@@ -1,4 +1,6 @@
 function effects/block-spawn
+
+# Phase 0 (Tutorial)
 execute as @a[scores={mined=1}] run setblock 0 63 0 grass
 execute as @a[scores={mined=2}] run setblock 0 63 0 grass
 execute as @a[scores={mined=3}] run setblock 0 63 0 grass
@@ -39,3 +41,5 @@ execute as @a[scores={mined=47}] run structure load chest00g 0 63 0
 execute as @a[scores={mined=47}] run particle minecraft:heart_particle 0 64 0
 execute as @a[scores={mined=47}] run playsound mob.wanderingtrader.yes @a 0 63 0
 execute as @a[scores={mined=48}] run setblock 0 63 0 bedrock
+
+# Phase 1 (Plains)
