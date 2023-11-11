@@ -1,4 +1,5 @@
 function effects/block-spawn
+kill @e[type=oneblock:label_entity]
 
 # Phase 0 (Tutorial)
 execute as @a[scores={mined=1}] run setblock 0 63 0 grass
