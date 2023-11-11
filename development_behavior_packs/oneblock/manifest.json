@@ -12,8 +12,8 @@
 	},
 	"modules": [
 		{
-			"description": "One Block",
-			"type": "resources",
+			"description": "Behavior",
+			"type": "data",
 			"uuid": "adb8cdd3-cdcb-4f0a-9086-597ecd78798d",
 			"version": [1, 0, 0]
 		}
