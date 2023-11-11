@@ -6,4 +6,4 @@ spawnpoint @s 0 64 0
 teleport @s 0 64 0
 
 # Show first tutorial message
-summon oneblock:label_entity "§6Break §fthe block below you!" 0 63 2
+summon oneblock:label_entity "§6Break §fthe block below you!" 0 63.5 2
