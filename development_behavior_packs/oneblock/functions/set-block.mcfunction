@@ -3,7 +3,7 @@ execute as @a[scores={mined=2}] run setblock 0 63 0 grass
 execute as @a[scores={mined=3}] run setblock 0 63 0 grass
 execute as @a[scores={mined=4}] run setblock 0 63 0 oak_log
 execute as @a[scores={mined=5}] run setblock 0 63 0 oak_log
-execute as @a[scores={mined=6}] run setblock 0 63 0 chest
+execute as @a[scores={mined=6}] run structure load chest00 0 63 0
 execute as @a[scores={mined=7}] run setblock 0 63 0 oak_log
 execute as @a[scores={mined=8..13}] run setblock 0 63 0 grass
 execute as @a[scores={mined=14}] run setblock 0 63 0 oak_log
@@ -25,7 +25,7 @@ execute as @a[scores={mined=32}] run setblock 0 63 0 grass
 execute as @a[scores={mined=33}] run setblock 0 63 0 oak_log
 execute as @a[scores={mined=34}] run setblock 0 63 0 gravel
 execute as @a[scores={mined=35}] run setblock 0 63 0 grass
-execute as @a[scores={mined=36}] run setblock 0 63 0 chest
+execute as @a[scores={mined=36}] run structure load chest00 0 63 0
 execute as @a[scores={mined=37}] run setblock 0 63 0 grass
 execute as @a[scores={mined=38}] run setblock 0 63 0 gravel
 execute as @a[scores={mined=39}] run setblock 0 63 0 grass
@@ -33,5 +33,5 @@ execute as @a[scores={mined=40..42}] run setblock 0 63 0 gravel
 execute as @a[scores={mined=43}] run setblock 0 63 0 oak_log
 execute as @a[scores={mined=44..45}] run setblock 0 63 0 grass
 execute as @a[scores={mined=46}] run setblock 0 63 0 oak_log
-execute as @a[scores={mined=47}] run setblock 0 63 0 chest
+execute as @a[scores={mined=47}] run structure load chest00g 0 63 0
 execute as @a[scores={mined=47}] run playsound mob.wanderingtrader.yes @a 0 63 0
