@@ -3,7 +3,7 @@ function effects/block-spawn
 
 # Phase 0 (Tutorial)
 summon oneblock:label_entity "§6Break §fthe block below you!" 0 63.7 2
-execute if score Block block matches 0 run setblock 0 63 0 grass
+execute as @a[scores={block=1}] run setblock 0 63 0 grass
 summon oneblock:label_entity "The block will <green>regenerate</green>!" 0 63.7 2
 execute as @a[scores={block=2}] run setblock 0 63 0 grass
 summon oneblock:label_entity "It is an <purple>infinite block</purple>!" 0 63.7 2
