@@ -2,11 +2,18 @@ function effects/block-spawn
 kill @e[type=oneblock:label_entity]
 
 # Phase 0 (Tutorial)
+summon oneblock:label_entity "§6Break §fthe block below you!" 0 63.7 2
 execute as @a[scores={mined=1}] run setblock 0 63 0 grass
+summon oneblock:label_entity "The block will <green>regenerate</green>!" 0 63.7 2
 execute as @a[scores={mined=2}] run setblock 0 63 0 grass
+summon oneblock:label_entity "It is an <purple>infinite block</purple>!" 0 63.7 2
 execute as @a[scores={mined=3}] run setblock 0 63 0 grass
+summon oneblock:label_entity "text" 0 63.7 2
+summon oneblock:label_entity "It spawns <green>more</green> than dirt!" 0 63.7 2
 execute as @a[scores={mined=4}] run setblock 0 63 0 oak_log
+summon oneblock:label_entity "text" 0 63.7 2
 execute as @a[scores={mined=5}] run setblock 0 63 0 oak_log
+summon oneblock:label_entity "text" 0 63.7 2
 execute as @a[scores={mined=6}] run structure load chest00 0 63 0
 execute as @a[scores={mined=7}] run setblock 0 63 0 oak_log
 execute as @a[scores={mined=8..13}] run setblock 0 63 0 grass
