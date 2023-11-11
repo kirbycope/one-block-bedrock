@@ -5,7 +5,7 @@ execute as @a[tag=!init] run function init-player
 execute if block 0 63 0 minecraft:air run scoreboard players add @s mined 1
 
 # Replace air at One Block position
-execute if block 0 63 0 minecraft:air run setblock 0 63 0 minecraft:grass
+execute if block 0 63 0 minecraft:air run function set-block
 
 # Teleport falling items on top of the One Block
 execute as @e[type=minecraft:item,rm=1,r=2] run teleport @s 0.5 64.3 0.5
