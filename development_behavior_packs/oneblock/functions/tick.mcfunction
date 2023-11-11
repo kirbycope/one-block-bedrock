@@ -2,7 +2,7 @@
 execute as @a[tag=!init] run function init-player
 
 # Replace air at One Block position
-execute as @a[tag=init] if block 0 63 0 minecraft:air run function set-block
+execute as @a[tag=init] run execute if block 0 63 0 minecraft:air run function set-block
 
 # Teleport falling items on top of the One Block
 execute as @e[type=minecraft:item,rm=1,r=2] run teleport @s 0.5 64.3 0.5

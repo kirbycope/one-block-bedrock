@@ -3,18 +3,17 @@ kill @e[type=oneblock:label_entity]
 function effects/block-spawn
 
 # Phase 0 (Tutorial)
-summon oneblock:label_entity "§6Break §fthe block below you!" 0 63.7 2
+execute as @a[scores={block=1}] run summon oneblock:label_entity "§6Break §fthe block below you!" 0 63.7 2
 execute as @a[scores={block=1}] run setblock 0 63 0 grass
-summon oneblock:label_entity "The block will <green>regenerate</green>!" 0 63.7 2
+execute as @a[scores={block=2}] run summon oneblock:label_entity "The block will §aregenerate§f!" 0 63.7 2
 execute as @a[scores={block=2}] run setblock 0 63 0 grass
-summon oneblock:label_entity "It is an <purple>infinite block</purple>!" 0 63.7 2
+execute as @a[scores={block=3}] run summon oneblock:label_entity "It is an §5infinite block§f!" 0 63.7 2
 execute as @a[scores={block=3}] run setblock 0 63 0 grass
-summon oneblock:label_entity "text" 0 63.7 2
-summon oneblock:label_entity "It spawns <green>more</green> than dirt!" 0 63.7 2
+execute as @a[scores={block=4}] run summon oneblock:label_entity "It spawns §amore§f than dirt!" 0 63.7 2
 execute as @a[scores={block=4}] run setblock 0 63 0 oak_log
-summon oneblock:label_entity "text" 0 63.7 2
+execute as @a[scores={block=5}] run summon oneblock:label_entity "text" 0 63.7 2
 execute as @a[scores={block=5}] run setblock 0 63 0 oak_log
-summon oneblock:label_entity "text" 0 63.7 2
+execute as @a[scores={block=6}] run summon oneblock:label_entity "text" 0 63.7 2
 execute as @a[scores={block=6}] run structure load chest00 0 63 0
 execute as @a[scores={block=7}] run setblock 0 63 0 oak_log
 execute as @a[scores={block=8..13}] run setblock 0 63 0 grass
