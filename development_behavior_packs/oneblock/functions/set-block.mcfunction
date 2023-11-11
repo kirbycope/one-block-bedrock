@@ -1,3 +1,4 @@
+function set-block
 execute as @a[scores={mined=1}] run setblock 0 63 0 grass
 execute as @a[scores={mined=2}] run setblock 0 63 0 grass
 execute as @a[scores={mined=3}] run setblock 0 63 0 grass
