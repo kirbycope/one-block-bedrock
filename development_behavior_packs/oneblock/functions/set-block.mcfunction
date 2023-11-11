@@ -1,3 +1,4 @@
+scoreboard players add Block block 1
 kill @e[type=oneblock:label_entity]
 function effects/block-spawn
 
