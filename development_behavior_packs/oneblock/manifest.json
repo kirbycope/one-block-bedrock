@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "One Block",
+		"description": "One Block Behavior Pack",
+		"uuid": "3b2e9ec7-ece7-46ef-950e-6febab276aa8",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 41]
+	},
+	"metadata": {
+		"authors": ["kirbycope"]
+	},
+	"modules": [
+		{
+			"description": "One Block",
+			"type": "resources",
+			"uuid": "adb8cdd3-cdcb-4f0a-9086-597ecd78798d",
+			"version": [1, 0, 0]
+		}
+	]
+}
