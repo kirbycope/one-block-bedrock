@@ -1,5 +1,6 @@
 gamerule sendcommandfeedback false
 setworldspawn 0 64 0
+time set 600
 
 # Scoreboard(s)
 scoreboard objectives add block dummy
