@@ -72,8 +72,7 @@ execute if score Block block matches 35 run summon oneblock:label_entity "Place 
 execute if score Block block matches 35 run setblock 0 63 0 grass
 
 execute if score Block block matches 36 run summon oneblock:label_entity "This item might §6help§f with that!" 0 62.7 2
-# todo water bucket
-execute if score Block block matches 36 run structure load chest00 0 63 0
+execute if score Block block matches 36 run structure load chest00w 0 63 0
 
 execute if score Block block matches 37 run setblock 0 63 0 grass
 execute if score Block block matches 38 run setblock 0 63 0 gravel
