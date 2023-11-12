@@ -34,7 +34,7 @@ execute if score Block block matches 17 run setblock 0 63 0 oak_log
 execute if score Block block matches 18 run summon oneblock:label_entity "There, fitting §6mobs§f! and §6blocks§f! spawn!" 0 62.7 1
 execute if score Block block matches 18 run setblock 0 63 0 oak_log
 execute if score Block block matches 18 run summon pig 0 64 0
-execute if score Block block matches 18 run function effects/mob-spawn
+execute if score Block block matches 18 run function mob-spawn
 
 execute if score Block block matches 19 run summon oneblock:label_entity "Later, §6rarer§f blocks spawn too!" 0 62.7 1
 execute if score Block block matches 19 run setblock 0 63 0 grass
