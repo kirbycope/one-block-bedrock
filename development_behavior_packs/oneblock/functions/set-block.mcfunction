@@ -12,3 +12,6 @@ execute if score Phase phase matches 0 run function phase/0
 
 # Phase 1 (Plains)
 execute if score Phase phase matches 1 run function phase/1
+
+# Phase 2 ()
+execute if score Phase phase matches 1 run function phase/2

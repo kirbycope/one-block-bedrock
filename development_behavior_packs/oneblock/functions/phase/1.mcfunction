@@ -118,7 +118,7 @@ execute if score Block block matches 273..274 run setblock 0 63 0 oak_log
 execute if score Block block matches 275 run setblock 0 63 0 clay
 execute if score Block block matches 276..281 run setblock 0 63 0 oak_log
 execute if score Block block matches 282 run setblock 0 63 0 oak_log
-execute if score Block block matches 282 run  structure load chest01g 0 63 0
+execute if score Block block matches 282 run structure load chest01g 0 63 0
 execute if score Block block matches 282 run particle minecraft:heart_particle 0 64 0
 execute if score Block block matches 282 run playsound mob.wanderingtrader.yes @a 0 63 0
 
