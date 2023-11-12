@@ -4,3 +4,6 @@ tag @s add init
 # Set player span and teleport them there
 spawnpoint @s 0 64 0
 teleport @s 0 64 0
+
+# Give the player some clear weather for a while
+weather clear 9999
