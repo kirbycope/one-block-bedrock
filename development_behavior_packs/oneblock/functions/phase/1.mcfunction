@@ -25,8 +25,7 @@ execute if score Block block matches 107 run setblock 0 63 0 clay
 execute if score Block block matches 108 run setblock 0 63 0 melon_block
 execute if score Block block matches 109 run setblock 0 63 0 pumpkin
 execute if score Block block matches 110..114 run setblock 0 63 0 grass
-# ToDo Struct, chest01
-execute if score Block block matches 115 run setblock 0 63 0 chest
+execute if score Block block matches 115 run structure load chest01 0 63 0
 execute if score Block block matches 116..120 run setblock 0 63 0 grass
 execute if score Block block matches 120 run summon sheep 0 64 0
 execute if score Block block matches 120 run function mob-spawn
@@ -52,8 +51,7 @@ execute if score Block block matches 157..158 run setblock 0 63 0 clay
 execute if score Block block matches 158 run summon pig 0 64 0
 execute if score Block block matches 158 run function mob-spawn
 execute if score Block block matches 159..164 run setblock 0 63 0 grass
-# ToDo Struct, chest01
-execute if score Block block matches 165 run setblock 0 63 0 chest
+execute if score Block block matches 165 run structure load chest01 0 63 0
 execute if score Block block matches 166 run setblock 0 63 0 melon_block
 execute if score Block block matches 167..168 run function random/1-block
 execute if score Block block matches 169 run setblock 0 63 0 pumpkin
@@ -81,8 +79,7 @@ execute if score Block block matches 213 run setblock 0 63 0 clay
 execute if score Block block matches 213 run function random/1-mob
 execute if score Block block matches 213 run function mob-spawn
 execute if score Block block matches 214 run setblock 0 63 0 clay
-# ToDo - chest
-execute if score Block block matches 215 run setblock 0 63 0 chest
+execute if score Block block matches 215 run structure load chest01 0 63 0
 execute if score Block block matches 216..226 run setblock 0 63 0 grass
 execute if score Block block matches 227..228 run setblock 0 63 0 podzol
 execute if score Block block matches 229..230 run setblock 0 63 0 birch_log
@@ -111,8 +108,7 @@ execute if score Block block matches 260 run setblock 0 63 0 clay
 execute if score Block block matches 261..262 run setblock 0 63 0 oak_log
 execute if score Block block matches 263 run setblock 0 63 0 birch_log
 execute if score Block block matches 264 run setblock 0 63 0 oak_log
-# todo chest
-execute if score Block block matches 265 run setblock 0 63 0 chest
+execute if score Block block matches 265 run structure load chest01 0 63 0
 execute if score Block block matches 266..268 run setblock 0 63 0 clay
 execute if score Block block matches 269 run setblock 0 63 0 oak_log
 execute if score Block block matches 270 run setblock 0 63 0 birch_log
@@ -123,7 +119,7 @@ execute if score Block block matches 275 run setblock 0 63 0 clay
 execute if score Block block matches 276..281 run setblock 0 63 0 oak_log
 execute if score Block block matches 282 run setblock 0 63 0 oak_log
 # todo chest
-execute if score Block block matches 282 run setblock 0 63 0 chest
+execute if score Block block matches 282 run  structure load chest01 0 63 0
 execute if score Block block matches 282 run particle minecraft:heart_particle 0 64 0
 execute if score Block block matches 282 run playsound mob.wanderingtrader.yes @a 0 63 0
 
