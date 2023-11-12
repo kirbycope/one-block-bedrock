@@ -8,4 +8,5 @@ scoreboard objectives setdisplay list block
 scoreboard players set Block block 0
 scoreboard objectives add phase dummy
 scoreboard players set Phase phase 0
+scoreboard objectives add random dummy
 scoreboard objectives add timer dummy
