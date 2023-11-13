@@ -2,16 +2,16 @@
 execute if score Block block matches 2366 run tellraw @a {"rawtext":[{"text":"§6You reached phase 6: Red Desert!"}]}
 execute if score Block block matches 2366 run tellraw @a {"rawtext":[{"text":"§eYou roam a hostile place of heat, dust and death."}]}
 # Set block
-execute if score Block block matches 2366..2383 run setblock 0 63 0 red_sand
+execute if score Block block matches 2366..2383 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2384..2387 run setblock 0 63 0 red_sandstone
-execute if score Block block matches 2388..2395 run setblock 0 63 0 red_sand
+execute if score Block block matches 2388..2395 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2396 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 2397..2400 run setblock 0 63 0 yellow_terracotta
 execute if score Block block matches 2401..2411 run setblock 0 63 0 red_sandstone
-execute if score Block block matches 2412..2421 run setblock 0 63 0 red_sand
+execute if score Block block matches 2412..2421 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2421 run summon llama
 execute if score Block block matches 2421 run function mob/spawn
-execute if score Block block matches 2422 run setblock 0 63 0 red_sand
+execute if score Block block matches 2422 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2423..2425 run setblock 0 63 0 red_terracotta
 execute if score Block block matches 2426 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 2427..2430 run setblock 0 63 0 sand
@@ -32,7 +32,7 @@ execute if score Block block matches 2454 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 2455 run setblock 0 63 0 chest
 execute if score Block block matches 2456 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 2457..2459 run setblock 0 63 0 sandstone
-execute if score Block block matches 2460..2465 run setblock 0 63 0 terracotta
+execute if score Block block matches 2460..2465 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2466..2467 run setblock 0 63 0 light_gray_terracotta
 execute if score Block block matches 2468..2470 run setblock 0 63 0 white_terracotta
 execute if score Block block matches 2471..2473 run setblock 0 63 0 yellow_terracotta
@@ -50,7 +50,7 @@ execute if score Block block matches 2500 run setblock 0 63 0 acacia_log
 execute if score Block block matches 2500 run summon villager
 execute if score Block block matches 2500 run function mob/spawn
 execute if score Block block matches 2501..2504 run setblock 0 63 0 acacia_log
-execute if score Block block matches 2505..2508 run setblock 0 63 0 terracotta
+execute if score Block block matches 2505..2508 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2509 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 2510 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 2511 run setblock 0 63 0 iron_ore
@@ -97,11 +97,11 @@ execute if score Block block matches 2601..2603 run setblock 0 63 0 brown_terrac
 execute if score Block block matches 2604 run setblock 0 63 0 coal_ore
 execute if score Block block matches 2604 run summon donkey
 execute if score Block block matches 2604 run function mob/spawn
-execute if score Block block matches 2605..2610 run setblock 0 63 0 red_sand
+execute if score Block block matches 2605..2610 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2611 run setblock 0 63 0 coal_ore
 execute if score Block block matches 2612..2615 run setblock 0 63 0 yellow_terracotta
 execute if score Block block matches 2616..2619 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 2620..2628 run setblock 0 63 0 red_sand
+execute if score Block block matches 2620..2628 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2629..2631 run setblock 0 63 0 brown_terracotta
 execute if score Block block matches 2631 run summon donkey
 execute if score Block block matches 2631 run function mob/spawn
@@ -110,7 +110,7 @@ execute if score Block block matches 2634..2636 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 2637 run setblock 0 63 0 acacia_log
 execute if score Block block matches 2638 run setblock 0 63 0 chest
 execute if score Block block matches 2639..2641 run setblock 0 63 0 acacia_log
-execute if score Block block matches 2642..2648 run setblock 0 63 0 terracotta
+execute if score Block block matches 2642..2648 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2649..2651 run setblock 0 63 0 white_terracotta
 execute if score Block block matches 2652..2653 run setblock 0 63 0 orange_terracotta
 execute if score Block block matches 2654 run setblock 0 63 0 coal_ore
@@ -120,9 +120,9 @@ execute if score Block block matches 2656 run function mob/spawn
 execute if score Block block matches 2657..2659 run setblock 0 63 0 orange_terracotta
 execute if score Block block matches 2660..2662 run setblock 0 63 0 sandstone
 execute if score Block block matches 2663..2664 run setblock 0 63 0 white_terracotta
-execute if score Block block matches 2665..2668 run setblock 0 63 0 terracotta
+execute if score Block block matches 2665..2668 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2669 run setblock 0 63 0 iron_ore
-execute if score Block block matches 2670..2680 run setblock 0 63 0 red_sand
+execute if score Block block matches 2670..2680 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2681..2683 run setblock 0 63 0 red_sandstone
 execute if score Block block matches 2683 run summon vindicator
 execute if score Block block matches 2683 run function mob/spawn
@@ -139,20 +139,20 @@ execute if score Block block matches 2713..2717 run setblock 0 63 0 sand
 execute if score Block block matches 2718 run setblock 0 63 0 coal_ore
 execute if score Block block matches 2719..2723 run setblock 0 63 0 acacia_log
 execute if score Block block matches 2724..2727 run setblock 0 63 0 yellow_terracotta
-execute if score Block block matches 2728..2735 run setblock 0 63 0 red_sand
+execute if score Block block matches 2728..2735 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2735 run summon llama
 execute if score Block block matches 2735 run function mob/spawn
 execute if score Block block matches 2736..2738 run setblock 0 63 0 brown_terracotta
-execute if score Block block matches 2739..2743 run setblock 0 63 0 terracotta
+execute if score Block block matches 2739..2743 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2744 run setblock 0 63 0 iron_ore
-execute if score Block block matches 2745..2754 run setblock 0 63 0 red_sand
+execute if score Block block matches 2745..2754 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2755 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 2755 run function party/06
-execute if score Block block matches 2756..2759 run setblock 0 63 0 terracotta
+execute if score Block block matches 2756..2759 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2760 run function random/mob/06
 execute if score Block block matches 2760 run function mob/spawn
 execute if score Block block matches 2760 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 2761..2762 run setblock 0 63 0 terracotta
+execute if score Block block matches 2761..2762 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2763..2765 run setblock 0 63 0 sand
 execute if score Block block matches 2766 run setblock 0 63 0 coal_ore
 execute if score Block block matches 2767 run setblock 0 63 0 lapis_ore
@@ -163,7 +163,7 @@ execute if score Block block matches 2785..2786 run setblock 0 63 0 orange_terra
 execute if score Block block matches 2786 run summon villager
 execute if score Block block matches 2786 run function mob/spawn
 execute if score Block block matches 2787..2789 run setblock 0 63 0 orange_terracotta
-execute if score Block block matches 2790..2799 run setblock 0 63 0 red_sand
+execute if score Block block matches 2790..2799 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2800..2803 run setblock 0 63 0 brown_terracotta
 execute if score Block block matches 2804 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 2805..2809 run setblock 0 63 0 sand
@@ -183,19 +183,19 @@ execute if score Block block matches 2827..2828 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 2829..2831 run setblock 0 63 0 orange_terracotta
 execute if score Block block matches 2832..2833 run setblock 0 63 0 acacia_log
 execute if score Block block matches 2834..2836 run setblock 0 63 0 orange_terracotta
-execute if score Block block matches 2837 run setblock 0 63 0 red_sand
+execute if score Block block matches 2837 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2837 run summon husk
 execute if score Block block matches 2837 run function mob/spawn
-execute if score Block block matches 2838..2847 run setblock 0 63 0 red_sand
+execute if score Block block matches 2838..2847 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2848..2852 run setblock 0 63 0 sand
 execute if score Block block matches 2853 run setblock 0 63 0 iron_ore
-execute if score Block block matches 2854..2860 run setblock 0 63 0 terracotta
-execute if score Block block matches 2861..2864 run setblock 0 63 0 red_sand
+execute if score Block block matches 2854..2860 run setblock 0 63 0 hardened_clay
+execute if score Block block matches 2861..2864 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2864 run function random/mob/06
 execute if score Block block matches 2864 run function mob/spawn
-execute if score Block block matches 2865..2870 run setblock 0 63 0 red_sand
+execute if score Block block matches 2865..2870 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2871..2873 run setblock 0 63 0 white_terracotta
-execute if score Block block matches 2874..2877 run setblock 0 63 0 red_sand
+execute if score Block block matches 2874..2877 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2878..2881 run setblock 0 63 0 brown_terracotta
 execute if score Block block matches 2882 run setblock 0 63 0 chest
 execute if score Block block matches 2882 run playsound block.note_block.pling @a 0 63 0
@@ -233,7 +233,7 @@ execute if score Block block matches 2949..2952 run function random/block/06
 execute if score Block block matches 2953 run setblock 0 63 0 light_gray_terracotta
 execute if score Block block matches 2954 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 2955 run setblock 0 63 0 light_gray_terracotta
-execute if score Block block matches 2956..2962 run setblock 0 63 0 terracotta
+execute if score Block block matches 2956..2962 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2963 run setblock 0 63 0 iron_ore
 execute if score Block block matches 2964..2965 run setblock 0 63 0 red_terracotta
 execute if score Block block matches 2966..2967 run setblock 0 63 0 yellow_terracotta
@@ -257,7 +257,7 @@ execute if score Block block matches 2999..3000 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 3001..3003 run setblock 0 63 0 light_gray_terracotta
 execute if score Block block matches 3004 run setblock 0 63 0 chest
 execute if score Block block matches 3005 run setblock 0 63 0 coal_ore
-execute if score Block block matches 3006..3009 run setblock 0 63 0 terracotta
+execute if score Block block matches 3006..3009 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 3010..3013 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 3014 run setblock 0 63 0 coal_ore
 execute if score Block block matches 3015..3019 run setblock 0 63 0 red_sandstone

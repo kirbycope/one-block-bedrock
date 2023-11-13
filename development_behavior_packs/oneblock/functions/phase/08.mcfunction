@@ -17,7 +17,7 @@ execute if score Block block matches 3963 run setblock 0 63 0 iron_ore
 execute if score Block block matches 3964 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 3965 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 3966 run setblock 0 63 0 iron_ore
-execute if score Block block matches 3967 run setblock 0 63 0 slime_block
+execute if score Block block matches 3967 run setblock 0 63 0 slime
 execute if score Block block matches 3968..3975 run function random/block/08
 execute if score Block block matches 3975 run summon bee
 execute if score Block block matches 3975 run function mob/spawn
@@ -45,7 +45,7 @@ execute if score Block block matches 4086 run function mob/spawn
 execute if score Block block matches 4087..4101 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4102..4105 run setblock 0 63 0 oak_log
 execute if score Block block matches 4106..4107 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4108 run setblock 0 63 0 slime_block
+execute if score Block block matches 4108 run setblock 0 63 0 slime
 execute if score Block block matches 4109 run setblock 0 63 0 honeycomb_block
 execute if score Block block matches 4110 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 4111 run setblock 0 63 0 honey_block
@@ -56,7 +56,7 @@ execute if score Block block matches 4116 run function random/block/08
 execute if score Block block matches 4117 run setblock 0 63 0 chest
 execute if score Block block matches 4117 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 4118..4138 run function random/block/08
-execute if score Block block matches 4139 run setblock 0 63 0 slime_block
+execute if score Block block matches 4139 run setblock 0 63 0 slime
 execute if score Block block matches 4140 run setblock 0 63 0 honey_block
 execute if score Block block matches 4141 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 4141 run summon phantom
@@ -70,7 +70,7 @@ execute if score Block block matches 4169..4170 run setblock 0 63 0 gold_ore
 execute if score Block block matches 4170 run summon zombie_villager
 execute if score Block block matches 4170 run function mob/spawn
 execute if score Block block matches 4171 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4172 run setblock 0 63 0 slime_block
+execute if score Block block matches 4172 run setblock 0 63 0 slime
 execute if score Block block matches 4173 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 4174 run setblock 0 63 0 chest
 execute if score Block block matches 4175..4176 run setblock 0 63 0 lapis_ore
