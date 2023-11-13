@@ -1,4 +1,7 @@
+# Increment global block counter (stored to fake user, 'Block')
 scoreboard players add Block block 1
+
+# Remove previous label entity (used in tutorial phase)
 kill @e[type=oneblock:label_entity]
 
 # Effects
@@ -10,8 +13,35 @@ playsound dig.cloth @a 0 63 0
 # Phase 0 (Tutorial)
 execute if score Phase phase matches 0 run function phase/00
 
-# Phase 1 (Plains)
+# Phase 1 (The Plains)
 execute if score Phase phase matches 1 run function phase/01
 
-# Phase 2 ()
+# Phase 2 (The Underground)
 execute if score Phase phase matches 1 run function phase/02
+
+# Phase 3 (Icy Tundra)
+execute if score Phase phase matches 1 run function phase/03
+
+# Phase 4 (Ocean)
+execute if score Phase phase matches 1 run function phase/04
+
+# Phase 5 (Jungle Dungeon)
+execute if score Phase phase matches 1 run function phase/05
+
+# Phase 6 (Red Desert)
+execute if score Phase phase matches 1 run function phase/06
+
+# Phase 7 (The Nether)
+execute if score Phase phase matches 1 run function phase/07
+
+# Phase 8 (Idyll)
+execute if score Phase phase matches 1 run function phase/08
+
+# Phase 9 ( Desolate Land)
+execute if score Phase phase matches 1 run function phase/09
+
+# Phase 10  The End)
+execute if score Phase phase matches 1 run function phase/10
+
+# Phase 11 (After)
+execute if score Phase phase matches 1 run function phase/after
