@@ -17,31 +17,31 @@ execute if score Phase phase matches 0 run function phase/00
 execute if score Phase phase matches 1 run function phase/01
 
 # Phase 2 (The Underground)
-execute if score Phase phase matches 1 run function phase/02
+execute if score Phase phase matches 2 run function phase/02
 
 # Phase 3 (Icy Tundra)
-execute if score Phase phase matches 1 run function phase/03
+execute if score Phase phase matches 3 run function phase/03
 
 # Phase 4 (Ocean)
-execute if score Phase phase matches 1 run function phase/04
+execute if score Phase phase matches 4 run function phase/04
 
 # Phase 5 (Jungle Dungeon)
-execute if score Phase phase matches 1 run function phase/05
+execute if score Phase phase matches 5 run function phase/05
 
 # Phase 6 (Red Desert)
-execute if score Phase phase matches 1 run function phase/06
+execute if score Phase phase matches 6 run function phase/06
 
 # Phase 7 (The Nether)
-execute if score Phase phase matches 1 run function phase/07
+execute if score Phase phase matches 7 run function phase/07
 
 # Phase 8 (Idyll)
-execute if score Phase phase matches 1 run function phase/08
+execute if score Phase phase matches 8 run function phase/08
 
 # Phase 9 ( Desolate Land)
-execute if score Phase phase matches 1 run function phase/09
+execute if score Phase phase matches 9 run function phase/09
 
 # Phase 10  The End)
-execute if score Phase phase matches 1 run function phase/10
+execute if score Phase phase matches 10 run function phase/10
 
 # Phase 11 (After)
-execute if score Phase phase matches 1 run function phase/after
+execute if score Phase phase matches 11.. run function phase/after
