@@ -1,3 +1,4 @@
+execute as @s[scores={timer=0}] run title @a title §cBeware, a monster party!
 execute as @s[scores={timer=0}] run scoreboard players set @s timer 1
 execute as @s[scores={timer=125}] at @s run fill -1 64 -1 1 65 1 air destroy
 execute as @s[scores={timer=125}] at @s run summon silverfish 0 64 0
