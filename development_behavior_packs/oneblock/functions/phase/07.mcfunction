@@ -163,7 +163,7 @@ execute if score Block block matches 3515 run function random/mob/07
 execute if score Block block matches 3515 run function mob/spawn
 execute if score Block block matches 3516..3523 run setblock 0 63 0 soul_sand
 execute if score Block block matches 3524 run setblock 0 63 0 nether_gold_ore
-execute if score Block block matches 3524 run function party/07
+execute if score Block block matches 3524 run tag @a add party07
 execute if score Block block matches 3525..3529 run setblock 0 63 0 warped_nylium
 execute if score Block block matches 3530..3531 run setblock 0 63 0 glowstone
 execute if score Block block matches 3532..3533 run setblock 0 63 0 nether_gold_ore
@@ -324,4 +324,4 @@ execute if score Block block matches 3925 run setblock 0 63 0 chest
 execute if score Block block matches 3925 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 3926 run setblock 0 63 0 bedrock
-execute if score Block block matches 3926 run function countdown
+execute if score Block block matches 3926 run tag @a add countdown

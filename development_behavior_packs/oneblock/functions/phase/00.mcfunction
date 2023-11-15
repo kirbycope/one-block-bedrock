@@ -60,4 +60,4 @@ execute if score Block block matches 47 run particle minecraft:heart_particle 0 
 execute if score Block block matches 47 run playsound mob.wanderingtrader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 48 run setblock 0 63 0 bedrock
-execute if score Block block matches 48 run function countdown
+execute if score Block block matches 48 run tag @a add countdown

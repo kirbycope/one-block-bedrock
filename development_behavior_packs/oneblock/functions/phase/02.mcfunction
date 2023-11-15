@@ -193,4 +193,4 @@ execute if score Block block matches 676 run setblock 0 63 0 stone["stone_type"=
 execute if score Block block matches 677..679 run setblock 0 63 0 stone["stone_type"="granite"]
 # Trigger next phase
 execute if score Block block matches 680 run setblock 0 63 0 bedrock
-execute if score Block block matches 680 run function countdown
+execute if score Block block matches 680 run tag @a add countdown

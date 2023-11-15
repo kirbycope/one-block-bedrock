@@ -122,7 +122,7 @@ execute if score Block block matches 5879..5893 run setblock 0 63 0 end_bricks
 execute if score Block block matches 5893 run summon enderman
 execute if score Block block matches 5893 run function mob/spawn
 execute if score Block block matches 5894..5899 run setblock 0 63 0 end_bricks
-execute if score Block block matches 5899 run function party/10
+execute if score Block block matches 5899 run tag @a add party10
 execute if score Block block matches 5900..5901 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5902 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 5903 run setblock 0 63 0 coal_ore
@@ -238,4 +238,4 @@ execute if score Block block matches 6301 run setblock 0 63 0 chest
 execute if score Block block matches 6301 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 6302 run setblock 0 63 0 bedrock
-execute if score Block block matches 6302 run function countdown
+execute if score Block block matches 6302 run tag @a add countdown

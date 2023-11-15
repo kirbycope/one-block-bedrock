@@ -155,7 +155,7 @@ execute if score Block block matches 1473 run setblock 0 63 0 chest
 execute if score Block block matches 1473 run summon turtle
 execute if score Block block matches 1473 run function mob/spawn
 execute if score Block block matches 1474..1479 run setblock 0 63 0 prismarine
-execute if score Block block matches 1479 run function party/04
+execute if score Block block matches 1479 run tag @a add party04
 execute if score Block block matches 1480 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 1481 run setblock 0 63 0 coral_block["coral_color"="yellow"]
 execute if score Block block matches 1482..1488 run setblock 0 63 0 prismarine["prismarine_block_type"="dark"]
@@ -302,4 +302,4 @@ execute if score Block block matches 1725 run setblock 0 63 0 chest
 execute if score Block block matches 1725 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 1726 run setblock 0 63 0 bedrock
-execute if score Block block matches 1726 run function countdown
+execute if score Block block matches 1726 run tag @a add countdown

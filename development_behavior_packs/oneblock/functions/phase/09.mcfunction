@@ -136,7 +136,7 @@ execute if score Block block matches 5070 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 5071 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 5072 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 5073..5082 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5082 run function party/09
+execute if score Block block matches 5082 run tag @a add party09
 execute if score Block block matches 5083..5084 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5085..5088 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5088 run summon skeleton
@@ -270,4 +270,4 @@ execute if score Block block matches 5445 run setblock 0 63 0 chest
 execute if score Block block matches 5445 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 5446 run setblock 0 63 0 bedrock
-execute if score Block block matches 5446 run function countdown
+execute if score Block block matches 5446 run tag @a add countdown

@@ -112,7 +112,7 @@ execute if score Block block matches 4308 run function mob/spawn
 execute if score Block block matches 4309..4318 run setblock 0 63 0 grass
 execute if score Block block matches 4319..4320 run setblock 0 63 0 honeycomb_block
 execute if score Block block matches 4321 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4321 run function party/08
+execute if score Block block matches 4321 run tag @a add party08
 execute if score Block block matches 4322..4323 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 4324 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 4325 run setblock 0 63 0 redstone_ore
@@ -222,4 +222,4 @@ execute if score Block block matches 4657 run setblock 0 63 0 chest
 execute if score Block block matches 4657 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 4658 run setblock 0 63 0 bedrock
-execute if score Block block matches 4658 run function countdown
+execute if score Block block matches 4658 run tag @a add countdown

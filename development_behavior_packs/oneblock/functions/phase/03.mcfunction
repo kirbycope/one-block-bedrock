@@ -114,7 +114,7 @@ execute if score Block block matches 928 run summon wolf 0 64 0
 execute if score Block block matches 928 run function mob/spawn
 execute if score Block block matches 929 run setblock 0 63 0 stone
 execute if score Block block matches 930..939 run setblock 0 63 0 grass
-execute if score Block block matches 939 run function party/03
+execute if score Block block matches 939 run tag @a add party03
 execute if score Block block matches 940 run setblock 0 63 0 iron_ore
 execute if score Block block matches 941..942 run setblock 0 63 0 coal_ore
 execute if score Block block matches 943..944 run setblock 0 63 0 stone["stone_type"="diorite"]
@@ -226,4 +226,4 @@ execute if score Block block matches 1154 run setblock 0 63 0 chest
 execute if score Block block matches 1154 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 1155 run setblock 0 63 0 bedrock
-execute if score Block block matches 1155 run function countdown
+execute if score Block block matches 1155 run tag @a add countdown

@@ -90,7 +90,7 @@ execute if score Block block matches 2050..2051 run setblock 0 63 0 coal_ore
 execute if score Block block matches 2052 run setblock 0 63 0 iron_ore
 execute if score Block block matches 2053..2059 run function random/block/05
 execute if score Block block matches 2060 run setblock 0 63 0 gold_ore
-execute if score Block block matches 2060 run function party/05
+execute if score Block block matches 2060 run tag @a add party05
 execute if score Block block matches 2061 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 2062..2064 run function random/block/05
 execute if score Block block matches 2065..2067 run setblock 0 63 0 jungle_log
@@ -180,4 +180,4 @@ execute if score Block block matches 2364 run setblock 0 63 0 chest
 execute if score Block block matches 2364 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 2365 run setblock 0 63 0 bedrock
-execute if score Block block matches 2365 run function countdown
+execute if score Block block matches 2365 run tag @a add countdown

@@ -147,7 +147,7 @@ execute if score Block block matches 2739..2743 run setblock 0 63 0 hardened_cla
 execute if score Block block matches 2744 run setblock 0 63 0 iron_ore
 execute if score Block block matches 2745..2754 run setblock 0 63 0 sand["sand_type"="red"]
 execute if score Block block matches 2755 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 2755 run function party/06
+execute if score Block block matches 2755 run tag @a add party06
 execute if score Block block matches 2756..2759 run setblock 0 63 0 hardened_clay
 execute if score Block block matches 2760 run function random/mob/06
 execute if score Block block matches 2760 run function mob/spawn
@@ -290,4 +290,4 @@ execute if score Block block matches 3088 run setblock 0 63 0 chest
 execute if score Block block matches 3088 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 3089 run setblock 0 63 0 bedrock
-execute if score Block block matches 3089 run function countdown
+execute if score Block block matches 3089 run tag @a add countdown
