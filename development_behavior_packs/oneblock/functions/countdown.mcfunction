@@ -23,4 +23,5 @@ execute as @s[scores={timer=200}] run title @s title §cUpgrade in
 execute as @s[scores={timer=220}] run setblock 0 63 0 air
 execute as @s[scores={timer=220}] run scoreboard players add Phase phase 1
 execute as @s[scores={timer=220}] run title @s clear
+execute as @s[scores={timer=220}] run tag @s remove countdown
 execute as @s[scores={timer=220}] run scoreboard players set @s timer 0
