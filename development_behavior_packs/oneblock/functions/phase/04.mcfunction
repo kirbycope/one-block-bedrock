@@ -34,7 +34,7 @@ execute if score Block block matches 1229 run function mob/spawn
 execute if score Block block matches 1230..1232 run setblock 0 63 0 prismarine["prismarine_block_type"="bricks"]
 execute if score Block block matches 1233..1239 run setblock 0 63 0 prismarine
 execute if score Block block matches 1240 run setblock 0 63 0 coral_block["coral_color"="blue"]
-execute if score Block block matches 1241 run setblock 0 63 0 chest
+execute if score Block block matches 1241 run structure load chest04 0 63 0
 execute if score Block block matches 1242 run setblock 0 63 0 clay
 execute if score Block block matches 1243 run setblock 0 63 0 gold_ore
 execute if score Block block matches 1244 run setblock 0 63 0 sponge
@@ -67,7 +67,7 @@ execute if score Block block matches 1296 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 1296 run summon tropicalfish
 execute if score Block block matches 1296 run function mob/spawn
 execute if score Block block matches 1297..1298 run setblock 0 63 0 iron_ore
-execute if score Block block matches 1299 run setblock 0 63 0 chest
+execute if score Block block matches 1299 run structure load chest04 0 63 0
 execute if score Block block matches 1299 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 1300..1306 run setblock 0 63 0 prismarine["prismarine_block_type"="dark"]
 execute if score Block block matches 1307 run setblock 0 63 0 stone["stone_type"="diorite"]
@@ -91,7 +91,7 @@ execute if score Block block matches 1340..1344 run function random/block/04
 execute if score Block block matches 1345 run setblock 0 63 0 gold_ore
 execute if score Block block matches 1346 run setblock 0 63 0 coal_ore
 execute if score Block block matches 1347..1356 run setblock 0 63 0 prismarine
-execute if score Block block matches 1357 run setblock 0 63 0 chest
+execute if score Block block matches 1357 run structure load chest04 0 63 0
 execute if score Block block matches 1358 run setblock 0 63 0 prismarine
 execute if score Block block matches 1359 run setblock 0 63 0 coral_block["coral_color"="pink"]
 execute if score Block block matches 1360 run setblock 0 63 0 prismarine["prismarine_block_type"="bricks"]
@@ -124,7 +124,7 @@ execute if score Block block matches 1407..1408 run setblock 0 63 0 clay
 execute if score Block block matches 1409 run setblock 0 63 0 coral_block["coral_color"="pink"]
 execute if score Block block matches 1410 run setblock 0 63 0 stone
 execute if score Block block matches 1411..1414 run setblock 0 63 0 prismarine["prismarine_block_type"="bricks"]
-execute if score Block block matches 1415 run setblock 0 63 0 chest
+execute if score Block block matches 1415 run structure load chest04 0 63 0
 execute if score Block block matches 1416 run setblock 0 63 0 coal_ore
 execute if score Block block matches 1417 run setblock 0 63 0 coral_block["coral_color"="blue"]
 execute if score Block block matches 1418 run setblock 0 63 0 coral_block["coral_color"="purple"]
@@ -151,7 +151,7 @@ execute if score Block block matches 1464..1465 run setblock 0 63 0 sea_lantern
 execute if score Block block matches 1466 run setblock 0 63 0 coral_block["coral_color"="blue"]
 execute if score Block block matches 1467 run setblock 0 63 0 coral_block["coral_color"="red"]
 execute if score Block block matches 1468..1472 run setblock 0 63 0 prismarine
-execute if score Block block matches 1473 run setblock 0 63 0 chest
+execute if score Block block matches 1473 run structure load chest04 0 63 0
 execute if score Block block matches 1473 run summon turtle
 execute if score Block block matches 1473 run function mob/spawn
 execute if score Block block matches 1474..1479 run setblock 0 63 0 prismarine
@@ -176,7 +176,7 @@ execute if score Block block matches 1517 run function mob/spawn
 execute if score Block block matches 1518..1519 run setblock 0 63 0 iron_ore
 execute if score Block block matches 1520..1522 run setblock 0 63 0 prismarine["prismarine_block_type"="dark"]
 execute if score Block block matches 1523..1530 run setblock 0 63 0 sand
-execute if score Block block matches 1531 run setblock 0 63 0 chest
+execute if score Block block matches 1531 run structure load chest04 0 63 0
 execute if score Block block matches 1532 run setblock 0 63 0 sand
 execute if score Block block matches 1533 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 1534 run setblock 0 63 0 coral_block["coral_color"="blue"]
@@ -209,7 +209,7 @@ execute if score Block block matches 1584 run function random/mob/04
 execute if score Block block matches 1584 run function mob/spawn
 execute if score Block block matches 1585..1586 run setblock 0 63 0 stone
 execute if score Block block matches 1587..1588 run setblock 0 63 0 sand
-execute if score Block block matches 1589 run setblock 0 63 0 chest
+execute if score Block block matches 1589 run structure load chest04 0 63 0
 execute if score Block block matches 1590..1595 run setblock 0 63 0 sand
 execute if score Block block matches 1596 run setblock 0 63 0 stone
 execute if score Block block matches 1597..1601 run setblock 0 63 0 prismarine["prismarine_block_type"="bricks"]
@@ -243,7 +243,7 @@ execute if score Block block matches 1640 run setblock 0 63 0 sponge
 execute if score Block block matches 1641 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 1642 run setblock 0 63 0 coral_block["coral_color"="pink"]
 execute if score Block block matches 1643..1646 run setblock 0 63 0 prismarine["prismarine_block_type"="dark"]
-execute if score Block block matches 1647 run setblock 0 63 0 chest
+execute if score Block block matches 1647 run structure load chest04 0 63 0
 execute if score Block block matches 1648..1649 run setblock 0 63 0 prismarine["prismarine_block_type"="dark"]
 execute if score Block block matches 1649 run summon cod
 execute if score Block block matches 1649 run function mob/spawn
@@ -283,7 +283,7 @@ execute if score Block block matches 1700 run setblock 0 63 0 oak_log
 execute if score Block block matches 1701 run setblock 0 63 0 sponge
 execute if score Block block matches 1702..1703 run setblock 0 63 0 oak_log
 execute if score Block block matches 1704 run setblock 0 63 0 sea_lantern
-execute if score Block block matches 1705 run setblock 0 63 0 chest
+execute if score Block block matches 1705 run structure load chest04 0 63 0
 execute if score Block block matches 1705 run playsound block.note_block.pling @a 0 63 0
 execute if score Block block matches 1706 run setblock 0 63 0 oak_log
 execute if score Block block matches 1707..1708 run setblock 0 63 0 sea_lantern
@@ -298,7 +298,7 @@ execute if score Block block matches 1719 run setblock 0 63 0 coral_block["coral
 execute if score Block block matches 1720..1721 run setblock 0 63 0 stone
 execute if score Block block matches 1722..1723 run setblock 0 63 0 coral_block["coral_color"="yellow"]
 execute if score Block block matches 1724 run setblock 0 63 0 stone
-execute if score Block block matches 1725 run setblock 0 63 0 chest
+execute if score Block block matches 1725 run structure load chest04g 0 63 0
 execute if score Block block matches 1725 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 1726 run setblock 0 63 0 bedrock

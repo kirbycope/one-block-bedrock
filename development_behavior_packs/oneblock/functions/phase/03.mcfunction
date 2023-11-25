@@ -27,7 +27,7 @@ execute if score Block block matches 747 run setblock 0 63 0 stone["stone_type"=
 execute if score Block block matches 748 run setblock 0 63 0 stone["stone_type"="andesite"]
 execute if score Block block matches 748 run summon stray 0 64 0
 execute if score Block block matches 748 run function mob/spawn
-execute if score Block block matches 749 run setblock 0 63 0 chest
+execute if score Block block matches 749 run structure load chest03 0 63 0
 execute if score Block block matches 749 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 750..751 run setblock 0 63 0 coal_ore
 execute if score Block block matches 752..757 run setblock 0 63 0 grass
@@ -50,7 +50,7 @@ execute if score Block block matches 799 run setblock 0 63 0 coal_ore
 execute if score Block block matches 799 run summon fox  0 64 0
 execute if score Block block matches 799 run function mob/spawn
 execute if score Block block matches 800..803 run setblock 0 63 0 grass
-execute if score Block block matches 804 run setblock 0 63 0 chest
+execute if score Block block matches 804 run structure load chest03 0 63 0
 execute if score Block block matches 805..807 run setblock 0 63 0 grass
 execute if score Block block matches 808..810 run setblock 0 63 0 spruce_log
 execute if score Block block matches 811..821 run setblock 0 63 0 stone
@@ -74,7 +74,7 @@ execute if score Block block matches 852 run setblock 0 63 0 gravel
 execute if score Block block matches 853 run setblock 0 63 0 iron_ore
 execute if score Block block matches 854..855 run setblock 0 63 0 spruce_log
 execute if score Block block matches 856..858 run function random/block/03
-execute if score Block block matches 859 run setblock 0 63 0 chest
+execute if score Block block matches 859 run structure load chest03 0 63 0
 execute if score Block block matches 860..861 run setblock 0 63 0 coal_ore
 execute if score Block block matches 862 run setblock 0 63 0 gravel
 execute if score Block block matches 863..865 run function random/block/03
@@ -106,7 +106,7 @@ execute if score Block block matches 903 run function mob/spawn
 execute if score Block block matches 904..906 run setblock 0 63 0 snow
 execute if score Block block matches 907 run setblock 0 63 0 iron_ore
 execute if score Block block matches 908..913 run setblock 0 63 0 grass
-execute if score Block block matches 914 run setblock 0 63 0 chest
+execute if score Block block matches 914 run structure load chest03 0 63 0
 execute if score Block block matches 915..918 run setblock 0 63 0 grass
 execute if score Block block matches 919 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 920..928 run setblock 0 63 0 stone
@@ -131,7 +131,7 @@ execute if score Block block matches 957 run function random/block/03
 execute if score Block block matches 958 run setblock 0 63 0 gravel
 execute if score Block block matches 959..966 run setblock 0 63 0 grass
 execute if score Block block matches 967..968 run setblock 0 63 0 spruce_log
-execute if score Block block matches 969 run setblock 0 63 0 chest
+execute if score Block block matches 969 run structure load chest03 0 63 0
 execute if score Block block matches 970..971 run setblock 0 63 0 gravel
 execute if score Block block matches 972..980 run setblock 0 63 0 stone
 execute if score Block block matches 980 run summon stray 0 64 0
@@ -154,7 +154,7 @@ execute if score Block block matches 1008..1014 run setblock 0 63 0 stone
 execute if score Block block matches 1015 run setblock 0 63 0 gold_ore
 execute if score Block block matches 1016 run setblock 0 63 0 stone["stone_type"="andesite"]
 execute if score Block block matches 1017..1023 run setblock 0 63 0 grass
-execute if score Block block matches 1024 run setblock 0 63 0 chest
+execute if score Block block matches 1024 run structure load chest03 0 63 0
 execute if score Block block matches 1025..1030 run setblock 0 63 0 stone
 execute if score Block block matches 1031..1032 run setblock 0 63 0 stone["stone_type"="andesite"]
 execute if score Block block matches 1032 run summon wolf 0 64 0
@@ -178,7 +178,7 @@ execute if score Block block matches 1062..1066 run setblock 0 63 0 snow
 execute if score Block block matches 1067..1071 run setblock 0 63 0 grass
 execute if score Block block matches 1072..1077 run setblock 0 63 0 snow
 execute if score Block block matches 1078 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 1079 run setblock 0 63 0 chest
+execute if score Block block matches 1079 run structure load chest03 0 63 0
 execute if score Block block matches 1080 run setblock 0 63 0 stone["stone_type"="andesite"]
 execute if score Block block matches 1081..1083 run setblock 0 63 0 spruce_log
 execute if score Block block matches 1084 run setblock 0 63 0 stone["stone_type"="andesite"]
@@ -209,7 +209,7 @@ execute if score Block block matches 1126..1128 run setblock 0 63 0 snow
 execute if score Block block matches 1129..1130 run setblock 0 63 0 packed_ice
 execute if score Block block matches 1131..1132 run setblock 0 63 0 spruce_log
 execute if score Block block matches 1133 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 1134 run setblock 0 63 0 chest
+execute if score Block block matches 1134 run structure load chest03 0 63 0
 execute if score Block block matches 1135 run setblock 0 63 0 stone["stone_type"="granite"]
 execute if score Block block matches 1136..1138 run setblock 0 63 0 packed_ice
 execute if score Block block matches 1139..1140 run setblock 0 63 0 stone["stone_type"="granite"]
@@ -222,7 +222,7 @@ execute if score Block block matches 1148 run setblock 0 63 0 spruce_log
 execute if score Block block matches 1149..1150 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 1151..1152 run setblock 0 63 0 stone["stone_type"="granite"]
 execute if score Block block matches 1153 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 1154 run setblock 0 63 0 chest
+execute if score Block block matches 1154 run structure load chest03g 0 63 0
 execute if score Block block matches 1154 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 1155 run setblock 0 63 0 bedrock

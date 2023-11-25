@@ -23,7 +23,7 @@ execute if score Block block matches 3975 run summon bee
 execute if score Block block matches 3975 run function mob/spawn
 execute if score Block block matches 3976..3994 run function random/block/08
 execute if score Block block matches 3995..4002 run function random/block/08
-execute if score Block block matches 4003 run setblock 0 63 0 chest
+execute if score Block block matches 4003 run structure load chest08 0 63 0
 execute if score Block block matches 4003 run summon bee
 execute if score Block block matches 4003 run function mob/spawn
 execute if score Block block matches 4003 run playsound item.trident.thunder @a 0 63 0
@@ -36,7 +36,7 @@ execute if score Block block matches 4031..4056 run function random/block/08
 execute if score Block block matches 4057..4059 run setblock 0 63 0 gold_ore
 execute if score Block block matches 4059 run summon slime
 execute if score Block block matches 4059 run function mob/spawn
-execute if score Block block matches 4060 run setblock 0 63 0 chest
+execute if score Block block matches 4060 run structure load chest08 0 63 0
 execute if score Block block matches 4061 run setblock 0 63 0 bee_nest
 execute if score Block block matches 4062..4083 run function random/block/08
 execute if score Block block matches 4084..4086 run setblock 0 63 0 quartz_block
@@ -53,7 +53,7 @@ execute if score Block block matches 4112..4115 run function random/block/08
 execute if score Block block matches 4115 run summon skeleton
 execute if score Block block matches 4115 run function mob/spawn
 execute if score Block block matches 4116 run function random/block/08
-execute if score Block block matches 4117 run setblock 0 63 0 chest
+execute if score Block block matches 4117 run structure load chest08 0 63 0
 execute if score Block block matches 4117 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 4118..4138 run function random/block/08
 execute if score Block block matches 4139 run setblock 0 63 0 slime
@@ -72,7 +72,7 @@ execute if score Block block matches 4170 run function mob/spawn
 execute if score Block block matches 4171 run setblock 0 63 0 gold_ore
 execute if score Block block matches 4172 run setblock 0 63 0 slime
 execute if score Block block matches 4173 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4174 run setblock 0 63 0 chest
+execute if score Block block matches 4174 run structure load chest08 0 63 0
 execute if score Block block matches 4175..4176 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 4177..4182 run setblock 0 63 0 grass
 execute if score Block block matches 4183 run setblock 0 63 0 redstone_ore
@@ -87,7 +87,7 @@ execute if score Block block matches 4213..4226 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4226 run function random/mob/08
 execute if score Block block matches 4226 run function mob/spawn
 execute if score Block block matches 4227..4230 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4231 run setblock 0 63 0 chest
+execute if score Block block matches 4231 run structure load chest08 0 63 0
 execute if score Block block matches 4232..4234 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4235 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 4236 run setblock 0 63 0 gold_ore
@@ -102,7 +102,7 @@ execute if score Block block matches 4271..4282 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4282 run summon cat
 execute if score Block block matches 4282 run function mob/spawn
 execute if score Block block matches 4283..4287 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4288 run setblock 0 63 0 chest
+execute if score Block block matches 4288 run structure load chest08 0 63 0
 execute if score Block block matches 4288 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 4289 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4290..4307 run function random/block/08
@@ -122,7 +122,7 @@ execute if score Block block matches 4335..4337 run setblock 0 63 0 grass
 execute if score Block block matches 4337 run summon slime
 execute if score Block block matches 4337 run function mob/spawn
 execute if score Block block matches 4338..4344 run setblock 0 63 0 grass
-execute if score Block block matches 4345 run setblock 0 63 0 chest
+execute if score Block block matches 4345 run structure load chest08 0 63 0
 execute if score Block block matches 4345 run playsound block.note_block.pling @a 0 63 0
 execute if score Block block matches 4346 run setblock 0 63 0 grass
 execute if score Block block matches 4347 run setblock 0 63 0 redstone_ore
@@ -153,7 +153,7 @@ execute if score Block block matches 4392 run summon mule
 execute if score Block block matches 4392 run function mob/spawn
 execute if score Block block matches 4393..4394 run setblock 0 63 0 honeycomb_block
 execute if score Block block matches 4395..4401 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4402 run setblock 0 63 0 chest
+execute if score Block block matches 4402 run structure load chest08 0 63 0
 execute if score Block block matches 4403..4419 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4419 run function random/mob/08
 execute if score Block block matches 4419 run function mob/spawn
@@ -166,7 +166,7 @@ execute if score Block block matches 4447..4448 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4448 run summon phantom
 execute if score Block block matches 4448 run function mob/spawn
 execute if score Block block matches 4449..4458 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4459 run setblock 0 63 0 chest
+execute if score Block block matches 4459 run structure load chest08 0 63 0
 execute if score Block block matches 4459 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 4460..4474 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4474 run function random/mob/08
@@ -200,7 +200,7 @@ execute if score Block block matches 4566..4567 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 4568 run setblock 0 63 0 iron_ore
 execute if score Block block matches 4569..4570 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 4571..4572 run setblock 0 63 0 grass
-execute if score Block block matches 4573 run setblock 0 63 0 chest
+execute if score Block block matches 4573 run structure load chest08 0 63 0
 execute if score Block block matches 4574..4582 run setblock 0 63 0 grass
 execute if score Block block matches 4583..4586 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4586 run summon slime
@@ -212,13 +212,13 @@ execute if score Block block matches 4610 run setblock 0 63 0 grass
 execute if score Block block matches 4611 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 4612..4613 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 4614..4629 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4630 run setblock 0 63 0 chest
+execute if score Block block matches 4630 run structure load chest08 0 63 0
 execute if score Block block matches 4630 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 4631..4640 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4641..4642 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 4643..4655 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4656 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4657 run setblock 0 63 0 chest
+execute if score Block block matches 4657 run structure load chest08g 0 63 0
 execute if score Block block matches 4657 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 4658 run setblock 0 63 0 bedrock

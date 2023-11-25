@@ -25,7 +25,7 @@ execute if score Block block matches 4742..4744 run setblock 0 63 0 stonebrick["
 execute if score Block block matches 4744 run summon creeper
 execute if score Block block matches 4744 run function mob/spawn
 execute if score Block block matches 4745 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4746 run setblock 0 63 0 chest
+execute if score Block block matches 4746 run structure load chest09 0 63 0
 execute if score Block block matches 4746 run playsound block.respawn_anchor.charge @a 0 63 0
 execute if score Block block matches 4747..4749 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
 execute if score Block block matches 4750..4753 run setblock 0 63 0 gravel
@@ -46,7 +46,7 @@ execute if score Block block matches 4801 run setblock 0 63 0 stonebrick["stone_
 execute if score Block block matches 4801 run summon skeleton
 execute if score Block block matches 4801 run function mob/spawn
 execute if score Block block matches 4802..4807 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4808 run setblock 0 63 0 chest
+execute if score Block block matches 4808 run structure load chest09 0 63 0
 execute if score Block block matches 4809..4811 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4812 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 4813..4823 run setblock 0 63 0 mycelium
@@ -67,7 +67,7 @@ execute if score Block block matches 4864 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 4865 run setblock 0 63 0 iron_ore
 execute if score Block block matches 4866..4868 run setblock 0 63 0 gravel
 execute if score Block block matches 4869 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4870 run setblock 0 63 0 chest
+execute if score Block block matches 4870 run structure load chest09 0 63 0
 execute if score Block block matches 4870 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 4871..4885 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4886 run setblock 0 63 0 emerald_ore
@@ -84,7 +84,7 @@ execute if score Block block matches 4913..4916 run setblock 0 63 0 stonebrick
 execute if score Block block matches 4916 run summon skeleton
 execute if score Block block matches 4916 run function mob/spawn
 execute if score Block block matches 4917..4931 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4932 run setblock 0 63 0 chest
+execute if score Block block matches 4932 run structure load chest09 0 63 0
 execute if score Block block matches 4932 run playsound block.respawn_anchor.charge @a 0 63 0
 execute if score Block block matches 4933 run setblock 0 63 0 stonebrick
 execute if score Block block matches 4934..4936 run setblock 0 63 0 iron_ore
@@ -104,7 +104,7 @@ execute if score Block block matches 4977 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 4978..4986 run setblock 0 63 0 mycelium
 execute if score Block block matches 4987..4988 run function random/block/09
 execute if score Block block matches 4989..4993 run setblock 0 63 0 gravel
-execute if score Block block matches 4994 run setblock 0 63 0 chest
+execute if score Block block matches 4994 run structure load chest09 0 63 0
 execute if score Block block matches 4994 run playsound item.trident.thunder @a 0 63 0
 execute if score Block block matches 4995 run setblock 0 63 0 gravel
 execute if score Block block matches 4996..4997 run setblock 0 63 0 iron_ore
@@ -124,7 +124,7 @@ execute if score Block block matches 5040 run setblock 0 63 0 carved_pumpkin
 execute if score Block block matches 5041 run setblock 0 63 0 bone_block
 execute if score Block block matches 5042 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5043..5055 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5056 run setblock 0 63 0 chest
+execute if score Block block matches 5056 run structure load chest09 0 63 0
 execute if score Block block matches 5057..5058 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5058 run function random/mob/09
 execute if score Block block matches 5058 run function mob/spawn
@@ -147,7 +147,7 @@ execute if score Block block matches 5107..5114 run setblock 0 63 0 stonebrick["
 execute if score Block block matches 5115 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 5116 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 5117 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 5118 run setblock 0 63 0 chest
+execute if score Block block matches 5118 run structure load chest09 0 63 0
 execute if score Block block matches 5118 run function random/mob/09
 execute if score Block block matches 5118 run function mob/spawn
 execute if score Block block matches 5118 run playsound block.ender_chest.open @a 0 63 0
@@ -171,7 +171,7 @@ execute if score Block block matches 5175 run function random/mob/09
 execute if score Block block matches 5175 run function mob/spawn
 execute if score Block block matches 5176 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
 execute if score Block block matches 5177..5179 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5180 run setblock 0 63 0 chest
+execute if score Block block matches 5180 run structure load chest09 0 63 0
 execute if score Block block matches 5181 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 5182 run function random/block/09
 execute if score Block block matches 5183 run setblock 0 63 0 redstone_ore
@@ -196,7 +196,7 @@ execute if score Block block matches 5233 run function random/mob/09
 execute if score Block block matches 5233 run function mob/spawn
 execute if score Block block matches 5234..5237 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
 execute if score Block block matches 5238..5241 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5242 run setblock 0 63 0 chest
+execute if score Block block matches 5242 run structure load chest09 0 63 0
 execute if score Block block matches 5243..5244 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5245..5251 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
 execute if score Block block matches 5252..5261 run setblock 0 63 0 stonebrick
@@ -213,7 +213,7 @@ execute if score Block block matches 5291 run summon skeleton
 execute if score Block block matches 5291 run function mob/spawn
 execute if score Block block matches 5292..5301 run setblock 0 63 0 stonebrick
 execute if score Block block matches 5302..5303 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5304 run setblock 0 63 0 chest
+execute if score Block block matches 5304 run structure load chest09 0 63 0
 execute if score Block block matches 5304 run playsound block.respawn_anchor.charge @a 0 63 0
 execute if score Block block matches 5305 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 5306 run setblock 0 63 0 coal_ore
@@ -234,7 +234,7 @@ execute if score Block block matches 5350..5351 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5352..5358 run setblock 0 63 0 mycelium
 execute if score Block block matches 5359..5361 run setblock 0 63 0 gravel
 execute if score Block block matches 5362..5365 run setblock 0 63 0 mycelium
-execute if score Block block matches 5366 run setblock 0 63 0 chest
+execute if score Block block matches 5366 run structure load chest09 0 63 0
 execute if score Block block matches 5367..5368 run setblock 0 63 0 mycelium
 execute if score Block block matches 5369..5374 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5375 run setblock 0 63 0 stonebrick
@@ -259,14 +259,14 @@ execute if score Block block matches 5416 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5417..5424 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5425..5426 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5427 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5428 run setblock 0 63 0 chest
+execute if score Block block matches 5428 run structure load chest09 0 63 0
 execute if score Block block matches 5428 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 5429..5434 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5435 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 5436..5439 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
 execute if score Block block matches 5440 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 5441..5444 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5445 run setblock 0 63 0 chest
+execute if score Block block matches 5445 run structure load chest09g 0 63 0
 execute if score Block block matches 5445 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 5446 run setblock 0 63 0 bedrock

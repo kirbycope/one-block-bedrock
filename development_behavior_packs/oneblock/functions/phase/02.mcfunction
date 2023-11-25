@@ -26,7 +26,7 @@ execute if score Block block matches 345..346 run setblock 0 63 0 stone
 execute if score Block block matches 346 run summon mooshroom 0 64 0
 execute if score Block block matches 346 run function mob/spawn
 execute if score Block block matches 347..350 run setblock 0 63 0 stone
-execute if score Block block matches 351 run setblock 0 63 0 chest
+execute if score Block block matches 351 run structure load chest02 0 63 0
 execute if score Block block matches 352..355 run setblock 0 63 0 stone
 execute if score Block block matches 356..357 run setblock 0 63 0 birch_log
 execute if score Block block matches 358 run setblock 0 63 0 coal_ore
@@ -47,7 +47,7 @@ execute if score Block block matches 391..394 run setblock 0 63 0 stone
 execute if score Block block matches 395..399 run function random/block/02
 execute if score Block block matches 400 run setblock 0 63 0 iron_ore
 execute if score Block block matches 401 run setblock 0 63 0 stone
-execute if score Block block matches 402 run setblock 0 63 0 chest
+execute if score Block block matches 402 run structure load chest02 0 63 0
 execute if score Block block matches 403..411 run setblock 0 63 0 stone
 execute if score Block block matches 411 run summon rabbit 0 64 0
 execute if score Block block matches 411 run function mob/spawn
@@ -64,7 +64,7 @@ execute if score Block block matches 438..442 run function random/block/02
 execute if score Block block matches 443 run setblock 0 63 0 stone["stone_type"="granite"]
 execute if score Block block matches 444 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 445..452 run setblock 0 63 0 stone
-execute if score Block block matches 453 run setblock 0 63 0 chest
+execute if score Block block matches 453 run structure load chest02 0 63 0
 execute if score Block block matches 453 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 454 run setblock 0 63 0 stone
 execute if score Block block matches 454 run function random/mob/02
@@ -91,7 +91,7 @@ execute if score Block block matches 500 run function random/mob/02
 execute if score Block block matches 500 run function mob/spawn
 execute if score Block block matches 501 run setblock 0 63 0 stone["stone_type"="andesite"]
 execute if score Block block matches 502..503 run function random/block/02
-execute if score Block block matches 504 run setblock 0 63 0 chest
+execute if score Block block matches 504 run structure load chest02 0 63 0
 execute if score Block block matches 505..506 run setblock 0 63 0 stone["stone_type"="andesite"]
 execute if score Block block matches 507..513 run setblock 0 63 0 stone
 execute if score Block block matches 514 run setblock 0 63 0 coal_ore
@@ -120,7 +120,7 @@ execute if score Block block matches 548..549 run setblock 0 63 0 stone["stone_t
 execute if score Block block matches 550 run setblock 0 63 0 iron_ore
 execute if score Block block matches 551 run setblock 0 63 0 coal_ore
 execute if score Block block matches 552..554 run setblock 0 63 0 dirt
-execute if score Block block matches 555 run setblock 0 63 0 chest
+execute if score Block block matches 555 run structure load chest02 0 63 0
 execute if score Block block matches 556..557 run setblock 0 63 0 dirt
 execute if score Block block matches 558..561 run function random/block/02
 execute if score Block block matches 562..564 run setblock 0 63 0 dirt
@@ -149,7 +149,7 @@ execute if score Block block matches 597..600 run setblock 0 63 0 gravel
 execute if score Block block matches 601 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 602 run setblock 0 63 0 iron_ore
 execute if score Block block matches 603..605 run function random/block/02
-execute if score Block block matches 606 run setblock 0 63 0 chest
+execute if score Block block matches 606 run structure load chest02 0 63 0
 execute if score Block block matches 607..609 run setblock 0 63 0 dirt
 execute if score Block block matches 609 run summon spider 0 64 0
 execute if score Block block matches 609 run function mob/spawn
@@ -180,7 +180,7 @@ execute if score Block block matches 644..646 run setblock 0 63 0 stone["stone_t
 execute if score Block block matches 647..649 run setblock 0 63 0 gravel
 execute if score Block block matches 650 run setblock 0 63 0 iron_ore
 execute if score Block block matches 651..656 run setblock 0 63 0 dirt
-execute if score Block block matches 657 run setblock 0 63 0 chest
+execute if score Block block matches 657 run structure load chest02g 0 63 0
 execute if score Block block matches 658..659 run setblock 0 63 0 oak_log
 execute if score Block block matches 660..662 run setblock 0 63 0 stone["stone_type"="granite"]
 execute if score Block block matches 663..665 run setblock 0 63 0 dirt
