@@ -11,18 +11,18 @@ execute if score Block block matches 1762 run setblock 0 63 0 gold_ore
 execute if score Block block matches 1763..1770 run setblock 0 63 0 jungle_log
 execute if score Block block matches 1771 run setblock 0 63 0 coal_ore
 execute if score Block block matches 1772..1779 run setblock 0 63 0 cobblestone
-execute if score Block block matches 1779 run summon parrot
+execute if score Block block matches 1779 run summon parrot 0 64 0
 execute if score Block block matches 1779 run function mob/spawn
 execute if score Block block matches 1780..1794 run setblock 0 63 0 cobblestone
 execute if score Block block matches 1795..1803 run setblock 0 63 0 jungle_log
 execute if score Block block matches 1804 run setblock 0 63 0 iron_ore
 execute if score Block block matches 1805..1807 run function random/block/05
 execute if score Block block matches 1808 run structure load chest05 0 63 0
-execute if score Block block matches 1808 run summon vex
+execute if score Block block matches 1808 run summon vex 0 64 0
 execute if score Block block matches 1808 run function mob/spawn
 execute if score Block block matches 1809..1812 run function random/block/05
 execute if score Block block matches 1813..1837 run setblock 0 63 0 cobblestone
-execute if score Block block matches 1837 run summon ocelot
+execute if score Block block matches 1837 run summon ocelot 0 64 0
 execute if score Block block matches 1837 run function mob/spawn
 execute if score Block block matches 1838 run setblock 0 63 0 cobblestone
 execute if score Block block matches 1839..1843 run setblock 0 63 0 grass
@@ -30,13 +30,13 @@ execute if score Block block matches 1844..1861 run setblock 0 63 0 cobblestone
 execute if score Block block matches 1862 run setblock 0 63 0 iron_ore
 execute if score Block block matches 1863..1866 run setblock 0 63 0 cobblestone
 execute if score Block block matches 1867 run structure load chest05 0 63 0
-execute if score Block block matches 1867 run summon ocelot
+execute if score Block block matches 1867 run summon ocelot 0 64 0
 execute if score Block block matches 1867 run function mob/spawn
 execute if score Block block matches 1867 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 1868..1887 run setblock 0 63 0 cobblestone
 execute if score Block block matches 1888..1889 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 1890..1894 run setblock 0 63 0 jungle_log
-execute if score Block block matches 1894 run summon panda
+execute if score Block block matches 1894 run summon panda 0 64 0
 execute if score Block block matches 1894 run function mob/spawn
 execute if score Block block matches 1895..1900 run setblock 0 63 0 jungle_log
 execute if score Block block matches 1901..1903 run function random/block/05
@@ -44,7 +44,7 @@ execute if score Block block matches 1904..1905 run setblock 0 63 0 coal_ore
 execute if score Block block matches 1906..1922 run setblock 0 63 0 cobblestone
 execute if score Block block matches 1923 run setblock 0 63 0 gold_ore
 execute if score Block block matches 1924 run setblock 0 63 0 grass
-execute if score Block block matches 1924 run summon witch
+execute if score Block block matches 1924 run summon witch 0 64 0
 execute if score Block block matches 1924 run function mob/spawn
 execute if score Block block matches 1925 run setblock 0 63 0 grass
 execute if score Block block matches 1926 run structure load chest05 0 63 0
@@ -54,7 +54,7 @@ execute if score Block block matches 1929..1930 run setblock 0 63 0 coal_ore
 execute if score Block block matches 1931 run setblock 0 63 0 gold_ore
 execute if score Block block matches 1932..1938 run setblock 0 63 0 grass
 execute if score Block block matches 1939..1951 run setblock 0 63 0 cobblestone
-execute if score Block block matches 1951 run summon horse
+execute if score Block block matches 1951 run summon horse 0 64 0
 execute if score Block block matches 1951 run function mob/spawn
 execute if score Block block matches 1952..1954 run setblock 0 63 0 cobblestone
 execute if score Block block matches 1955..1971 run setblock 0 63 0 mossy_cobblestone
@@ -68,7 +68,7 @@ execute if score Block block matches 1986..2005 run setblock 0 63 0 cobblestone
 execute if score Block block matches 2006 run setblock 0 63 0 iron_ore
 execute if score Block block matches 2007 run setblock 0 63 0 gold_ore
 execute if score Block block matches 2008..2009 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 2009 run summon parrot
+execute if score Block block matches 2009 run summon parrot 0 64 0
 execute if score Block block matches 2009 run function mob/spawn
 execute if score Block block matches 2010 run setblock 0 63 0 gold_ore
 execute if score Block block matches 2011 run setblock 0 63 0 redstone_ore
@@ -94,7 +94,7 @@ execute if score Block block matches 2060 run tag @a add party05
 execute if score Block block matches 2061 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 2062..2064 run function random/block/05
 execute if score Block block matches 2065..2067 run setblock 0 63 0 jungle_log
-execute if score Block block matches 2067 run summon vex
+execute if score Block block matches 2067 run summon vex 0 64 0
 execute if score Block block matches 2067 run function mob/spawn
 execute if score Block block matches 2068..2074 run setblock 0 63 0 jungle_log
 execute if score Block block matches 2075..2077 run setblock 0 63 0 redstone_ore
@@ -108,7 +108,7 @@ execute if score Block block matches 2103 run structure load chest05 0 63 0
 execute if score Block block matches 2103 run playsound block.note_block.pling @a 0 63 0
 execute if score Block block matches 2104..2118 run setblock 0 63 0 mossy_cobblestone
 execute if score Block block matches 2119..2124 run setblock 0 63 0 cobblestone
-execute if score Block block matches 2124 run summon ocelot
+execute if score Block block matches 2124 run summon ocelot 0 64 0
 execute if score Block block matches 2124 run function mob/spawn
 execute if score Block block matches 2125..2142 run setblock 0 63 0 cobblestone
 execute if score Block block matches 2143 run setblock 0 63 0 diamond_ore
@@ -120,7 +120,7 @@ execute if score Block block matches 2162 run structure load chest05 0 63 0
 execute if score Block block matches 2163..2173 run setblock 0 63 0 cobblestone
 execute if score Block block matches 2174..2178 run setblock 0 63 0 grass
 execute if score Block block matches 2179..2182 run setblock 0 63 0 jungle_log
-execute if score Block block matches 2182 run summon witch
+execute if score Block block matches 2182 run summon witch 0 64 0
 execute if score Block block matches 2182 run function mob/spawn
 execute if score Block block matches 2183..2185 run setblock 0 63 0 jungle_log
 execute if score Block block matches 2186 run setblock 0 63 0 gold_ore
@@ -138,13 +138,13 @@ execute if score Block block matches 2221 run playsound block.ender_chest.open @
 execute if score Block block matches 2222 run setblock 0 63 0 mossy_cobblestone
 execute if score Block block matches 2223..2228 run setblock 0 63 0 grass
 execute if score Block block matches 2229..2239 run setblock 0 63 0 mossy_cobblestone
-execute if score Block block matches 2239 run summon horse
+execute if score Block block matches 2239 run summon horse 0 64 0
 execute if score Block block matches 2239 run function mob/spawn
 execute if score Block block matches 2240..2248 run setblock 0 63 0 mossy_cobblestone
 execute if score Block block matches 2249..2254 run setblock 0 63 0 jungle_log
 execute if score Block block matches 2255..2261 run setblock 0 63 0 grass
 execute if score Block block matches 2262..2269 run setblock 0 63 0 mossy_cobblestone
-execute if score Block block matches 2269 run summon vex
+execute if score Block block matches 2269 run summon vex 0 64 0
 execute if score Block block matches 2269 run function mob/spawn
 execute if score Block block matches 2270..2279 run setblock 0 63 0 mossy_cobblestone
 execute if score Block block matches 2280 run structure load chest05 0 63 0
@@ -152,7 +152,7 @@ execute if score Block block matches 2281..2289 run setblock 0 63 0 cobblestone
 execute if score Block block matches 2290..2292 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 2293..2294 run setblock 0 63 0 iron_ore
 execute if score Block block matches 2295..2297 run setblock 0 63 0 jungle_log
-execute if score Block block matches 2297 run summon witch
+execute if score Block block matches 2297 run summon witch 0 64 0
 execute if score Block block matches 2297 run function mob/spawn
 execute if score Block block matches 2298..2305 run setblock 0 63 0 jungle_log
 execute if score Block block matches 2306 run setblock 0 63 0 redstone_ore

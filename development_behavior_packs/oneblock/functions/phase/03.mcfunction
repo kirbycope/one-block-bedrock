@@ -1,8 +1,8 @@
 # Announce phase
-execute if score Block block matches 682 run tellraw @a {"rawtext":[{"text":"§6You reached phase 3: Icy Tundra!"}]}
-execute if score Block block matches 682 run tellraw @a {"rawtext":[{"text":"§eWinter covers the land with its icy hands."}]}
+execute if score Block block matches 681 run tellraw @a {"rawtext":[{"text":"§6You reached phase 3: Icy Tundra!"}]}
+execute if score Block block matches 681 run tellraw @a {"rawtext":[{"text":"§eWinter covers the land with its icy hands."}]}
 # Set block
-execute if score Block block matches 682..689 run setblock 0 63 0 snow
+execute if score Block block matches 681..689 run setblock 0 63 0 snow
 execute if score Block block matches 690..691 run setblock 0 63 0 spruce_log
 execute if score Block block matches 692..695 run setblock 0 63 0 snow
 execute if score Block block matches 696..701 run setblock 0 63 0 grass

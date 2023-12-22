@@ -13,7 +13,7 @@ execute if score Block block matches 3137..3139 run setblock 0 63 0 warped_wart_
 execute if score Block block matches 3140..3141 run setblock 0 63 0 soul_soil
 execute if score Block block matches 3142..3143 run setblock 0 63 0 warped_wart_block
 execute if score Block block matches 3144..3146 run setblock 0 63 0 nether_brick
-execute if score Block block matches 3146 run summon piglin
+execute if score Block block matches 3146 run summon piglin 0 64 0
 execute if score Block block matches 3146 run function mob/spawn
 execute if score Block block matches 3147..3148 run setblock 0 63 0 nether_brick
 execute if score Block block matches 3149 run setblock 0 63 0 ancient_debris
@@ -26,7 +26,7 @@ execute if score Block block matches 3167 run setblock 0 63 0 ancient_debris
 execute if score Block block matches 3168..3173 run setblock 0 63 0 blackstone
 execute if score Block block matches 3174..3177 run setblock 0 63 0 magma
 execute if score Block block matches 3178 run setblock 0 63 0 soul_soil
-execute if score Block block matches 3178 run summon magma_cube
+execute if score Block block matches 3178 run summon magma_cube 0 64 0
 execute if score Block block matches 3178 run function mob/spawn
 execute if score Block block matches 3179 run setblock 0 63 0 soul_soil
 execute if score Block block matches 3180 run structure load chest07 0 63 0
@@ -41,7 +41,7 @@ execute if score Block block matches 3198 run setblock 0 63 0 obsidian
 execute if score Block block matches 3199..3201 run setblock 0 63 0 gilded_blackstone
 execute if score Block block matches 3202..3205 run setblock 0 63 0 quartz_ore
 execute if score Block block matches 3206..3207 run setblock 0 63 0 red_nether_brick
-execute if score Block block matches 3207 run summon hoglin
+execute if score Block block matches 3207 run summon hoglin 0 64 0
 execute if score Block block matches 3207 run function mob/spawn
 execute if score Block block matches 3208..3209 run setblock 0 63 0 red_nether_brick
 execute if score Block block matches 3210..3211 run setblock 0 63 0 nether_gold_ore
@@ -52,7 +52,7 @@ execute if score Block block matches 3230 run setblock 0 63 0 nether_wart_block
 execute if score Block block matches 3231..3235 run setblock 0 63 0 crimson_nylium
 execute if score Block block matches 3236 run setblock 0 63 0 nether_gold_ore
 execute if score Block block matches 3237..3239 run setblock 0 63 0 glowstone
-execute if score Block block matches 3239 run summon blaze
+execute if score Block block matches 3239 run summon blaze 0 64 0
 execute if score Block block matches 3239 run function mob/spawn
 execute if score Block block matches 3240..3241 run setblock 0 63 0 nether_gold_ore
 execute if score Block block matches 3242..3245 run setblock 0 63 0 netherrack
@@ -66,7 +66,7 @@ execute if score Block block matches 3258 run setblock 0 63 0 warped_wart_block
 execute if score Block block matches 3259..3263 run setblock 0 63 0 magma
 execute if score Block block matches 3264..3266 run setblock 0 63 0 quartz_ore
 execute if score Block block matches 3267..3268 run setblock 0 63 0 red_nether_brick
-execute if score Block block matches 3268 run summon strider
+execute if score Block block matches 3268 run summon strider 0 64 0
 execute if score Block block matches 3268 run function mob/spawn
 execute if score Block block matches 3269 run setblock 0 63 0 red_nether_brick
 execute if score Block block matches 3270..3273 run function random/block/07
@@ -77,7 +77,7 @@ execute if score Block block matches 3282..3287 run setblock 0 63 0 nether_brick
 execute if score Block block matches 3288..3289 run setblock 0 63 0 nether_gold_ore
 execute if score Block block matches 3290..3292 run setblock 0 63 0 crimson_nylium
 execute if score Block block matches 3293..3300 run setblock 0 63 0 netherrack
-execute if score Block block matches 3300 run summon wither_skeleton
+execute if score Block block matches 3300 run summon wither_skeleton 0 64 0
 execute if score Block block matches 3300 run function mob/spawn
 execute if score Block block matches 3301..3303 run setblock 0 63 0 netherrack
 execute if score Block block matches 3304..3309 run setblock 0 63 0 blackstone
@@ -86,7 +86,7 @@ execute if score Block block matches 3312 run structure load chest07 0 63 0
 execute if score Block block matches 3313..3320 run setblock 0 63 0 netherrack
 execute if score Block block matches 3321..3324 run setblock 0 63 0 magma
 execute if score Block block matches 3325..3330 run setblock 0 63 0 netherrack
-execute if score Block block matches 3330 run summon ghast
+execute if score Block block matches 3330 run summon ghast 0 64 0
 execute if score Block block matches 3330 run function mob/spawn
 execute if score Block block matches 3331..3335 run setblock 0 63 0 netherrack
 execute if score Block block matches 3336..3337 run setblock 0 63 0 shroomlight
@@ -97,7 +97,7 @@ execute if score Block block matches 3349..3351 run setblock 0 63 0 warped_nyliu
 execute if score Block block matches 3352..3355 run setblock 0 63 0 soul_sand
 execute if score Block block matches 3356..3358 run setblock 0 63 0 warped_wart_block
 execute if score Block block matches 3359..3362 run setblock 0 63 0 netherrack
-execute if score Block block matches 3362 run summon piglin
+execute if score Block block matches 3362 run summon piglin 0 64 0
 execute if score Block block matches 3362 run function mob/spawn
 execute if score Block block matches 3363..3366 run setblock 0 63 0 netherrack
 execute if score Block block matches 3367..3368 run setblock 0 63 0 gilded_blackstone
@@ -128,7 +128,7 @@ execute if score Block block matches 3413..3416 run setblock 0 63 0 glowstone
 execute if score Block block matches 3417..3419 run function random/block/07
 execute if score Block block matches 3420..3423 run setblock 0 63 0 soul_sand
 execute if score Block block matches 3424 run setblock 0 63 0 warped_nylium
-execute if score Block block matches 3424 run summon magma_cube
+execute if score Block block matches 3424 run summon magma_cube 0 64 0
 execute if score Block block matches 3424 run function mob/spawn
 execute if score Block block matches 3425..3428 run setblock 0 63 0 warped_nylium
 execute if score Block block matches 3429..3434 run setblock 0 63 0 soul_sand
@@ -150,7 +150,7 @@ execute if score Block block matches 3463..3474 run setblock 0 63 0 netherrack
 execute if score Block block matches 3475..3476 run setblock 0 63 0 gilded_blackstone
 execute if score Block block matches 3477..3478 run setblock 0 63 0 warped_wart_block
 execute if score Block block matches 3479..3485 run setblock 0 63 0 netherrack
-execute if score Block block matches 3485 run summon hoglin
+execute if score Block block matches 3485 run summon hoglin 0 64 0
 execute if score Block block matches 3485 run function mob/spawn
 execute if score Block block matches 3486 run setblock 0 63 0 netherrack
 execute if score Block block matches 3487..3489 run setblock 0 63 0 crimson_nylium
@@ -171,7 +171,7 @@ execute if score Block block matches 3534..3538 run setblock 0 63 0 magma
 execute if score Block block matches 3539..3542 run setblock 0 63 0 soul_soil
 execute if score Block block matches 3543..3546 run setblock 0 63 0 soul_sand
 execute if score Block block matches 3547 run setblock 0 63 0 red_nether_brick
-execute if score Block block matches 3547 run summon blaze
+execute if score Block block matches 3547 run summon blaze 0 64 0
 execute if score Block block matches 3547 run function mob/spawn
 execute if score Block block matches 3548..3550 run setblock 0 63 0 red_nether_brick
 execute if score Block block matches 3551..3553 run setblock 0 63 0 nether_wart_block
@@ -195,7 +195,7 @@ execute if score Block block matches 3600..3602 run setblock 0 63 0 magma
 execute if score Block block matches 3603..3606 run setblock 0 63 0 crimson_nylium
 execute if score Block block matches 3607 run setblock 0 63 0 shroomlight
 execute if score Block block matches 3608..3609 run setblock 0 63 0 basalt
-execute if score Block block matches 3609 run summon strider
+execute if score Block block matches 3609 run summon strider 0 64 0
 execute if score Block block matches 3609 run function mob/spawn
 execute if score Block block matches 3610 run setblock 0 63 0 basalt
 execute if score Block block matches 3611..3612 run setblock 0 63 0 quartz_ore
@@ -219,7 +219,7 @@ execute if score Block block matches 3663..3664 run setblock 0 63 0 glowstone
 execute if score Block block matches 3665 run setblock 0 63 0 obsidian
 execute if score Block block matches 3666..3669 run setblock 0 63 0 warped_nylium
 execute if score Block block matches 3670..3671 run setblock 0 63 0 basalt
-execute if score Block block matches 3671 run summon wither_skeleton
+execute if score Block block matches 3671 run summon wither_skeleton 0 64 0
 execute if score Block block matches 3671 run function mob/spawn
 execute if score Block block matches 3672..3674 run setblock 0 63 0 basalt
 execute if score Block block matches 3675..3677 run setblock 0 63 0 crimson_nylium
@@ -245,7 +245,7 @@ execute if score Block block matches 3722..3724 run setblock 0 63 0 glowstone
 execute if score Block block matches 3725 run setblock 0 63 0 obsidian
 execute if score Block block matches 3726..3729 run function random/block/07
 execute if score Block block matches 3730..3733 run setblock 0 63 0 red_nether_brick
-execute if score Block block matches 3733 run summon ghast
+execute if score Block block matches 3733 run summon ghast 0 64 0
 execute if score Block block matches 3733 run function mob/spawn
 execute if score Block block matches 3734..3736 run setblock 0 63 0 glowstone
 execute if score Block block matches 3737..3740 run setblock 0 63 0 crimson_nylium
@@ -259,7 +259,7 @@ execute if score Block block matches 3756 run setblock 0 63 0 obsidian
 execute if score Block block matches 3757..3760 run setblock 0 63 0 glowstone
 execute if score Block block matches 3761 run setblock 0 63 0 soul_soil
 execute if score Block block matches 3762..3765 run setblock 0 63 0 blackstone
-execute if score Block block matches 3765 run summon piglin
+execute if score Block block matches 3765 run summon piglin 0 64 0
 execute if score Block block matches 3765 run function mob/spawn
 execute if score Block block matches 3766..3773 run setblock 0 63 0 blackstone
 execute if score Block block matches 3774 run structure load chest07 0 63 0
@@ -271,7 +271,7 @@ execute if score Block block matches 3784..3786 run setblock 0 63 0 gilded_black
 execute if score Block block matches 3787..3790 run setblock 0 63 0 magma
 execute if score Block block matches 3791..3792 run setblock 0 63 0 nether_wart_block
 execute if score Block block matches 3793..3794 run setblock 0 63 0 nether_gold_ore
-execute if score Block block matches 3794 run summon magma_cube
+execute if score Block block matches 3794 run summon magma_cube 0 64 0
 execute if score Block block matches 3794 run function mob/spawn
 execute if score Block block matches 3795..3803 run setblock 0 63 0 blackstone
 execute if score Block block matches 3804 run setblock 0 63 0 nether_wart_block
@@ -282,7 +282,7 @@ execute if score Block block matches 3811..3812 run setblock 0 63 0 gilded_black
 execute if score Block block matches 3813..3816 run setblock 0 63 0 quartz_ore
 execute if score Block block matches 3817..3823 run function random/block/07
 execute if score Block block matches 3824..3826 run setblock 0 63 0 red_nether_brick
-execute if score Block block matches 3826 run summon hoglin
+execute if score Block block matches 3826 run summon hoglin 0 64 0
 execute if score Block block matches 3826 run function mob/spawn
 execute if score Block block matches 3827..3830 run setblock 0 63 0 quartz_ore
 execute if score Block block matches 3831..3834 run setblock 0 63 0 blackstone
@@ -296,7 +296,7 @@ execute if score Block block matches 3847..3850 run setblock 0 63 0 basalt
 execute if score Block block matches 3851..3854 run setblock 0 63 0 crimson_nylium
 execute if score Block block matches 3855 run setblock 0 63 0 obsidian
 execute if score Block block matches 3856 run setblock 0 63 0 magma
-execute if score Block block matches 3856 run summon blaze
+execute if score Block block matches 3856 run summon blaze 0 64 0
 execute if score Block block matches 3856 run function mob/spawn
 execute if score Block block matches 3857 run setblock 0 63 0 magma
 execute if score Block block matches 3858..3860 run setblock 0 63 0 gilded_blackstone

@@ -14,7 +14,7 @@ execute if score Block block matches 4705 run setblock 0 63 0 bone_block
 execute if score Block block matches 4706..4707 run function random/block/09
 execute if score Block block matches 4708..4710 run setblock 0 63 0 coal_ore
 execute if score Block block matches 4711..4714 run setblock 0 63 0 mycelium
-execute if score Block block matches 4714 run summon silverfish
+execute if score Block block matches 4714 run summon silverfish 0 64 0
 execute if score Block block matches 4714 run function mob/spawn
 execute if score Block block matches 4715..4718 run setblock 0 63 0 mycelium
 execute if score Block block matches 4719..4724 run setblock 0 63 0 gravel
@@ -22,7 +22,7 @@ execute if score Block block matches 4725..4734 run setblock 0 63 0 stonebrick["
 execute if score Block block matches 4735..4740 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
 execute if score Block block matches 4741 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 4742..4744 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4744 run summon creeper
+execute if score Block block matches 4744 run summon creeper 0 64 0
 execute if score Block block matches 4744 run function mob/spawn
 execute if score Block block matches 4745 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
 execute if score Block block matches 4746 run structure load chest09 0 63 0
@@ -32,7 +32,7 @@ execute if score Block block matches 4750..4753 run setblock 0 63 0 gravel
 execute if score Block block matches 4754 run setblock 0 63 0 carved_pumpkin
 execute if score Block block matches 4755..4769 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4770..4771 run setblock 0 63 0 coal_ore
-execute if score Block block matches 4771 run summon cave_spider
+execute if score Block block matches 4771 run summon cave_spider 0 64 0
 execute if score Block block matches 4771 run function mob/spawn
 execute if score Block block matches 4772 run setblock 0 63 0 coal_ore
 execute if score Block block matches 4773..4774 run setblock 0 63 0 dark_oak_log
@@ -43,7 +43,7 @@ execute if score Block block matches 4783..4797 run setblock 0 63 0 stonebrick["
 execute if score Block block matches 4798 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 4799..4800 run setblock 0 63 0 coal_ore
 execute if score Block block matches 4801 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4801 run summon skeleton
+execute if score Block block matches 4801 run summon skeleton 0 64 0
 execute if score Block block matches 4801 run function mob/spawn
 execute if score Block block matches 4802..4807 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4808 run structure load chest09 0 63 0
@@ -54,13 +54,13 @@ execute if score Block block matches 4824 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 4825..4826 run setblock 0 63 0 bone_block
 execute if score Block block matches 4827 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 4828..4829 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4829 run summon creeper
+execute if score Block block matches 4829 run summon creeper 0 64 0
 execute if score Block block matches 4829 run function mob/spawn
 execute if score Block block matches 4830..4844 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4845 run setblock 0 63 0 iron_ore
 execute if score Block block matches 4846 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 4847..4859 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4859 run summon witch
+execute if score Block block matches 4859 run summon witch 0 64 0
 execute if score Block block matches 4859 run function mob/spawn
 execute if score Block block matches 4860..4863 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4864 run setblock 0 63 0 dark_oak_log
@@ -71,7 +71,7 @@ execute if score Block block matches 4870 run structure load chest09 0 63 0
 execute if score Block block matches 4870 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 4871..4885 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4886 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4886 run summon skeleton
+execute if score Block block matches 4886 run summon skeleton 0 64 0
 execute if score Block block matches 4886 run function mob/spawn
 execute if score Block block matches 4887..4895 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
 execute if score Block block matches 4896 run setblock 0 63 0 bone_block
@@ -81,7 +81,7 @@ execute if score Block block matches 4900..4909 run setblock 0 63 0 light_gray_c
 execute if score Block block matches 4910..4911 run setblock 0 63 0 coal_ore
 execute if score Block block matches 4912 run setblock 0 63 0 bone_block
 execute if score Block block matches 4913..4916 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4916 run summon skeleton
+execute if score Block block matches 4916 run summon skeleton 0 64 0
 execute if score Block block matches 4916 run function mob/spawn
 execute if score Block block matches 4917..4931 run setblock 0 63 0 stonebrick
 execute if score Block block matches 4932 run structure load chest09 0 63 0
@@ -96,7 +96,7 @@ execute if score Block block matches 4946..4952 run setblock 0 63 0 gravel
 execute if score Block block matches 4953..4954 run setblock 0 63 0 bone_block
 execute if score Block block matches 4955 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 4956..4973 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4973 run summon silverfish
+execute if score Block block matches 4973 run summon silverfish 0 64 0
 execute if score Block block matches 4973 run function mob/spawn
 execute if score Block block matches 4974..4975 run setblock 0 63 0 stonebrick
 execute if score Block block matches 4976 run function random/block/09
@@ -116,7 +116,7 @@ execute if score Block block matches 5001..5015 run setblock 0 63 0 stonebrick["
 execute if score Block block matches 5016..5028 run setblock 0 63 0 stonebrick
 execute if score Block block matches 5029 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 5030 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5030 run summon cave_spider
+execute if score Block block matches 5030 run summon cave_spider 0 64 0
 execute if score Block block matches 5030 run function mob/spawn
 execute if score Block block matches 5031..5038 run setblock 0 63 0 mycelium
 execute if score Block block matches 5039 run function random/block/09
@@ -139,7 +139,7 @@ execute if score Block block matches 5073..5082 run setblock 0 63 0 stonebrick["
 execute if score Block block matches 5082 run tag @a add party09
 execute if score Block block matches 5083..5084 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5085..5088 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5088 run summon skeleton
+execute if score Block block matches 5088 run summon skeleton 0 64 0
 execute if score Block block matches 5088 run function mob/spawn
 execute if score Block block matches 5089..5094 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5095..5106 run setblock 0 63 0 mycelium
@@ -160,7 +160,7 @@ execute if score Block block matches 5132..5133 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 5134..5135 run setblock 0 63 0 bone_block
 execute if score Block block matches 5136..5142 run setblock 0 63 0 gravel
 execute if score Block block matches 5143..5145 run setblock 0 63 0 mycelium
-execute if score Block block matches 5145 run summon creeper
+execute if score Block block matches 5145 run summon creeper 0 64 0
 execute if score Block block matches 5145 run function mob/spawn
 execute if score Block block matches 5146..5154 run setblock 0 63 0 mycelium
 execute if score Block block matches 5155..5156 run setblock 0 63 0 dark_oak_log
@@ -184,7 +184,7 @@ execute if score Block block matches 5194 run function random/block/09
 execute if score Block block matches 5195..5200 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5201..5202 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5203 run setblock 0 63 0 gravel
-execute if score Block block matches 5203 run summon witch
+execute if score Block block matches 5203 run summon witch 0 64 0
 execute if score Block block matches 5203 run function mob/spawn
 execute if score Block block matches 5204..5205 run setblock 0 63 0 gravel
 execute if score Block block matches 5206..5207 run setblock 0 63 0 bone_block
@@ -200,7 +200,7 @@ execute if score Block block matches 5242 run structure load chest09 0 63 0
 execute if score Block block matches 5243..5244 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5245..5251 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
 execute if score Block block matches 5252..5261 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5261 run summon skeleton
+execute if score Block block matches 5261 run summon skeleton 0 64 0
 execute if score Block block matches 5261 run function mob/spawn
 execute if score Block block matches 5262..5271 run setblock 0 63 0 stonebrick
 execute if score Block block matches 5272..5273 run setblock 0 63 0 dark_oak_log
@@ -209,7 +209,7 @@ execute if score Block block matches 5281..5286 run setblock 0 63 0 stonebrick["
 execute if score Block block matches 5287 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 5288..5289 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5290..5291 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5291 run summon skeleton
+execute if score Block block matches 5291 run summon skeleton 0 64 0
 execute if score Block block matches 5291 run function mob/spawn
 execute if score Block block matches 5292..5301 run setblock 0 63 0 stonebrick
 execute if score Block block matches 5302..5303 run setblock 0 63 0 coal_ore
@@ -219,7 +219,7 @@ execute if score Block block matches 5305 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 5306 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5307..5316 run setblock 0 63 0 stonebrick
 execute if score Block block matches 5317..5318 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5318 run summon silverfish
+execute if score Block block matches 5318 run summon silverfish 0 64 0
 execute if score Block block matches 5318 run function mob/spawn
 execute if score Block block matches 5319 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 5320..5327 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
@@ -227,7 +227,7 @@ execute if score Block block matches 5328..5330 run setblock 0 63 0 gravel
 execute if score Block block matches 5331..5335 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
 execute if score Block block matches 5336..5347 run setblock 0 63 0 stonebrick
 execute if score Block block matches 5348 run function random/block/09
-execute if score Block block matches 5348 run summon cave_spider
+execute if score Block block matches 5348 run summon cave_spider 0 64 0
 execute if score Block block matches 5348 run function mob/spawn
 execute if score Block block matches 5349 run function random/block/09
 execute if score Block block matches 5350..5351 run setblock 0 63 0 iron_ore
@@ -239,7 +239,7 @@ execute if score Block block matches 5367..5368 run setblock 0 63 0 mycelium
 execute if score Block block matches 5369..5374 run setblock 0 63 0 light_gray_concrete_powder
 execute if score Block block matches 5375 run setblock 0 63 0 stonebrick
 execute if score Block block matches 5376 run setblock 0 63 0 gravel
-execute if score Block block matches 5376 run summon cave_spider
+execute if score Block block matches 5376 run summon cave_spider 0 64 0
 execute if score Block block matches 5376 run function mob/spawn
 execute if score Block block matches 5377..5378 run setblock 0 63 0 gravel
 execute if score Block block matches 5379 run function random/block/09

@@ -8,26 +8,26 @@ execute if score Block block matches 5482..5489 run setblock 0 63 0 end_stone
 execute if score Block block matches 5490..5502 run setblock 0 63 0 purpur_block
 execute if score Block block matches 5503 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 5504..5518 run setblock 0 63 0 end_stone
-execute if score Block block matches 5518 run summon endermite
+execute if score Block block matches 5518 run summon endermite 0 64 0
 execute if score Block block matches 5518 run function mob/spawn
 execute if score Block block matches 5519..5521 run setblock 0 63 0 end_stone
 execute if score Block block matches 5522 run setblock 0 63 0 gold_ore
 execute if score Block block matches 5523 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 5524..5544 run setblock 0 63 0 end_bricks
 execute if score Block block matches 5545..5548 run function random/block/10
-execute if score Block block matches 5548 run summon endermite
+execute if score Block block matches 5548 run summon endermite 0 64 0
 execute if score Block block matches 5548 run function mob/spawn
 execute if score Block block matches 5549 run structure load chest10 0 63 0
 execute if score Block block matches 5550..5554 run function random/block/10
 execute if score Block block matches 5555..5573 run setblock 0 63 0 end_stone
 execute if score Block block matches 5574..5576 run function random/block/10
-execute if score Block block matches 5576 run summon enderman
+execute if score Block block matches 5576 run summon enderman 0 64 0
 execute if score Block block matches 5576 run function mob/spawn
 execute if score Block block matches 5577..5581 run function random/block/10
 execute if score Block block matches 5582..5599 run setblock 0 63 0 end_bricks
 execute if score Block block matches 5600 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 5601..5606 run function random/block/10
-execute if score Block block matches 5606 run summon enderman
+execute if score Block block matches 5606 run summon enderman 0 64 0
 execute if score Block block matches 5606 run function mob/spawn
 execute if score Block block matches 5607..5608 run function random/block/10
 execute if score Block block matches 5609 run function random/block/10
@@ -35,7 +35,7 @@ execute if score Block block matches 5610 run structure load chest10 0 63 0
 execute if score Block block matches 5611..5619 run function random/block/10
 execute if score Block block matches 5620 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5621..5634 run setblock 0 63 0 end_bricks
-execute if score Block block matches 5634 run summon endermite
+execute if score Block block matches 5634 run summon endermite 0 64 0
 execute if score Block block matches 5634 run function mob/spawn
 execute if score Block block matches 5635..5642 run setblock 0 63 0 end_bricks
 execute if score Block block matches 5643 run setblock 0 63 0 redstone_ore
@@ -56,7 +56,7 @@ execute if score Block block matches 5687 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5688..5689 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5690 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5691 run function random/block/10
-execute if score Block block matches 5691 run summon shulker
+execute if score Block block matches 5691 run summon shulker 0 64 0
 execute if score Block block matches 5691 run function mob/spawn
 execute if score Block block matches 5692..5696 run function random/block/10
 execute if score Block block matches 5697 run setblock 0 63 0 iron_ore
@@ -72,7 +72,7 @@ execute if score Block block matches 5730..5731 run function random/block/10
 execute if score Block block matches 5732 run structure load chest10 0 63 0
 execute if score Block block matches 5733..5740 run function random/block/10
 execute if score Block block matches 5741..5749 run setblock 0 63 0 purpur_block
-execute if score Block block matches 5749 run summon endermite
+execute if score Block block matches 5749 run summon endermite 0 64 0
 execute if score Block block matches 5749 run function mob/spawn
 execute if score Block block matches 5750..5755 run setblock 0 63 0 purpur_block
 execute if score Block block matches 5756..5773 run setblock 0 63 0 end_bricks
@@ -88,7 +88,7 @@ execute if score Block block matches 5792 run setblock 0 63 0 end_bricks
 execute if score Block block matches 5793 run structure load chest10 0 63 0
 execute if score Block block matches 5793 run playsound block.ender_chest.open @a 0 63 0
 execute if score Block block matches 5794..5806 run setblock 0 63 0 end_bricks
-execute if score Block block matches 5806 run summon endermite
+execute if score Block block matches 5806 run summon endermite 0 64 0
 execute if score Block block matches 5806 run function mob/spawn
 execute if score Block block matches 5807..5809 run setblock 0 63 0 end_bricks
 execute if score Block block matches 5810 run setblock 0 63 0 redstone_ore
@@ -103,7 +103,7 @@ execute if score Block block matches 5829 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5830 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 5831 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5832..5836 run setblock 0 63 0 purpur_block
-execute if score Block block matches 5836 run summon enderman
+execute if score Block block matches 5836 run summon enderman 0 64 0
 execute if score Block block matches 5836 run function mob/spawn
 execute if score Block block matches 5837..5845 run setblock 0 63 0 purpur_block
 execute if score Block block matches 5846 run setblock 0 63 0 obsidian
@@ -119,7 +119,7 @@ execute if score Block block matches 5865..5876 run setblock 0 63 0 purpur_block
 execute if score Block block matches 5877 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 5878 run setblock 0 63 0 coal_ore
 execute if score Block block matches 5879..5893 run setblock 0 63 0 end_bricks
-execute if score Block block matches 5893 run summon enderman
+execute if score Block block matches 5893 run summon enderman 0 64 0
 execute if score Block block matches 5893 run function mob/spawn
 execute if score Block block matches 5894..5899 run setblock 0 63 0 end_bricks
 execute if score Block block matches 5899 run tag @a add party10
@@ -135,7 +135,7 @@ execute if score Block block matches 5917 run setblock 0 63 0 gold_ore
 execute if score Block block matches 5918 run setblock 0 63 0 obsidian
 execute if score Block block matches 5919 run setblock 0 63 0 iron_ore
 execute if score Block block matches 5920 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 5920 run summon endermi
+execute if score Block block matches 5920 run summon endermite 0 64 0
 execute if score Block block matches 5920 run function mob/spawn
 execute if score Block block matches 5921..5933 run setblock 0 63 0 purpur_block["chisel_type"="lines"]
 execute if score Block block matches 5934 run setblock 0 63 0 diamond_ore
@@ -151,7 +151,7 @@ execute if score Block block matches 5958 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 5959..5975 run setblock 0 63 0 end_stone
 execute if score Block block matches 5976 run structure load chest10 0 63 0
 execute if score Block block matches 5977..5978 run setblock 0 63 0 end_stone
-execute if score Block block matches 5978 run summon shulker
+execute if score Block block matches 5978 run summon shulker 0 64 0
 execute if score Block block matches 5978 run function mob/spawn
 execute if score Block block matches 5979..5985 run setblock 0 63 0 end_stone
 execute if score Block block matches 5986..5987 run function random/block/10
@@ -164,7 +164,7 @@ execute if score Block block matches 6028 run setblock 0 63 0 diamond_ore
 execute if score Block block matches 6029 run setblock 0 63 0 gold_ore
 execute if score Block block matches 6030..6036 run setblock 0 63 0 purpur_block["chisel_type"="lines"]
 execute if score Block block matches 6037 run structure load chest10 0 63 0
-execute if score Block block matches 6037 run summon endermite
+execute if score Block block matches 6037 run summon endermite 0 64 0
 execute if score Block block matches 6037 run function mob/spawn
 execute if score Block block matches 6038..6048 run setblock 0 63 0 purpur_block["chisel_type"="lines"]
 execute if score Block block matches 6049..6050 run setblock 0 63 0 obsidian
@@ -177,7 +177,7 @@ execute if score Block block matches 6067..6071 run setblock 0 63 0 purpur_block
 execute if score Block block matches 6072..6087 run setblock 0 63 0 end_bricks
 execute if score Block block matches 6088 run setblock 0 63 0 iron_ore
 execute if score Block block matches 6089..6096 run setblock 0 63 0 purpur_block
-execute if score Block block matches 6096 run summon endermite
+execute if score Block block matches 6096 run summon endermite 0 64 0
 execute if score Block block matches 6096 run function mob/spawn
 execute if score Block block matches 6097 run setblock 0 63 0 purpur_block
 execute if score Block block matches 6098 run structure load chest10 0 63 0
@@ -186,7 +186,7 @@ execute if score Block block matches 6099..6109 run setblock 0 63 0 purpur_block
 execute if score Block block matches 6110 run setblock 0 63 0 lapis_ore
 execute if score Block block matches 6111 run setblock 0 63 0 iron_ore
 execute if score Block block matches 6112..6123 run setblock 0 63 0 end_stone
-execute if score Block block matches 6123 run summon enderman
+execute if score Block block matches 6123 run summon enderman 0 64 0
 execute if score Block block matches 6123 run function mob/spawn
 execute if score Block block matches 6124..6139 run setblock 0 63 0 end_stone
 execute if score Block block matches 6140 run setblock 0 63 0 gold_ore
@@ -201,7 +201,7 @@ execute if score Block block matches 6159 run playsound block.note_block.pling @
 execute if score Block block matches 6160..6172 run setblock 0 63 0 purpur_block["chisel_type"="lines"]
 execute if score Block block matches 6173 run setblock 0 63 0 obsidian
 execute if score Block block matches 6174..6180 run setblock 0 63 0 purpur_block["chisel_type"="lines"]
-execute if score Block block matches 6180 run summon enderman
+execute if score Block block matches 6180 run summon enderman 0 64 0
 execute if score Block block matches 6180 run function mob/spawn
 execute if score Block block matches 6181..6183 run setblock 0 63 0 purpur_block["chisel_type"="lines"]
 execute if score Block block matches 6184 run setblock 0 63 0 gold_ore
@@ -211,7 +211,7 @@ execute if score Block block matches 6187 run setblock 0 63 0 gold_ore
 execute if score Block block matches 6188..6189 run setblock 0 63 0 iron_ore
 execute if score Block block matches 6190 run setblock 0 63 0 coal_ore
 execute if score Block block matches 6191..6210 run setblock 0 63 0 end_stone
-execute if score Block block matches 6210 run summon endermite
+execute if score Block block matches 6210 run summon endermite 0 64 0
 execute if score Block block matches 6210 run function mob/spawn
 execute if score Block block matches 6211..6219 run setblock 0 63 0 end_stone
 execute if score Block block matches 6220 run structure load chest10 0 63 0
@@ -233,7 +233,6 @@ execute if score Block block matches 6291..6292 run setblock 0 63 0 coal_ore
 execute if score Block block matches 6293..6296 run setblock 0 63 0 end_stone
 execute if score Block block matches 6297..6298 run setblock 0 63 0 coal_ore
 execute if score Block block matches 6299 run setblock 0 63 0 gold_ore
-execute if score Block block matches 6300 run setblock 0 63 0 gold_ore
 execute if score Block block matches 6300 run function endportal
 execute if score Block block matches 6301 run structure load chest10g 0 63 0
 execute if score Block block matches 6301 run playsound entity.wandering_trader.yes @a 0 63 0

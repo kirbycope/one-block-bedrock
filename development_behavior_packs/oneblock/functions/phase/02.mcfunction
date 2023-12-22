@@ -180,7 +180,7 @@ execute if score Block block matches 644..646 run setblock 0 63 0 stone["stone_t
 execute if score Block block matches 647..649 run setblock 0 63 0 gravel
 execute if score Block block matches 650 run setblock 0 63 0 iron_ore
 execute if score Block block matches 651..656 run setblock 0 63 0 dirt
-execute if score Block block matches 657 run structure load chest02g 0 63 0
+execute if score Block block matches 657 run structure load chest02 0 63 0
 execute if score Block block matches 658..659 run setblock 0 63 0 oak_log
 execute if score Block block matches 660..662 run setblock 0 63 0 stone["stone_type"="granite"]
 execute if score Block block matches 663..665 run setblock 0 63 0 dirt
@@ -189,8 +189,9 @@ execute if score Block block matches 667..668 run setblock 0 63 0 coal_ore
 execute if score Block block matches 669..671 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 672 run setblock 0 63 0 coal_ore
 execute if score Block block matches 673..675 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 676 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 677..679 run setblock 0 63 0 stone["stone_type"="granite"]
+execute if score Block block matches 676..678 run setblock 0 63 0 stone["stone_type"="granite"]
+execute if score Block block matches 679 run structure load chest02g 0 63 0
+execute if score Block block matches 679 run playsound mob.wanderingtrader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 680 run setblock 0 63 0 bedrock
 execute if score Block block matches 680 run tag @a add countdown
