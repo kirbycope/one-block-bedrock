@@ -4,7 +4,7 @@
 		"name": "One Block",
 		"description": "One Block Behavior Pack",
 		"uuid": "3b2e9ec7-ece7-46ef-950e-6febab276aa8",
-		"version": [1, 0, 0],
+		"version": [1, 20, 51],
 		"min_engine_version": [1, 20, 41]
 	},
 	"metadata": {
@@ -15,7 +15,7 @@
 			"description": "Behavior",
 			"type": "data",
 			"uuid": "adb8cdd3-cdcb-4f0a-9086-597ecd78798d",
-			"version": [1, 0, 0]
+			"version": [1, 20, 51]
 		}
 	]
 }

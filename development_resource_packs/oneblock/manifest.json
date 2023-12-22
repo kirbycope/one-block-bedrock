@@ -4,7 +4,7 @@
 		"name": "One Block",
 		"description": "One Block Resource Pack",
 		"uuid": "81f5f7d2-cb81-4181-a205-94b0af00ee06",
-		"version": [1, 0, 0],
+		"version": [1, 20, 51],
 		"min_engine_version": [1, 20, 41]
 	},
 	"metadata": {
@@ -15,7 +15,7 @@
 			"description": "Resources",
 			"type": "resources",
 			"uuid": "1848e651-474d-4234-91bd-105fbb5162b8",
-			"version": [1, 0, 0]
+			"version": [1, 20, 51]
 		}
 	]
 }
