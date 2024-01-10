@@ -234,7 +234,9 @@ execute if score Block block matches 6293..6296 run setblock 0 63 0 end_stone
 execute if score Block block matches 6297..6298 run setblock 0 63 0 coal_ore
 execute if score Block block matches 6299 run setblock 0 63 0 gold_ore
 execute if score Block block matches 6300 run function endportal
+# End of phase chest
 execute if score Block block matches 6301 run structure load chest10g 0 63 0
+execute if score Block block matches 6301 run particle heart_particle 0 64 0
 execute if score Block block matches 6301 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 6302 run setblock 0 63 0 bedrock

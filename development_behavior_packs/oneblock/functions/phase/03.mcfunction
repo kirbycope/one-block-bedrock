@@ -222,7 +222,9 @@ execute if score Block block matches 1148 run setblock 0 63 0 spruce_log
 execute if score Block block matches 1149..1150 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 1151..1152 run setblock 0 63 0 stone["stone_type"="granite"]
 execute if score Block block matches 1153 run setblock 0 63 0 stone["stone_type"="diorite"]
+# End of phase chest
 execute if score Block block matches 1154 run structure load chest03g 0 63 0
+execute if score Block block matches 1154 run particle heart_particle 0 64 0
 execute if score Block block matches 1154 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 1155 run setblock 0 63 0 bedrock

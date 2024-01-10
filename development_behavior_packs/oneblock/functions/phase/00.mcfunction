@@ -55,6 +55,7 @@ execute if score Block block matches 43 run setblock 0 63 0 oak_log
 execute if score Block block matches 44..45 run setblock 0 63 0 grass
 execute if score Block block matches 46 run summon oneblock:label_entity "Ready for an §aadventure§f?" 0 62.7 1
 execute if score Block block matches 46 run setblock 0 63 0 oak_log
+# End of phase chest
 execute if score Block block matches 47 run structure load chest00g 0 63 0
 execute if score Block block matches 47 run particle minecraft:heart_particle 0 64 0
 execute if score Block block matches 47 run playsound mob.wanderingtrader.yes @a 0 63 0

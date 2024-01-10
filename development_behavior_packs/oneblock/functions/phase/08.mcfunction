@@ -218,7 +218,9 @@ execute if score Block block matches 4631..4640 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4641..4642 run setblock 0 63 0 emerald_ore
 execute if score Block block matches 4643..4655 run setblock 0 63 0 quartz_block
 execute if score Block block matches 4656 run setblock 0 63 0 emerald_ore
+# End of phase chest
 execute if score Block block matches 4657 run structure load chest08g 0 63 0
+execute if score Block block matches 4657 run particle heart_particle 0 64 0
 execute if score Block block matches 4657 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 4658 run setblock 0 63 0 bedrock

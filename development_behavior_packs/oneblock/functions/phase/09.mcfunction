@@ -266,7 +266,9 @@ execute if score Block block matches 5435 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 5436..5439 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
 execute if score Block block matches 5440 run setblock 0 63 0 dark_oak_log
 execute if score Block block matches 5441..5444 run setblock 0 63 0 light_gray_concrete_powder
+# End of phase chest
 execute if score Block block matches 5445 run structure load chest09g 0 63 0
+execute if score Block block matches 5445 run particle heart_particle 0 64 0
 execute if score Block block matches 5445 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 5446 run setblock 0 63 0 bedrock

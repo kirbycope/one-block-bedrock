@@ -320,7 +320,9 @@ execute if score Block block matches 3911..3913 run setblock 0 63 0 shroomlight
 execute if score Block block matches 3914..3917 run setblock 0 63 0 nether_brick
 execute if score Block block matches 3918..3920 run setblock 0 63 0 shroomlight
 execute if score Block block matches 3921..3924 run setblock 0 63 0 nether_brick
+# End of phase chest
 execute if score Block block matches 3925 run structure load chest07g 0 63 0
+execute if score Block block matches 3925 run particle heart_particle 0 64 0
 execute if score Block block matches 3925 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 3926 run setblock 0 63 0 bedrock

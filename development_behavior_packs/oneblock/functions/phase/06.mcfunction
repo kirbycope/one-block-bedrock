@@ -286,7 +286,9 @@ execute if score Block block matches 3076..3078 run setblock 0 63 0 red_terracot
 execute if score Block block matches 3079..3080 run setblock 0 63 0 brown_terracotta
 execute if score Block block matches 3081..3082 run setblock 0 63 0 sandstone
 execute if score Block block matches 3083..3087 run function random/block/06
+# End of phase chest
 execute if score Block block matches 3088 run structure load chest06g 0 63 0
+execute if score Block block matches 3088 run particle heart_particle 0 64 0
 execute if score Block block matches 3088 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 3089 run setblock 0 63 0 bedrock

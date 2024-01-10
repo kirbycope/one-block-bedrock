@@ -298,7 +298,9 @@ execute if score Block block matches 1719 run setblock 0 63 0 coral_block["coral
 execute if score Block block matches 1720..1721 run setblock 0 63 0 stone
 execute if score Block block matches 1722..1723 run setblock 0 63 0 coral_block["coral_color"="yellow"]
 execute if score Block block matches 1724 run setblock 0 63 0 stone
+# End of phase chest
 execute if score Block block matches 1725 run structure load chest04g 0 63 0
+execute if score Block block matches 1725 run particle heart_particle 0 64 0
 execute if score Block block matches 1725 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 1726 run setblock 0 63 0 bedrock

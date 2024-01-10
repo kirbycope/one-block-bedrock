@@ -190,7 +190,9 @@ execute if score Block block matches 669..671 run setblock 0 63 0 stone["stone_t
 execute if score Block block matches 672 run setblock 0 63 0 coal_ore
 execute if score Block block matches 673..675 run setblock 0 63 0 stone["stone_type"="diorite"]
 execute if score Block block matches 676..678 run setblock 0 63 0 stone["stone_type"="granite"]
+# End of phase chest
 execute if score Block block matches 679 run structure load chest02g 0 63 0
+execute if score Block block matches 679 run particle heart_particle 0 64 0
 execute if score Block block matches 679 run playsound mob.wanderingtrader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 680 run setblock 0 63 0 bedrock

@@ -176,7 +176,9 @@ execute if score Block block matches 2358..2359 run setblock 0 63 0 redstone_ore
 execute if score Block block matches 2360..2361 run setblock 0 63 0 iron_ore
 execute if score Block block matches 2362 run setblock 0 63 0 iron_ore
 execute if score Block block matches 2363 run setblock 0 63 0 iron_ore
+# End of phase chest
 execute if score Block block matches 2364 run structure load chest05g 0 63 0
+execute if score Block block matches 2364 run particle heart_particle 0 64 0
 execute if score Block block matches 2364 run playsound entity.wandering_trader.yes @a 0 63 0
 # Trigger next phase
 execute if score Block block matches 2365 run setblock 0 63 0 bedrock
