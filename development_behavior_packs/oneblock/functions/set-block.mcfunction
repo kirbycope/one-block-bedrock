@@ -44,4 +44,4 @@ execute if score Phase phase matches 9 run function phase/09
 execute if score Phase phase matches 10 run function phase/10
 
 # Phase 11 (After)
-execute if score Phase phase matches 11 run function phase/after
+execute if score Phase phase matches 11.. run function phase/after
