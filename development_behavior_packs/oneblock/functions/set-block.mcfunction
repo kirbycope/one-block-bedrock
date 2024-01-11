@@ -37,10 +37,10 @@ execute if score Phase phase matches 7 run function phase/07
 # Phase 8 (Idyll)
 execute if score Phase phase matches 8 run function phase/08
 
-# Phase 9 ( Desolate Land)
+# Phase 9 (Desolate Land)
 execute if score Phase phase matches 9 run function phase/09
 
-# Phase 10  The End)
+# Phase 10 (The End)
 execute if score Phase phase matches 10 run function phase/10
 
 # Phase 11 (After)
