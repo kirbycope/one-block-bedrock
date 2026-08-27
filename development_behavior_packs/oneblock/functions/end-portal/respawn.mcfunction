@@ -1,0 +1,11 @@
+fill ~2 ~-3 ~1 ~-2 ~-3 ~-1 air []
+fill ~1 ~-3 ~2 ~-1 ~-3 ~-2 air []
+fill ~2 ~-3 ~1 ~2 ~-3 ~-1 end_portal_frame ["minecraft:cardinal_direction"="west","end_portal_eye_bit"=true]
+setblock ~2 ~-3 ~ end_portal_frame ["minecraft:cardinal_direction"="west","end_portal_eye_bit"=false]
+fill ~-2 ~-3 ~1 ~-2 ~-3 ~-1 end_portal_frame ["minecraft:cardinal_direction"="east","end_portal_eye_bit"=true]
+setblock ~-2 ~-3 ~ end_portal_frame ["minecraft:cardinal_direction"="east","end_portal_eye_bit"=false]
+fill ~1 ~-3 ~2 ~-1 ~-3 ~2 end_portal_frame ["minecraft:cardinal_direction"="north","end_portal_eye_bit"=true]
+setblock ~ ~-3 ~2 end_portal_frame ["minecraft:cardinal_direction"="north","end_portal_eye_bit"=false]
+fill ~1 ~-3 ~-2 ~-1 ~-3 ~-2 end_portal_frame ["minecraft:cardinal_direction"="south","end_portal_eye_bit"=true]
+setblock ~ ~-3 ~-2 end_portal_frame ["minecraft:cardinal_direction"="south","end_portal_eye_bit"=false]
+scoreboard players set @s ija-a4-end-portal-effects 200

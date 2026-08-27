@@ -124,8 +124,8 @@ Runs 20 times per second.
 | effects/block-spawn.mcfunction | effects/block-spawn.mcfunction | :white_check_mark: Ported |
 | effects/end-portal.mcfunction | effects/end-portal.mcfunction | :white_check_mark: Ported |
 | effects/mob-spawn.mcfunction | effects/mob-spawn.mcfunction | :white_check_mark: Ported |
-| end-portal/respawn.mcfunction | *Missing* | :x: Not Ported |
-| end-portal/spawn.mcfunction | endportal.mcfunction | :white_check_mark: Ported (Renamed) |
+| end-portal/respawn.mcfunction | end-portal/respawn.mcfunction | :white_check_mark: Ported |
+| end-portal/spawn.mcfunction | end-portal/spawn.mcfunction | :white_check_mark: Ported |
 | events/on-join.mcfunction | events/on-join.mcfunction | :white_check_mark: Ported |
 | events/on-load.mcfunction | events/on-load.mcfunction | :white_check_mark: Ported |
 | generated/chest/set-name.mcfunction | *Missing* | :x: Not Ported |
@@ -423,3 +423,5 @@ Runs 20 times per second.
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
+
