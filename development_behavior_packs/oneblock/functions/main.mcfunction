@@ -1,6 +1,4 @@
-## DEBUGGING
-tellraw @a {"rawtext":[{"text":"In `main.mcfunction`"}]}
-
+setblock 0 64 0 grass_block
 gamerule sendcommandfeedback false
 gamerule commandblockoutput false
 #gamerule logadmincommands false

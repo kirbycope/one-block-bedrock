@@ -1,7 +1,3 @@
-## 
-## DEBUGGING
-tellraw @a {"rawtext":[{"text":"In `load.mcfunction`"}]}
-
 # Create an objective to track if the world has been loaded
 scoreboard objectives add world dummy
 
