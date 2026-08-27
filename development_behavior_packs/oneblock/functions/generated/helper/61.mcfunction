@@ -1,4 +1,1 @@
-# Copyright: OneBlock by IJAMinecraft
-# https://ijaminecraft.com/map/oneblock/
-
-data modify storage help comma set value ", "
+# This functionality is either unsupported in Bedrock or disabled.
