@@ -1,4 +1,5 @@
-execute as @a[tag=!ija-a4-joined] at @s run function events/on-load
+execute as @a[tag=player_ready,tag=!ija-a4-joined] at @s run function events/on-load
+tag @a[tag=player_ready] remove player_ready
 scoreboard players add @a ija-a4-first-join-since-reload 0
 execute as @a[scores={ija-a4-first-join-since-reload=0}] run function events/on-join
 execute as @a[scores={ija-a4-left-game=1..}] run function events/on-join

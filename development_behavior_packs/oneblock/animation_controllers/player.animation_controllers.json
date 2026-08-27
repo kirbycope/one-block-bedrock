@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.50",
+  "animation_controllers": {
+    "controller.animation.player.ready": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "on_entry": [
+            "/tag @s add player_ready"
+          ],
+          "transitions": [
+            {
+              "loaded": "1.0"
+            }
+          ]
+        },
+        "loaded": {}
+      }
+    }
+  }
+}

@@ -96,7 +96,9 @@ Runs 20 times per second.
 - [tick.json](development_behavior_packs\oneblock\functions\tick.json) runs every tick after the datapack loads
   - Calls: [loop.mcfunction](development_behavior_packs\oneblock\functions\loop.mcfunction)
     - Calls: [events/on-load](development_behavior_packs\oneblock\functions\events\on-load.mcfunction)
-      - For `@a[tag=!ija-a4-joined]`: tags as joined, sets player/world spawn to `0 61 0`, and teleports to `0.5 61.3 0.5`
+      - Requires custom [player.json](development_behavior_packs\oneblock\entities\player.json) behavior with [player.animation_controllers.json](development_behavior_packs\oneblock\animation_controllers\player.animation_controllers.json) to detect when a player fully spawns. The animation controller applies the `player_ready` tag on entry.
+      - For `@a[tag=player_ready,tag=!ija-a4-joined]`: tags as joined, sets player/world spawn to `0 61 0`, and teleports to `0.5 61.3 0.5`
+      - Removes `player_ready` tag from the player afterward to consume the event.
     - Calls: [events/on-join](development_behavior_packs\oneblock\functions\events\on-join.mcfunction)
       - Runs on first join / reload or reconnect (`left-game=1..`)
       - Calls: [generated/player/show-join-message](development_behavior_packs\oneblock\functions\generated\player\show-join-message.mcfunction)
