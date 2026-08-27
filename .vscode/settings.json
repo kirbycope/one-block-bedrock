@@ -1,10 +1,24 @@
 {
     "cSpell.words": [
         "afterphases",
+        "alldeath",
+        "allmined",
         "commandblockoutput",
+        "forceload",
+        "Forceloads",
         "gamerule",
+        "gamerules",
+        "Invisibles",
+        "Kirbycope",
         "logadmincommands",
+        "mcfunction",
+        "noblock",
         "sendcommandfeedback",
-        "setdisplay"
+        "setdisplay",
+        "setworldspawn",
+        "tempdeath",
+        "tickingarea",
+        "upgrader",
+        "usermined"
     ]
 }

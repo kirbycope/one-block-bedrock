@@ -1,6 +1,6 @@
 {
     "values": [
         "load",
-        "tick"
+        "loop"
     ]
 }
