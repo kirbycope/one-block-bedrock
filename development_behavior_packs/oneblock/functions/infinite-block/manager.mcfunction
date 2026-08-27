@@ -1,11 +1,11 @@
 execute if entity @s[scores={ija-a4-end-portal-effects=1..}] at @s run function effects/end-portal
 execute if block ~ ~ ~ farmland run setblock ~ ~ ~ dirt
 execute unless block ~ ~ ~ chest run kill @e[tag=ija-a4-chest]
-function infinite-block/show-particles
+#function infinite-block/show-particles
 execute if block ~ ~ ~ air run tag @s add ija-a4-mined
 execute if block ~ ~ ~ water run tag @s add ija-a4-mined
 execute if block ~ ~ ~ fire run tag @s add ija-a4-mined
-execute if entity @s[scores={ija-a4-upgrade-seconds-left=1..}] at @s run function infinite-block/upgrade/manager
+#execute if entity @s[scores={ija-a4-upgrade-seconds-left=1..}] at @s run function infinite-block/upgrade/manager
 execute if entity @s[tag=ija-a4-mined] at @s run fill ~ ~ ~ ~ ~ ~ barrier replace air
 execute if entity @s[tag=ija-a4-mined] at @s run fill ~ ~ ~ ~ ~ ~ barrier replace water
 execute if entity @s[tag=ija-a4-mined] at @s run fill ~ ~ ~ ~ ~ ~ barrier replace fire
@@ -17,7 +17,7 @@ execute if entity @s[tag=ija-a4-mined] at @s unless entity @s[scores={ija-a4-upg
 execute if entity @s[scores={ija-a4-cooldown=1..}] at @s unless entity @s[tag=ija-a4-mined] unless entity @s[scores={ija-a4-upgrade-seconds-left=1..}] run function generated/phase/manager
 #execute if entity @s[tag=ija-a4-mined] run function generated/phase/show-floating-text
 execute if entity @s[scores={ija-a4-cooldown=1}] at @s run function effects/block-spawn
-execute as @e[type=item,r=2] at @s run function infinite-block/catch-item
+#execute as @e[type=item,r=2] at @s run function infinite-block/catch-item
 execute if entity @s[tag=ija-a4-mined] as @a[x=0,dx=0,y=60,dy=1,z=0,dz=0] at @s run tp @s ~ ~0.3 ~
 execute as @a[x=-2,dx=4,y=60,dy=2,z=-2,dz=4] at @s if block ~ ~ ~ barrier run tp @s ~ ~0.3 ~
 execute if block ~ ~ ~ barrier run scoreboard players add @s ija-a4-persistent-barrier-counter 1
