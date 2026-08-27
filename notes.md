@@ -12,7 +12,7 @@
 Runs when a player loads the map.
 
 - Java [load.json](<java\OneBlock by IJAMinecraft (26.1)\datapacks\ija-one-block\data\minecraft\tags\function\load.json>) -> [main.mcfunction](<java\OneBlock by IJAMinecraft (26.1)\datapacks\ija-one-block\data\ija-one-block\function\main.mcfunction>)
-- Bedrock [load.mcfunction](development_behavior_packs\oneblock\functions\load.mcfunction) -> [init-world.mcfunction](development_behavior_packs\oneblock\functions\init-world.mcfunction)
+- Bedrock [load.mcfunction](development_behavior_packs\oneblock\functions\load.mcfunction) -> [main.mcfunction](development_behavior_packs\oneblock\functions\main.mcfunction)
 
 ## Tick
 
