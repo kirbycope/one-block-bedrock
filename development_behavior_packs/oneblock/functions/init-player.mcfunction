@@ -10,3 +10,5 @@ weather clear 9999
 
 # Scoreboard(s)
 scoreboard players set @s timer 0
+
+tellraw @s {"rawtext":[{"text":"\"Welcome to One Block!\""}]}
