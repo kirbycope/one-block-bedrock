@@ -130,77 +130,77 @@ Runs 20 times per second.
 | events/on-load.mcfunction | events/on-load.mcfunction | :white_check_mark: Ported |
 | generated/chest/set-name.mcfunction | generated/chest/set-name.mcfunction | :white_check_mark: Ported |
 | generated/chest/show-particles.mcfunction | generated/chest/show-particles.mcfunction | :white_check_mark: Ported |
-| generated/helper/00.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/01.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/02.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/03.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/04.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/05.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/06.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/07.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/08.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/09.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/10.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/11.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/12.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/13.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/14.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/15.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/16.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/17.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/18.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/19.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/20.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/21.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/22.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/23.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/24.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/25.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/26.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/27.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/28.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/29.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/30.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/31.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/32.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/33.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/34.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/35.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/36.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/37.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/38.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/39.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/40.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/41.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/42.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/43.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/44.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/45.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/46.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/47.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/48.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/49.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/50.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/51.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/52.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/53.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/54.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/55.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/56.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/57.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/58.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/59.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/60.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/61.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/62.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/63.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/64.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/65.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/66.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/67.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/68.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/69.mcfunction | *Missing* | :x: Not Ported |
-| generated/helper/70.mcfunction | *Missing* | :x: Not Ported |
+| generated/helper/00.mcfunction | generated/helper/00.mcfunction | :white_check_mark: Ported |
+| generated/helper/01.mcfunction | generated/helper/01.mcfunction | :white_check_mark: Ported |
+| generated/helper/02.mcfunction | generated/helper/02.mcfunction | :white_check_mark: Ported |
+| generated/helper/03.mcfunction | generated/helper/03.mcfunction | :white_check_mark: Ported |
+| generated/helper/04.mcfunction | generated/helper/04.mcfunction | :white_check_mark: Ported |
+| generated/helper/05.mcfunction | generated/helper/05.mcfunction | :white_check_mark: Ported |
+| generated/helper/06.mcfunction | generated/helper/06.mcfunction | :white_check_mark: Ported |
+| generated/helper/07.mcfunction | generated/helper/07.mcfunction | :white_check_mark: Ported |
+| generated/helper/08.mcfunction | generated/helper/08.mcfunction | :white_check_mark: Ported |
+| generated/helper/09.mcfunction | generated/helper/09.mcfunction | :white_check_mark: Ported |
+| generated/helper/10.mcfunction | generated/helper/10.mcfunction | :white_check_mark: Ported |
+| generated/helper/11.mcfunction | generated/helper/11.mcfunction | :white_check_mark: Ported |
+| generated/helper/12.mcfunction | generated/helper/12.mcfunction | :white_check_mark: Ported |
+| generated/helper/13.mcfunction | generated/helper/13.mcfunction | :white_check_mark: Ported |
+| generated/helper/14.mcfunction | generated/helper/14.mcfunction | :white_check_mark: Ported |
+| generated/helper/15.mcfunction | generated/helper/15.mcfunction | :white_check_mark: Ported |
+| generated/helper/16.mcfunction | generated/helper/16.mcfunction | :white_check_mark: Ported |
+| generated/helper/17.mcfunction | generated/helper/17.mcfunction | :white_check_mark: Ported |
+| generated/helper/18.mcfunction | generated/helper/18.mcfunction | :white_check_mark: Ported |
+| generated/helper/19.mcfunction | generated/helper/19.mcfunction | :white_check_mark: Ported |
+| generated/helper/20.mcfunction | generated/helper/20.mcfunction | :white_check_mark: Ported |
+| generated/helper/21.mcfunction | generated/helper/21.mcfunction | :white_check_mark: Ported |
+| generated/helper/22.mcfunction | generated/helper/22.mcfunction | :white_check_mark: Ported |
+| generated/helper/23.mcfunction | generated/helper/23.mcfunction | :white_check_mark: Ported |
+| generated/helper/24.mcfunction | generated/helper/24.mcfunction | :white_check_mark: Ported |
+| generated/helper/25.mcfunction | generated/helper/25.mcfunction | :white_check_mark: Ported |
+| generated/helper/26.mcfunction | generated/helper/26.mcfunction | :white_check_mark: Ported |
+| generated/helper/27.mcfunction | generated/helper/27.mcfunction | :white_check_mark: Ported |
+| generated/helper/28.mcfunction | generated/helper/28.mcfunction | :white_check_mark: Ported |
+| generated/helper/29.mcfunction | generated/helper/29.mcfunction | :white_check_mark: Ported |
+| generated/helper/30.mcfunction | generated/helper/30.mcfunction | :white_check_mark: Ported |
+| generated/helper/31.mcfunction | generated/helper/31.mcfunction | :white_check_mark: Ported |
+| generated/helper/32.mcfunction | generated/helper/32.mcfunction | :white_check_mark: Ported |
+| generated/helper/33.mcfunction | generated/helper/33.mcfunction | :white_check_mark: Ported |
+| generated/helper/34.mcfunction | generated/helper/34.mcfunction | :white_check_mark: Ported |
+| generated/helper/35.mcfunction | generated/helper/35.mcfunction | :white_check_mark: Ported |
+| generated/helper/36.mcfunction | generated/helper/36.mcfunction | :white_check_mark: Ported |
+| generated/helper/37.mcfunction | generated/helper/37.mcfunction | :white_check_mark: Ported |
+| generated/helper/38.mcfunction | generated/helper/38.mcfunction | :white_check_mark: Ported |
+| generated/helper/39.mcfunction | generated/helper/39.mcfunction | :white_check_mark: Ported |
+| generated/helper/40.mcfunction | generated/helper/40.mcfunction | :white_check_mark: Ported |
+| generated/helper/41.mcfunction | generated/helper/41.mcfunction | :white_check_mark: Ported |
+| generated/helper/42.mcfunction | generated/helper/42.mcfunction | :white_check_mark: Ported |
+| generated/helper/43.mcfunction | generated/helper/43.mcfunction | :white_check_mark: Ported |
+| generated/helper/44.mcfunction | generated/helper/44.mcfunction | :white_check_mark: Ported |
+| generated/helper/45.mcfunction | generated/helper/45.mcfunction | :white_check_mark: Ported |
+| generated/helper/46.mcfunction | generated/helper/46.mcfunction | :white_check_mark: Ported |
+| generated/helper/47.mcfunction | generated/helper/47.mcfunction | :white_check_mark: Ported |
+| generated/helper/48.mcfunction | generated/helper/48.mcfunction | :white_check_mark: Ported |
+| generated/helper/49.mcfunction | generated/helper/49.mcfunction | :white_check_mark: Ported |
+| generated/helper/50.mcfunction | generated/helper/50.mcfunction | :white_check_mark: Ported |
+| generated/helper/51.mcfunction | generated/helper/51.mcfunction | :white_check_mark: Ported |
+| generated/helper/52.mcfunction | generated/helper/52.mcfunction | :white_check_mark: Ported |
+| generated/helper/53.mcfunction | generated/helper/53.mcfunction | :white_check_mark: Ported |
+| generated/helper/54.mcfunction | generated/helper/54.mcfunction | :white_check_mark: Ported |
+| generated/helper/55.mcfunction | generated/helper/55.mcfunction | :white_check_mark: Ported |
+| generated/helper/56.mcfunction | generated/helper/56.mcfunction | :white_check_mark: Ported |
+| generated/helper/57.mcfunction | generated/helper/57.mcfunction | :white_check_mark: Ported |
+| generated/helper/58.mcfunction | generated/helper/58.mcfunction | :white_check_mark: Ported |
+| generated/helper/59.mcfunction | generated/helper/59.mcfunction | :white_check_mark: Ported |
+| generated/helper/60.mcfunction | generated/helper/60.mcfunction | :white_check_mark: Ported |
+| generated/helper/61.mcfunction | generated/helper/61.mcfunction | :white_check_mark: Ported |
+| generated/helper/62.mcfunction | generated/helper/62.mcfunction | :white_check_mark: Ported |
+| generated/helper/63.mcfunction | generated/helper/63.mcfunction | :white_check_mark: Ported |
+| generated/helper/64.mcfunction | generated/helper/64.mcfunction | :white_check_mark: Ported |
+| generated/helper/65.mcfunction | generated/helper/65.mcfunction | :white_check_mark: Ported |
+| generated/helper/66.mcfunction | generated/helper/66.mcfunction | :white_check_mark: Ported |
+| generated/helper/67.mcfunction | generated/helper/67.mcfunction | :white_check_mark: Ported |
+| generated/helper/68.mcfunction | generated/helper/68.mcfunction | :white_check_mark: Ported |
+| generated/helper/69.mcfunction | generated/helper/69.mcfunction | :white_check_mark: Ported |
+| generated/helper/70.mcfunction | generated/helper/70.mcfunction | :white_check_mark: Ported |
 | generated/helper/71.mcfunction | generated/helper/71.mcfunction | :white_check_mark: Ported |
 | generated/helper/72.mcfunction | generated/helper/72.mcfunction | :white_check_mark: Ported |
 | generated/helper/73.mcfunction | generated/helper/73.mcfunction | :white_check_mark: Ported |
@@ -423,6 +423,7 @@ Runs 20 times per second.
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
 
 
 

@@ -1,0 +1,1 @@
+# Display logic has been merged into the setter scripts for Bedrock.

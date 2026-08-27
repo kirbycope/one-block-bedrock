@@ -1,0 +1,1 @@
+tellraw @a {"rawtext":[{"text":"\n§6Settings\n"}]}
