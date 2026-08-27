@@ -51,9 +51,9 @@ Runs when a player loads the map.
 ### Bedrock
 
 - [tick.json](development_behavior_packs\oneblock\functions\tick.json) runs every tick after the datapack loads
-  - Calls [load.mcfunction](development_behavior_packs\oneblock\functions\load.mcfunction)
+  - Calls: [load.mcfunction](development_behavior_packs\oneblock\functions\load.mcfunction)
     - See: Bedrock Wiki [On First World Load](https://wiki.bedrock.dev/commands/on-first-world-load)
-    - Calls [main.mcfunction](development_behavior_packs\oneblock\functions\main.mcfunction)
+    - Calls: [main.mcfunction](development_behavior_packs\oneblock\functions\main.mcfunction)
       - Sets gamerules, scoreboards, ~~teams~~, and calls:
         - [generated/player/set-blocks-mined-display-name](development_behavior_packs\oneblock\functions\generated\player\set-blocks-mined-display-name.mcfunction)
           - Changes the "Blocks" broken scoreboard text to the correct language
@@ -93,4 +93,7 @@ Runs 20 times per second.
 
 ### Bedrock
 
-- [loop.mcfunction](development_behavior_packs\oneblock\functions\tick.mcfunction)
+- [tick.json](development_behavior_packs\oneblock\functions\tick.json) runs every tick after the datapack loads
+  - Calls: [loop.mcfunction](development_behavior_packs\oneblock\functions\loop.mcfunction)
+    - Calls: [events/on-load](development_behavior_packs\oneblock\functions\events\on-load.mcfunction)
+      -Calls: [generated/player/show-join-message](development_behavior_packs\oneblock\functions\generated\player\show-join-message.mcfunction)
