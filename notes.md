@@ -9,6 +9,20 @@
   - World (Save) Resource Pack [world_resource_packs.json](minecraftWorlds/one-block-bedrock/world_resource_packs.json)
   - Bedrock Minecraft Template - [one-block-bedrock.mctemplate](one-block-bedrock.mctemplate/manifest.json) → `manifest.json`
 
+## Development Environment & Directory Junctions
+
+Minecraft Bedrock (GDK) saves worlds per-user (`Users/<UserID>/games/com.mojang/minecraftWorlds`), but scans development behavior & resource packs from the **`Shared`** directory:
+- `%appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs`
+- `%appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs`
+
+To keep git source control in the user profile workspace while letting the game load them seamlessly, NTFS Directory Junctions are created in `Shared`:
+
+```powershell
+# Create junctions from Shared directory to your repository folders
+New-Item -ItemType Junction -Path "$env:APPDATA\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs\oneblock" -Target "C:\Users\kirby\AppData\Roaming\Minecraft Bedrock\Users\3151750515878484299\games\com.mojang\development_behavior_packs\oneblock"
+New-Item -ItemType Junction -Path "$env:APPDATA\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs\oneblock" -Target "C:\Users\kirby\AppData\Roaming\Minecraft Bedrock\Users\3151750515878484299\games\com.mojang\development_resource_packs\oneblock"
+```
+
 ## Load
 
 Runs when a player loads the map.
