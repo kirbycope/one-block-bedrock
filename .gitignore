@@ -3,3 +3,4 @@ minecraftpe/
 resource_packs/
 world_templates/
 *.dat
+/java

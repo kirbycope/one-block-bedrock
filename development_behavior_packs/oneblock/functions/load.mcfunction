@@ -1,3 +1,5 @@
+# Bedrock Wiki [On First World Load](https://wiki.bedrock.dev/commands/on-first-world-load)
+
 # Create an objective to track if the world has been loaded
 scoreboard objectives add world dummy
 
