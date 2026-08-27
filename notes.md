@@ -30,8 +30,8 @@ Runs when a player loads the map.
 
 ### Java
 
-- [load.json](<java\OneBlock by IJAMinecraft (26.1)\datapacks\ija-one-block\data\minecraft\tags\function\load.json>)
-  - [main.mcfunction](<java\OneBlock by IJAMinecraft (26.1)\datapacks\ija-one-block\data\ija-one-block\function\main.mcfunction>)
+- [load.json](<java\OneBlock by IJAMinecraft (26.1)\datapacks\ija-one-block\data\minecraft\tags\function\load.json>) is called when the datapack loads
+  - Calls: [main.mcfunction](<java\OneBlock by IJAMinecraft (26.1)\datapacks\ija-one-block\data\ija-one-block\function\main.mcfunction>)
     - Sets gamerules: `sendCommandFeedback false`, `commandBlockOutput false`, `logAdminCommands false`, `universalAnger true`, `forgiveDeadPlayers true`
     - Creates dummy, deathCount (`alldeath`, `tempdeath`), trigger (`trigger`), and custom (`left-game`) scoreboard objectives
     - Sets tab list display: `scoreboard objectives setdisplay list ija-a4-usermined`
@@ -50,19 +50,20 @@ Runs when a player loads the map.
 
 ### Bedrock
 
-- [load.mcfunction](development_behavior_packs\oneblock\functions\load.mcfunction)
-  - [main.mcfunction](development_behavior_packs\oneblock\functions\main.mcfunction)
-    - Sets gamerules, scoreboards, ~~teams~~, and calls:
-      - [generated/player/set-blocks-mined-display-name](development_behavior_packs\oneblock\functions\generated\player\set-blocks-mined-display-name.mcfunction)
-        - Changes the "Blocks" broken scoreboard text to the correct language
-      - [infinite-block/set-default-settings](development_behavior_packs\oneblock\functions\infinite-block\set-default-settings.mcfunction) calls:
-        - [generated/language/set-default](development_behavior_packs\oneblock\functions\generated\language\set-default.mcfunction)
-          - Sets the default language to English (1) if no language is set
-          - Calls: [generated/language/update-translations](development_behavior_packs\oneblock\functions\generated\language\update-translations.mcfunction)
-        - [monster-party/set-default-settings](development_behavior_packs\oneblock\functions\monster-party\set-default-settings.mcfunction)
-          - Sets the default monster party settings to the default settings (0=unset, 1=false, 2=true)
-      - [infinite-block/forceload-spawn-chunks](development_behavior_packs\oneblock\functions\infinite-block\forceload-spawn-chunks.mcfunction)
-        - Forceloads the spawn chunks
+- [tick.json](development_behavior_packs\oneblock\functions\tick.json) runs every tick after the datapack loads
+  - Calls [load.mcfunction](development_behavior_packs\oneblock\functions\load.mcfunction)
+    - Calls [main.mcfunction](development_behavior_packs\oneblock\functions\main.mcfunction)
+      - Sets gamerules, scoreboards, ~~teams~~, and calls:
+        - [generated/player/set-blocks-mined-display-name](development_behavior_packs\oneblock\functions\generated\player\set-blocks-mined-display-name.mcfunction)
+          - Changes the "Blocks" broken scoreboard text to the correct language
+        - [infinite-block/set-default-settings](development_behavior_packs\oneblock\functions\infinite-block\set-default-settings.mcfunction) calls:
+          - [generated/language/set-default](development_behavior_packs\oneblock\functions\generated\language\set-default.mcfunction)
+            - Sets the default language to English (1) if no language is set
+            - Calls: [generated/language/update-translations](development_behavior_packs\oneblock\functions\generated\language\update-translations.mcfunction)
+          - [monster-party/set-default-settings](development_behavior_packs\oneblock\functions\monster-party\set-default-settings.mcfunction)
+            - Sets the default monster party settings to the default settings (0=unset, 1=false, 2=true)
+        - [infinite-block/forceload-spawn-chunks](development_behavior_packs\oneblock\functions\infinite-block\forceload-spawn-chunks.mcfunction)
+          - Forceloads the spawn chunks
 
 ## Tick
 
