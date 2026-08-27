@@ -1,4 +1,6 @@
-# Bedrock Wiki [On First World Load](https://wiki.bedrock.dev/commands/on-first-world-load)
+## 
+## DEBUGGING
+tellraw @a {"rawtext":[{"text":"In `load.mcfunction`"}]}
 
 # Create an objective to track if the world has been loaded
 scoreboard objectives add world dummy

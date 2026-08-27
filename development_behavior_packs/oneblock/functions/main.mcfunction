@@ -1,3 +1,6 @@
+## DEBUGGING
+tellraw @a {"rawtext":[{"text":"In `main.mcfunction`"}]}
+
 gamerule sendcommandfeedback false
 gamerule commandblockoutput false
 #gamerule logadmincommands false
@@ -49,3 +52,4 @@ scoreboard objectives add ija-a4-noblock-countdown dummy
 function infinite-block/set-default-settings
 #function ija-one-block:infinite-block/forceload-spawn-chunks
 function infinite-block/forceload-spawn-chunks
+

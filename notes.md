@@ -52,6 +52,7 @@ Runs when a player loads the map.
 
 - [tick.json](development_behavior_packs\oneblock\functions\tick.json) runs every tick after the datapack loads
   - Calls [load.mcfunction](development_behavior_packs\oneblock\functions\load.mcfunction)
+    - See: Bedrock Wiki [On First World Load](https://wiki.bedrock.dev/commands/on-first-world-load)
     - Calls [main.mcfunction](development_behavior_packs\oneblock\functions\main.mcfunction)
       - Sets gamerules, scoreboards, ~~teams~~, and calls:
         - [generated/player/set-blocks-mined-display-name](development_behavior_packs\oneblock\functions\generated\player\set-blocks-mined-display-name.mcfunction)
