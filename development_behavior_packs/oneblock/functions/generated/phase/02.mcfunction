@@ -1,199 +1,199 @@
 # Announce phase
-execute if score Block block matches 284 run tellraw @a {"rawtext":[{"text":"§6You reached phase 2: The Underground!"}]}
-execute if score Block block matches 284 run tellraw @a {"rawtext":[{"text":"§eMany a monster roam through dark hollows."}]}
+execute if entity @s[scores={ija-a4-counter=284}] at @s run tellraw @a {"rawtext":[{"text":"§6You reached phase 2: The Underground!"}]}
+execute if entity @s[scores={ija-a4-counter=284}] at @s run tellraw @a {"rawtext":[{"text":"§eMany a monster roam through dark hollows."}]}
 # Set block
-execute if score Block block matches 284..295 run setblock 0 63 0 stone
-execute if score Block block matches 296..297 run setblock 0 63 0 coal_ore
-execute if score Block block matches 298..301 run setblock 0 63 0 stone
-execute if score Block block matches 302 run setblock 0 63 0 iron_ore
-execute if score Block block matches 303 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 304 run setblock 0 63 0 iron_ore
-execute if score Block block matches 305..309 run setblock 0 63 0 gravel
-execute if score Block block matches 310..311 run function random/block/02
-execute if score Block block matches 312..322 run setblock 0 63 0 stone
-execute if score Block block matches 323 run function random/block/02
-execute if score Block block matches 323 run summon mooshroom 0 64 0
-execute if score Block block matches 323 run function mob/spawn
-execute if score Block block matches 324 run function random/block/02
-execute if score Block block matches 325..328 run setblock 0 63 0 gravel
-execute if score Block block matches 329..331 run setblock 0 63 0 dirt
-execute if score Block block matches 332..334 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 335..337 run setblock 0 63 0 gravel
-execute if score Block block matches 338..340 run function random/block/02
-execute if score Block block matches 341..342 run setblock 0 63 0 oak_log
-execute if score Block block matches 343..344 run setblock 0 63 0 birch_log
-execute if score Block block matches 345..346 run setblock 0 63 0 stone
-execute if score Block block matches 346 run summon mooshroom 0 64 0
-execute if score Block block matches 346 run function mob/spawn
-execute if score Block block matches 347..350 run setblock 0 63 0 stone
-execute if score Block block matches 351 run structure load chest02 0 63 0
-execute if score Block block matches 352..355 run setblock 0 63 0 stone
-execute if score Block block matches 356..357 run setblock 0 63 0 birch_log
-execute if score Block block matches 358 run setblock 0 63 0 coal_ore
-execute if score Block block matches 359..360 run setblock 0 63 0 birch_log
-execute if score Block block matches 361..367 run setblock 0 63 0 stone
-execute if score Block block matches 367 run summon zombie 0 64 0
-execute if score Block block matches 367 run function mob/spawn
-execute if score Block block matches 368..370 run setblock 0 63 0 stone
-execute if score Block block matches 371..372 run setblock 0 63 0 oak_log
-execute if score Block block matches 373..380 run setblock 0 63 0 stone
-execute if score Block block matches 381..382 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 383..384 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 385 run setblock 0 63 0 birch_log
-execute if score Block block matches 386..390 run setblock 0 63 0 stone
-execute if score Block block matches 390 run summon zombie 0 64 0
-execute if score Block block matches 390 run function mob/spawn
-execute if score Block block matches 391..394 run setblock 0 63 0 stone
-execute if score Block block matches 395..399 run function random/block/02
-execute if score Block block matches 400 run setblock 0 63 0 iron_ore
-execute if score Block block matches 401 run setblock 0 63 0 stone
-execute if score Block block matches 402 run structure load chest02 0 63 0
-execute if score Block block matches 403..411 run setblock 0 63 0 stone
-execute if score Block block matches 411 run summon rabbit 0 64 0
-execute if score Block block matches 411 run function mob/spawn
-execute if score Block block matches 412..414 run setblock 0 63 0 stone
-execute if score Block block matches 415..417 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 418..423 run setblock 0 63 0 dirt
-execute if score Block block matches 424..427 run setblock 0 63 0 gravel
-execute if score Block block matches 428..430 run function random/block/02
-execute if score Block block matches 431..434 run setblock 0 63 0 dirt
-execute if score Block block matches 434 run summon rabbit 0 64 0
-execute if score Block block matches 434 run function mob/spawn
-execute if score Block block matches 435..437 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 438..442 run function random/block/02
-execute if score Block block matches 443 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 444 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 445..452 run setblock 0 63 0 stone
-execute if score Block block matches 453 run structure load chest02 0 63 0
-execute if score Block block matches 453 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 454 run setblock 0 63 0 stone
-execute if score Block block matches 454 run function random/mob/02
-execute if score Block block matches 454 run function mob/spawn
-execute if score Block block matches 455..458 run setblock 0 63 0 stone
-execute if score Block block matches 459..462 run function random/block/02
-execute if score Block block matches 463 run setblock 0 63 0 birch_log
-execute if score Block block matches 464..466 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 467 run setblock 0 63 0 coal_ore
-execute if score Block block matches 468..477 run setblock 0 63 0 stone
-execute if score Block block matches 477 run summon spider 0 64 0
-execute if score Block block matches 477 run function mob/spawn
-execute if score Block block matches 478 run setblock 0 63 0 stone
-execute if score Block block matches 479 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 480..483 run setblock 0 63 0 dirt
-execute if score Block block matches 484..486 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 487..493 run setblock 0 63 0 gravel
-execute if score Block block matches 494 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 495..496 run setblock 0 63 0 oak_log
-execute if score Block block matches 497..498 run setblock 0 63 0 coal_ore
-execute if score Block block matches 499 run setblock 0 63 0 iron_ore
-execute if score Block block matches 500 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 500 run function random/mob/02
-execute if score Block block matches 500 run function mob/spawn
-execute if score Block block matches 501 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 502..503 run function random/block/02
-execute if score Block block matches 504 run structure load chest02 0 63 0
-execute if score Block block matches 505..506 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 507..513 run setblock 0 63 0 stone
-execute if score Block block matches 514 run setblock 0 63 0 coal_ore
-execute if score Block block matches 515..516 run setblock 0 63 0 birch_log
-execute if score Block block matches 517..518 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 519..521 run setblock 0 63 0 stone
-execute if score Block block matches 521 run summon creeper 0 64 0
-execute if score Block block matches 521 run function mob/spawn
-execute if score Block block matches 522..526 run setblock 0 63 0 stone
-execute if score Block block matches 527..528 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 529..531 run setblock 0 63 0 gravel
-execute if score Block block matches 532..533 run setblock 0 63 0 birch_log
-execute if score Block block matches 534 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 535 run setblock 0 63 0 oak_log
-execute if score Block block matches 536..537 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 538 run setblock 0 63 0 oak_log
-execute if score Block block matches 539..541 run setblock 0 63 0 dirt
-execute if score Block block matches 542..543 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 544 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 544 run function random/mob/02
-execute if score Block block matches 544 run function mob/spawn
-execute if score Block block matches 545 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 546 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 547 run setblock 0 63 0 oak_log
-execute if score Block block matches 548..549 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 550 run setblock 0 63 0 iron_ore
-execute if score Block block matches 551 run setblock 0 63 0 coal_ore
-execute if score Block block matches 552..554 run setblock 0 63 0 dirt
-execute if score Block block matches 555 run structure load chest02 0 63 0
-execute if score Block block matches 556..557 run setblock 0 63 0 dirt
-execute if score Block block matches 558..561 run function random/block/02
-execute if score Block block matches 562..564 run setblock 0 63 0 dirt
-execute if score Block block matches 565 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 565 run summon zombie 0 64 0
-execute if score Block block matches 565 run function mob/spawn
-execute if score Block block matches 566..567 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 568..571 run setblock 0 63 0 dirt
-execute if score Block block matches 572 run setblock 0 63 0 iron_ore
-execute if score Block block matches 573..574 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 575..577 run setblock 0 63 0 stone["stone_type"="andesite"]
-execute if score Block block matches 578 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 579..580 run setblock 0 63 0 oak_log
-execute if score Block block matches 581..583 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 584..585 run setblock 0 63 0 coal_ore
-execute if score Block block matches 586 run setblock 0 63 0 birch_log
-execute if score Block block matches 587 run setblock 0 63 0 iron_ore
-execute if score Block block matches 588 run setblock 0 63 0 coal_ore
-execute if score Block block matches 588 run function random/mob/02
-execute if score Block block matches 588 run function mob/spawn
-execute if score Block block matches 589 run setblock 0 63 0 coal_ore
-execute if score Block block matches 590..593 run setblock 0 63 0 gravel
-execute if score Block block matches 594..595 run function random/block/02
-execute if score Block block matches 596 run setblock 0 63 0 coal_ore
-execute if score Block block matches 597..600 run setblock 0 63 0 gravel
-execute if score Block block matches 601 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 602 run setblock 0 63 0 iron_ore
-execute if score Block block matches 603..605 run function random/block/02
-execute if score Block block matches 606 run structure load chest02 0 63 0
-execute if score Block block matches 607..609 run setblock 0 63 0 dirt
-execute if score Block block matches 609 run summon spider 0 64 0
-execute if score Block block matches 609 run function mob/spawn
-execute if score Block block matches 610 run setblock 0 63 0 dirt
-execute if score Block block matches 611 run setblock 0 63 0 iron_ore
-execute if score Block block matches 612 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 613 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 614..615 run setblock 0 63 0 oak_log
-execute if score Block block matches 616..620 run setblock 0 63 0 gravel
-execute if score Block block matches 621 run setblock 0 63 0 coal_ore
-execute if score Block block matches 622..623 run setblock 0 63 0 birch_log
-execute if score Block block matches 624 run setblock 0 63 0 iron_ore
-execute if score Block block matches 625 run setblock 0 63 0 oak_log
-execute if score Block block matches 626 run setblock 0 63 0 iron_ore
-execute if score Block block matches 627 run setblock 0 63 0 coal_ore
-execute if score Block block matches 628 run setblock 0 63 0 oak_log
-execute if score Block block matches 629 run setblock 0 63 0 coal_ore
-execute if score Block block matches 630 run setblock 0 63 0 oak_log
-execute if score Block block matches 631..632 run setblock 0 63 0 gravel
-execute if score Block block matches 632 run summon creeper 0 64 0
-execute if score Block block matches 632 run function mob/spawn
-execute if score Block block matches 633..635 run setblock 0 63 0 gravel
-execute if score Block block matches 636..637 run setblock 0 63 0 coal_ore
-execute if score Block block matches 638..639 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 640 run setblock 0 63 0 coal_ore
-execute if score Block block matches 641..643 run setblock 0 63 0 gravel
-execute if score Block block matches 644..646 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 647..649 run setblock 0 63 0 gravel
-execute if score Block block matches 650 run setblock 0 63 0 iron_ore
-execute if score Block block matches 651..656 run setblock 0 63 0 dirt
-execute if score Block block matches 657 run structure load chest02 0 63 0
-execute if score Block block matches 658..659 run setblock 0 63 0 oak_log
-execute if score Block block matches 660..662 run setblock 0 63 0 stone["stone_type"="granite"]
-execute if score Block block matches 663..665 run setblock 0 63 0 dirt
-execute if score Block block matches 666 run setblock 0 63 0 iron_ore
-execute if score Block block matches 667..668 run setblock 0 63 0 coal_ore
-execute if score Block block matches 669..671 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 672 run setblock 0 63 0 coal_ore
-execute if score Block block matches 673..675 run setblock 0 63 0 stone["stone_type"="diorite"]
-execute if score Block block matches 676..678 run setblock 0 63 0 stone["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=284..295}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=296..297}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=298..301}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=302}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=303}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=304}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=305..309}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=310..311}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=312..322}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=323}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=323}] at @s run summon mooshroom ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=323}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=324}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=325..328}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=329..331}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=332..334}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=335..337}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=338..340}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=341..342}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=343..344}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=345..346}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=346}] at @s run summon mooshroom ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=346}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=347..350}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=351}] at @s run structure load chest02 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=352..355}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=356..357}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=358}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=359..360}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=361..367}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=367}] at @s run summon zombie ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=367}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=368..370}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=371..372}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=373..380}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=381..382}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=383..384}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=385}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=386..390}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=390}] at @s run summon zombie ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=390}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=391..394}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=395..399}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=400}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=401}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=402}] at @s run structure load chest02 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=403..411}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=411}] at @s run summon rabbit ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=411}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=412..414}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=415..417}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=418..423}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=424..427}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=428..430}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=431..434}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=434}] at @s run summon rabbit ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=434}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=435..437}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=438..442}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=443}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=444}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=445..452}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=453}] at @s run structure load chest02 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=453}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=454}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=454}] at @s run function random/mob/02
+execute if entity @s[scores={ija-a4-counter=454}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=455..458}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=459..462}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=463}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=464..466}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=467}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=468..477}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=477}] at @s run summon spider ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=477}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=478}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=479}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=480..483}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=484..486}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=487..493}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=494}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=495..496}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=497..498}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=499}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=500}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=500}] at @s run function random/mob/02
+execute if entity @s[scores={ija-a4-counter=500}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=501}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=502..503}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=504}] at @s run structure load chest02 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=505..506}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=507..513}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=514}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=515..516}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=517..518}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=519..521}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=521}] at @s run summon creeper ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=521}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=522..526}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
+execute if entity @s[scores={ija-a4-counter=527..528}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=529..531}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=532..533}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=534}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=535}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=536..537}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=538}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=539..541}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=542..543}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=544}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=544}] at @s run function random/mob/02
+execute if entity @s[scores={ija-a4-counter=544}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=545}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=546}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=547}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=548..549}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=550}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=551}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=552..554}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=555}] at @s run structure load chest02 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=556..557}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=558..561}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=562..564}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=565}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=565}] at @s run summon zombie ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=565}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=566..567}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=568..571}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=572}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=573..574}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=575..577}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
+execute if entity @s[scores={ija-a4-counter=578}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=579..580}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=581..583}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=584..585}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=586}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=587}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=588}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=588}] at @s run function random/mob/02
+execute if entity @s[scores={ija-a4-counter=588}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=589}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=590..593}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=594..595}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=596}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=597..600}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=601}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=602}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=603..605}] at @s run function random/block/02
+execute if entity @s[scores={ija-a4-counter=606}] at @s run structure load chest02 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=607..609}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=609}] at @s run summon spider ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=609}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=610}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=611}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=612}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=613}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=614..615}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=616..620}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=621}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=622..623}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=624}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=625}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=626}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=627}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=628}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=629}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=630}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=631..632}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=632}] at @s run summon creeper ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=632}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=633..635}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=636..637}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=638..639}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=640}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=641..643}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=644..646}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=647..649}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=650}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=651..656}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=657}] at @s run structure load chest02 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=658..659}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=660..662}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
+execute if entity @s[scores={ija-a4-counter=663..665}] at @s run fill ~ ~ ~ ~ ~ ~ dirt [] replace barrier
+execute if entity @s[scores={ija-a4-counter=666}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=667..668}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=669..671}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=672}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=673..675}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
+execute if entity @s[scores={ija-a4-counter=676..678}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
 # End of phase chest
-execute if score Block block matches 679 run structure load chest02g 0 63 0
-execute if score Block block matches 679 run particle heart_particle 0 64 0
-execute if score Block block matches 679 run playsound mob.wanderingtrader.yes @a 0 63 0
+execute if entity @s[scores={ija-a4-counter=679}] at @s run structure load chest02g ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=679}] at @s run particle heart_particle ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=679}] at @s run playsound mob.wanderingtrader.yes @a ~ ~ ~
 # Trigger next phase
-execute if score Block block matches 680 run setblock 0 63 0 bedrock
-execute if score Block block matches 680 run tag @a add countdown
+execute if entity @s[scores={ija-a4-counter=680}] at @s run fill ~ ~ ~ ~ ~ ~ bedrock [] replace barrier
+execute if entity @s[scores={ija-a4-counter=680}] at @s run tag @a add countdown

@@ -1,227 +1,227 @@
 # Announce phase
-execute if score Block block matches 3927 run tellraw @a {"rawtext":[{"text":"§6You reached phase 8: Idyll!"}]}
-execute if score Block block matches 3927 run tellraw @a {"rawtext":[{"text":"§eA breeze of peace blows across the land."}]}
+execute if entity @s[scores={ija-a4-counter=3927}] at @s run tellraw @a {"rawtext":[{"text":"§6You reached phase 8: Idyll!"}]}
+execute if entity @s[scores={ija-a4-counter=3927}] at @s run tellraw @a {"rawtext":[{"text":"§eA breeze of peace blows across the land."}]}
 # Set block
-execute if score Block block matches 3927..3941 run setblock 0 63 0 quartz_block
-execute if score Block block matches 3942..3943 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 3944..3947 run setblock 0 63 0 quartz_block
-execute if score Block block matches 3948..3952 run setblock 0 63 0 oak_log
-execute if score Block block matches 3953..3954 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 3955..3956 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 3957..3958 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 3959 run setblock 0 63 0 beehive
-execute if score Block block matches 3960 run setblock 0 63 0 iron_ore
-execute if score Block block matches 3961 run setblock 0 63 0 honey_block
-execute if score Block block matches 3962 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 3963 run setblock 0 63 0 iron_ore
-execute if score Block block matches 3964 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 3965 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 3966 run setblock 0 63 0 iron_ore
-execute if score Block block matches 3967 run setblock 0 63 0 slime
-execute if score Block block matches 3968..3975 run function random/block/08
-execute if score Block block matches 3975 run summon bee 0 64 0
-execute if score Block block matches 3975 run function mob/spawn
-execute if score Block block matches 3976..3994 run function random/block/08
-execute if score Block block matches 3995..4002 run function random/block/08
-execute if score Block block matches 4003 run structure load chest08 0 63 0
-execute if score Block block matches 4003 run summon bee 0 64 0
-execute if score Block block matches 4003 run function mob/spawn
-execute if score Block block matches 4003 run playsound item.trident.thunder @a 0 63 0
-execute if score Block block matches 4004..4025 run function random/block/08
-execute if score Block block matches 4026..4027 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4028..4030 run function random/block/08
-execute if score Block block matches 4030 run summon cat 0 64 0
-execute if score Block block matches 4030 run function mob/spawn
-execute if score Block block matches 4031..4056 run function random/block/08
-execute if score Block block matches 4057..4059 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4059 run summon slime 0 64 0
-execute if score Block block matches 4059 run function mob/spawn
-execute if score Block block matches 4060 run structure load chest08 0 63 0
-execute if score Block block matches 4061 run setblock 0 63 0 bee_nest
-execute if score Block block matches 4062..4083 run function random/block/08
-execute if score Block block matches 4084..4086 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4086 run summon mule 0 64 0
-execute if score Block block matches 4086 run function mob/spawn
-execute if score Block block matches 4087..4101 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4102..4105 run setblock 0 63 0 oak_log
-execute if score Block block matches 4106..4107 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4108 run setblock 0 63 0 slime
-execute if score Block block matches 4109 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4110 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 4111 run setblock 0 63 0 honey_block
-execute if score Block block matches 4112..4115 run function random/block/08
-execute if score Block block matches 4115 run summon skeleton 0 64 0
-execute if score Block block matches 4115 run function mob/spawn
-execute if score Block block matches 4116 run function random/block/08
-execute if score Block block matches 4117 run structure load chest08 0 63 0
-execute if score Block block matches 4117 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 4118..4138 run function random/block/08
-execute if score Block block matches 4139 run setblock 0 63 0 slime
-execute if score Block block matches 4140 run setblock 0 63 0 honey_block
-execute if score Block block matches 4141 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4141 run summon phantom 0 64 0
-execute if score Block block matches 4141 run function mob/spawn
-execute if score Block block matches 4142..4143 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4144..4159 run function random/block/08
-execute if score Block block matches 4160..4165 run setblock 0 63 0 oak_log
-execute if score Block block matches 4166 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4167..4168 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4169..4170 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4170 run summon zombie_villager 0 64 0
-execute if score Block block matches 4170 run function mob/spawn
-execute if score Block block matches 4171 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4172 run setblock 0 63 0 slime
-execute if score Block block matches 4173 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4174 run structure load chest08 0 63 0
-execute if score Block block matches 4175..4176 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4177..4182 run setblock 0 63 0 grass
-execute if score Block block matches 4183 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4184..4189 run setblock 0 63 0 grass
-execute if score Block block matches 4190 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 4191 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4192..4197 run function random/block/08
-execute if score Block block matches 4197 run summon bee 0 64 0
-execute if score Block block matches 4197 run function mob/spawn
-execute if score Block block matches 4198..4212 run function random/block/08
-execute if score Block block matches 4213..4226 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4226 run function random/mob/08
-execute if score Block block matches 4226 run function mob/spawn
-execute if score Block block matches 4227..4230 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4231 run structure load chest08 0 63 0
-execute if score Block block matches 4232..4234 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4235 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4236 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4237 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4238 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4239..4241 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4242..4253 run function random/block/08
-execute if score Block block matches 4253 run summon bee 0 64 0
-execute if score Block block matches 4253 run function mob/spawn
-execute if score Block block matches 4254..4270 run function random/block/08
-execute if score Block block matches 4271..4282 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4282 run summon cat 0 64 0
-execute if score Block block matches 4282 run function mob/spawn
-execute if score Block block matches 4283..4287 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4288 run structure load chest08 0 63 0
-execute if score Block block matches 4288 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 4289 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4290..4307 run function random/block/08
-execute if score Block block matches 4308 run setblock 0 63 0 grass
-execute if score Block block matches 4308 run function random/mob/08
-execute if score Block block matches 4308 run function mob/spawn
-execute if score Block block matches 4309..4318 run setblock 0 63 0 grass
-execute if score Block block matches 4319..4320 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4321 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4321 run tag @a add party08
-execute if score Block block matches 4322..4323 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4324 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 4325 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4326..4327 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4328..4334 run setblock 0 63 0 oak_log
-execute if score Block block matches 4335..4337 run setblock 0 63 0 grass
-execute if score Block block matches 4337 run summon slime 0 64 0
-execute if score Block block matches 4337 run function mob/spawn
-execute if score Block block matches 4338..4344 run setblock 0 63 0 grass
-execute if score Block block matches 4345 run structure load chest08 0 63 0
-execute if score Block block matches 4345 run playsound block.note_block.pling @a 0 63 0
-execute if score Block block matches 4346 run setblock 0 63 0 grass
-execute if score Block block matches 4347 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4348 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4349..4353 run setblock 0 63 0 oak_log
-execute if score Block block matches 4354..4356 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4357 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4358 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4359..4361 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4362 run setblock 0 63 0 honey_block
-execute if score Block block matches 4363 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4363 run function random/mob/08
-execute if score Block block matches 4363 run function mob/spawn
-execute if score Block block matches 4364..4366 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4367 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4368 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4369 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4370..4371 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4372..4374 run setblock 0 63 0 gold_ore
-execute if score Block block matches 4375..4376 run function random/block/08
-execute if score Block block matches 4377 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4378..4379 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4380..4388 run setblock 0 63 0 grass
-execute if score Block block matches 4389..4390 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4391 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4392 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4392 run summon mule 0 64 0
-execute if score Block block matches 4392 run function mob/spawn
-execute if score Block block matches 4393..4394 run setblock 0 63 0 honeycomb_block
-execute if score Block block matches 4395..4401 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4402 run structure load chest08 0 63 0
-execute if score Block block matches 4403..4419 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4419 run function random/mob/08
-execute if score Block block matches 4419 run function mob/spawn
-execute if score Block block matches 4420..4423 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4424..4430 run setblock 0 63 0 oak_log
-execute if score Block block matches 4431..4439 run setblock 0 63 0 grass
-execute if score Block block matches 4440..4445 run setblock 0 63 0 oak_log
-execute if score Block block matches 4446 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4447..4448 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4448 run summon phantom 0 64 0
-execute if score Block block matches 4448 run function mob/spawn
-execute if score Block block matches 4449..4458 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4459 run structure load chest08 0 63 0
-execute if score Block block matches 4459 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 4460..4474 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4474 run function random/mob/08
-execute if score Block block matches 4474 run function mob/spawn
-execute if score Block block matches 4475..4477 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4478..4484 run setblock 0 63 0 oak_log
-execute if score Block block matches 4485 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4486..4491 run setblock 0 63 0 oak_log
-execute if score Block block matches 4492 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4493..4503 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4503 run summon bee 0 64 0
-execute if score Block block matches 4503 run function mob/spawn
-execute if score Block block matches 4504..4515 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4516 run structure load chest08 0 63 0
-execute if score Block block matches 4517..4519 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4520 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4521..4530 run setblock 0 63 0 grass
-execute if score Block block matches 4530 run summon cat 0 64 0
-execute if score Block block matches 4530 run function mob/spawn
-execute if score Block block matches 4531..4532 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4533..4539 run setblock 0 63 0 oak_log
-execute if score Block block matches 4540..4541 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4542 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4543..4559 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4559 run summon slime 0 64 0
-execute if score Block block matches 4559 run function mob/spawn
-execute if score Block block matches 4560..4562 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4563 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4564..4565 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4566..4567 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4568 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4569..4570 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4571..4572 run setblock 0 63 0 grass
-execute if score Block block matches 4573 run structure load chest08 0 63 0
-execute if score Block block matches 4574..4582 run setblock 0 63 0 grass
-execute if score Block block matches 4583..4586 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4586 run summon slime 0 64 0
-execute if score Block block matches 4586 run function mob/spawn
-execute if score Block block matches 4587..4602 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4603..4608 run setblock 0 63 0 grass
-execute if score Block block matches 4609 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 4610 run setblock 0 63 0 grass
-execute if score Block block matches 4611 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 4612..4613 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4614..4629 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4630 run structure load chest08 0 63 0
-execute if score Block block matches 4630 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 4631..4640 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4641..4642 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4643..4655 run setblock 0 63 0 quartz_block
-execute if score Block block matches 4656 run setblock 0 63 0 emerald_ore
+execute if entity @s[scores={ija-a4-counter=3927..3941}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3942..3943}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3944..3947}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3948..3952}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3953..3954}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3955..3956}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3957..3958}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3959}] at @s run fill ~ ~ ~ ~ ~ ~ beehive [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3960}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3961}] at @s run fill ~ ~ ~ ~ ~ ~ honey_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3962}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3963}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3964}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3965}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3966}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3967}] at @s run fill ~ ~ ~ ~ ~ ~ slime [] replace barrier
+execute if entity @s[scores={ija-a4-counter=3968..3975}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=3975}] at @s run summon bee ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=3975}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=3976..3994}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=3995..4002}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4003}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4003}] at @s run summon bee ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4003}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4003}] at @s run playsound item.trident.thunder @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4004..4025}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4026..4027}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4028..4030}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4030}] at @s run summon cat ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4030}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4031..4056}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4057..4059}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4059}] at @s run summon slime ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4059}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4060}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4061}] at @s run fill ~ ~ ~ ~ ~ ~ bee_nest [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4062..4083}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4084..4086}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4086}] at @s run summon mule ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4086}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4087..4101}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4102..4105}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4106..4107}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4108}] at @s run fill ~ ~ ~ ~ ~ ~ slime [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4109}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4110}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4111}] at @s run fill ~ ~ ~ ~ ~ ~ honey_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4112..4115}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4115}] at @s run summon skeleton ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4115}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4116}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4117}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4117}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4118..4138}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4139}] at @s run fill ~ ~ ~ ~ ~ ~ slime [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4140}] at @s run fill ~ ~ ~ ~ ~ ~ honey_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4141}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4141}] at @s run summon phantom ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4141}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4142..4143}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4144..4159}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4160..4165}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4166}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4167..4168}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4169..4170}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4170}] at @s run summon zombie_villager ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4170}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4171}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4172}] at @s run fill ~ ~ ~ ~ ~ ~ slime [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4173}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4174}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4175..4176}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4177..4182}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4183}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4184..4189}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4190}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4191}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4192..4197}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4197}] at @s run summon bee ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4197}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4198..4212}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4213..4226}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4226}] at @s run function random/mob/08
+execute if entity @s[scores={ija-a4-counter=4226}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4227..4230}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4231}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4232..4234}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4235}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4236}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4237}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4238}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4239..4241}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4242..4253}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4253}] at @s run summon bee ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4253}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4254..4270}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4271..4282}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4282}] at @s run summon cat ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4282}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4283..4287}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4288}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4288}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4289}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4290..4307}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4308}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4308}] at @s run function random/mob/08
+execute if entity @s[scores={ija-a4-counter=4308}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4309..4318}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4319..4320}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4321}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4321}] at @s run tag @a add party08
+execute if entity @s[scores={ija-a4-counter=4322..4323}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4324}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4325}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4326..4327}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4328..4334}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4335..4337}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4337}] at @s run summon slime ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4337}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4338..4344}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4345}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4345}] at @s run playsound block.note_block.pling @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4346}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4347}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4348}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4349..4353}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4354..4356}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4357}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4358}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4359..4361}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4362}] at @s run fill ~ ~ ~ ~ ~ ~ honey_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4363}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4363}] at @s run function random/mob/08
+execute if entity @s[scores={ija-a4-counter=4363}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4364..4366}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4367}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4368}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4369}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4370..4371}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4372..4374}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4375..4376}] at @s run function random/block/08
+execute if entity @s[scores={ija-a4-counter=4377}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4378..4379}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4380..4388}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4389..4390}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4391}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4392}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4392}] at @s run summon mule ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4392}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4393..4394}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4395..4401}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4402}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4403..4419}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4419}] at @s run function random/mob/08
+execute if entity @s[scores={ija-a4-counter=4419}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4420..4423}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4424..4430}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4431..4439}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4440..4445}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4446}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4447..4448}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4448}] at @s run summon phantom ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4448}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4449..4458}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4459}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4459}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4460..4474}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4474}] at @s run function random/mob/08
+execute if entity @s[scores={ija-a4-counter=4474}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4475..4477}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4478..4484}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4485}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4486..4491}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4492}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4493..4503}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4503}] at @s run summon bee ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4503}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4504..4515}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4516}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4517..4519}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4520}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4521..4530}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4530}] at @s run summon cat ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4530}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4531..4532}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4533..4539}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4540..4541}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4542}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4543..4559}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4559}] at @s run summon slime ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4559}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4560..4562}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4563}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4564..4565}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4566..4567}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4568}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4569..4570}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4571..4572}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4573}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4574..4582}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4583..4586}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4586}] at @s run summon slime ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4586}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4587..4602}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4603..4608}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4609}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4610}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4611}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4612..4613}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4614..4629}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4630}] at @s run structure load chest08 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4630}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4631..4640}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4641..4642}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4643..4655}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4656}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
 # End of phase chest
-execute if score Block block matches 4657 run structure load chest08g 0 63 0
-execute if score Block block matches 4657 run particle heart_particle 0 64 0
-execute if score Block block matches 4657 run playsound entity.wandering_trader.yes @a 0 63 0
+execute if entity @s[scores={ija-a4-counter=4657}] at @s run structure load chest08g ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4657}] at @s run particle heart_particle ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4657}] at @s run playsound entity.wandering_trader.yes @a ~ ~ ~
 # Trigger next phase
-execute if score Block block matches 4658 run setblock 0 63 0 bedrock
-execute if score Block block matches 4658 run tag @a add countdown
+execute if entity @s[scores={ija-a4-counter=4658}] at @s run fill ~ ~ ~ ~ ~ ~ bedrock [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4658}] at @s run tag @a add countdown

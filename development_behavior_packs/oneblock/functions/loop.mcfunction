@@ -2,7 +2,6 @@ execute as @a[tag=player_ready,tag=!ija-a4-joined] at @s run function events/on-
 tag @a[tag=player_ready] remove player_ready
 scoreboard players add @a ija-a4-first-join-since-reload 0
 execute as @a[scores={ija-a4-first-join-since-reload=0}] run function events/on-join
-execute as @a[scores={ija-a4-left-game=1..}] run function events/on-join
 execute as @a[scores={ija-a4-trigger=1..}] at @s run function generated/player/handle-triggers
 execute as @e[tag=ija-a4-block] at @s run function infinite-block/manager
 tag @a[scores={ija-a4-tempdeath=1..,ija-a4-alldeath=..3}] add ija-a4-isdead

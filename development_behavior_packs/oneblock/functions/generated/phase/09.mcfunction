@@ -1,275 +1,275 @@
 # Announce phase
-execute if score Block block matches 4659 run tellraw @a {"rawtext":[{"text":"§6You reached phase 9: Desolate Land!"}]}
-execute if score Block block matches 4659 run tellraw @a {"rawtext":[{"text":"§eA barren land lies before you."}]}
+execute if entity @s[scores={ija-a4-counter=4659}] at @s run tellraw @a {"rawtext":[{"text":"§6You reached phase 9: Desolate Land!"}]}
+execute if entity @s[scores={ija-a4-counter=4659}] at @s run tellraw @a {"rawtext":[{"text":"§eA barren land lies before you."}]}
 # Set block
-execute if score Block block matches 4659..4671 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4672..4677 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4678..4685 run setblock 0 63 0 mycelium
-execute if score Block block matches 4686..4695 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4696..4700 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 4701 run function random/block/09
-execute if score Block block matches 4702..4703 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4704 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4705 run setblock 0 63 0 bone_block
-execute if score Block block matches 4706..4707 run function random/block/09
-execute if score Block block matches 4708..4710 run setblock 0 63 0 coal_ore
-execute if score Block block matches 4711..4714 run setblock 0 63 0 mycelium
-execute if score Block block matches 4714 run summon silverfish 0 64 0
-execute if score Block block matches 4714 run function mob/spawn
-execute if score Block block matches 4715..4718 run setblock 0 63 0 mycelium
-execute if score Block block matches 4719..4724 run setblock 0 63 0 gravel
-execute if score Block block matches 4725..4734 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 4735..4740 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4741 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4742..4744 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4744 run summon creeper 0 64 0
-execute if score Block block matches 4744 run function mob/spawn
-execute if score Block block matches 4745 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4746 run structure load chest09 0 63 0
-execute if score Block block matches 4746 run playsound block.respawn_anchor.charge @a 0 63 0
-execute if score Block block matches 4747..4749 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4750..4753 run setblock 0 63 0 gravel
-execute if score Block block matches 4754 run setblock 0 63 0 carved_pumpkin
-execute if score Block block matches 4755..4769 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4770..4771 run setblock 0 63 0 coal_ore
-execute if score Block block matches 4771 run summon cave_spider 0 64 0
-execute if score Block block matches 4771 run function mob/spawn
-execute if score Block block matches 4772 run setblock 0 63 0 coal_ore
-execute if score Block block matches 4773..4774 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 4775..4780 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 4781 run setblock 0 63 0 carved_pumpkin
-execute if score Block block matches 4782 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 4783..4797 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4798 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4799..4800 run setblock 0 63 0 coal_ore
-execute if score Block block matches 4801 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4801 run summon skeleton 0 64 0
-execute if score Block block matches 4801 run function mob/spawn
-execute if score Block block matches 4802..4807 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4808 run structure load chest09 0 63 0
-execute if score Block block matches 4809..4811 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4812 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4813..4823 run setblock 0 63 0 mycelium
-execute if score Block block matches 4824 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4825..4826 run setblock 0 63 0 bone_block
-execute if score Block block matches 4827 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 4828..4829 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4829 run summon creeper 0 64 0
-execute if score Block block matches 4829 run function mob/spawn
-execute if score Block block matches 4830..4844 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4845 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4846 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 4847..4859 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4859 run summon witch 0 64 0
-execute if score Block block matches 4859 run function mob/spawn
-execute if score Block block matches 4860..4863 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4864 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 4865 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4866..4868 run setblock 0 63 0 gravel
-execute if score Block block matches 4869 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4870 run structure load chest09 0 63 0
-execute if score Block block matches 4870 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 4871..4885 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4886 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4886 run summon skeleton 0 64 0
-execute if score Block block matches 4886 run function mob/spawn
-execute if score Block block matches 4887..4895 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 4896 run setblock 0 63 0 bone_block
-execute if score Block block matches 4897 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4898..4899 run setblock 0 63 0 bone_block
-execute if score Block block matches 4900..4909 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 4910..4911 run setblock 0 63 0 coal_ore
-execute if score Block block matches 4912 run setblock 0 63 0 bone_block
-execute if score Block block matches 4913..4916 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4916 run summon skeleton 0 64 0
-execute if score Block block matches 4916 run function mob/spawn
-execute if score Block block matches 4917..4931 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4932 run structure load chest09 0 63 0
-execute if score Block block matches 4932 run playsound block.respawn_anchor.charge @a 0 63 0
-execute if score Block block matches 4933 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4934..4936 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4937..4943 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 4943 run function random/mob/09
-execute if score Block block matches 4943 run function mob/spawn
-execute if score Block block matches 4944..4945 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 4946..4952 run setblock 0 63 0 gravel
-execute if score Block block matches 4953..4954 run setblock 0 63 0 bone_block
-execute if score Block block matches 4955 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 4956..4973 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4973 run summon silverfish 0 64 0
-execute if score Block block matches 4973 run function mob/spawn
-execute if score Block block matches 4974..4975 run setblock 0 63 0 stonebrick
-execute if score Block block matches 4976 run function random/block/09
-execute if score Block block matches 4977 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 4978..4986 run setblock 0 63 0 mycelium
-execute if score Block block matches 4987..4988 run function random/block/09
-execute if score Block block matches 4989..4993 run setblock 0 63 0 gravel
-execute if score Block block matches 4994 run structure load chest09 0 63 0
-execute if score Block block matches 4994 run playsound item.trident.thunder @a 0 63 0
-execute if score Block block matches 4995 run setblock 0 63 0 gravel
-execute if score Block block matches 4996..4997 run setblock 0 63 0 iron_ore
-execute if score Block block matches 4998 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 4999..5000 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 5000 run function random/mob/09
-execute if score Block block matches 5000 run function mob/spawn
-execute if score Block block matches 5001..5015 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 5016..5028 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5029 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 5030 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5030 run summon cave_spider 0 64 0
-execute if score Block block matches 5030 run function mob/spawn
-execute if score Block block matches 5031..5038 run setblock 0 63 0 mycelium
-execute if score Block block matches 5039 run function random/block/09
-execute if score Block block matches 5040 run setblock 0 63 0 carved_pumpkin
-execute if score Block block matches 5041 run setblock 0 63 0 bone_block
-execute if score Block block matches 5042 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5043..5055 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5056 run structure load chest09 0 63 0
-execute if score Block block matches 5057..5058 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5058 run function random/mob/09
-execute if score Block block matches 5058 run function mob/spawn
-execute if score Block block matches 5059 run setblock 0 63 0 bone_block
-execute if score Block block matches 5060..5061 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5062..5063 run setblock 0 63 0 bone_block
-execute if score Block block matches 5064..5069 run setblock 0 63 0 mycelium
-execute if score Block block matches 5070 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 5071 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 5072 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 5073..5082 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5082 run tag @a add party09
-execute if score Block block matches 5083..5084 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5085..5088 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5088 run summon skeleton 0 64 0
-execute if score Block block matches 5088 run function mob/spawn
-execute if score Block block matches 5089..5094 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5095..5106 run setblock 0 63 0 mycelium
-execute if score Block block matches 5107..5114 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 5115 run setblock 0 63 0 lapis_ore
-execute if score Block block matches 5116 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 5117 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 5118 run structure load chest09 0 63 0
-execute if score Block block matches 5118 run function random/mob/09
-execute if score Block block matches 5118 run function mob/spawn
-execute if score Block block matches 5118 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 5119..5120 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5121 run setblock 0 63 0 emerald_ore
-execute if score Block block matches 5122 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 5123..5130 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 5131 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 5132..5133 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5134..5135 run setblock 0 63 0 bone_block
-execute if score Block block matches 5136..5142 run setblock 0 63 0 gravel
-execute if score Block block matches 5143..5145 run setblock 0 63 0 mycelium
-execute if score Block block matches 5145 run summon creeper 0 64 0
-execute if score Block block matches 5145 run function mob/spawn
-execute if score Block block matches 5146..5154 run setblock 0 63 0 mycelium
-execute if score Block block matches 5155..5156 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5157..5167 run setblock 0 63 0 mycelium
-execute if score Block block matches 5168..5171 run setblock 0 63 0 stonebrick["stone_brick_type"="mossy"]
-execute if score Block block matches 5172..5175 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5175 run function random/mob/09
-execute if score Block block matches 5175 run function mob/spawn
-execute if score Block block matches 5176 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5177..5179 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5180 run structure load chest09 0 63 0
-execute if score Block block matches 5181 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 5182 run function random/block/09
-execute if score Block block matches 5183 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 5184..5186 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5187..5188 run setblock 0 63 0 bone_block
-execute if score Block block matches 5189..5191 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5192 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 5193 run setblock 0 63 0 diamond_ore
-execute if score Block block matches 5194 run function random/block/09
-execute if score Block block matches 5195..5200 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5201..5202 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5203 run setblock 0 63 0 gravel
-execute if score Block block matches 5203 run summon witch 0 64 0
-execute if score Block block matches 5203 run function mob/spawn
-execute if score Block block matches 5204..5205 run setblock 0 63 0 gravel
-execute if score Block block matches 5206..5207 run setblock 0 63 0 bone_block
-execute if score Block block matches 5208..5211 run setblock 0 63 0 gravel
-execute if score Block block matches 5212..5230 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5231 run function random/block/09
-execute if score Block block matches 5232..5233 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5233 run function random/mob/09
-execute if score Block block matches 5233 run function mob/spawn
-execute if score Block block matches 5234..5237 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5238..5241 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5242 run structure load chest09 0 63 0
-execute if score Block block matches 5243..5244 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5245..5251 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 5252..5261 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5261 run summon skeleton 0 64 0
-execute if score Block block matches 5261 run function mob/spawn
-execute if score Block block matches 5262..5271 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5272..5273 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5274..5280 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 5281..5286 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5287 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5288..5289 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5290..5291 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5291 run summon skeleton 0 64 0
-execute if score Block block matches 5291 run function mob/spawn
-execute if score Block block matches 5292..5301 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5302..5303 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5304 run structure load chest09 0 63 0
-execute if score Block block matches 5304 run playsound block.respawn_anchor.charge @a 0 63 0
-execute if score Block block matches 5305 run setblock 0 63 0 redstone_ore
-execute if score Block block matches 5306 run setblock 0 63 0 coal_ore
-execute if score Block block matches 5307..5316 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5317..5318 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5318 run summon silverfish 0 64 0
-execute if score Block block matches 5318 run function mob/spawn
-execute if score Block block matches 5319 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5320..5327 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5328..5330 run setblock 0 63 0 gravel
-execute if score Block block matches 5331..5335 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5336..5347 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5348 run function random/block/09
-execute if score Block block matches 5348 run summon cave_spider 0 64 0
-execute if score Block block matches 5348 run function mob/spawn
-execute if score Block block matches 5349 run function random/block/09
-execute if score Block block matches 5350..5351 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5352..5358 run setblock 0 63 0 mycelium
-execute if score Block block matches 5359..5361 run setblock 0 63 0 gravel
-execute if score Block block matches 5362..5365 run setblock 0 63 0 mycelium
-execute if score Block block matches 5366 run structure load chest09 0 63 0
-execute if score Block block matches 5367..5368 run setblock 0 63 0 mycelium
-execute if score Block block matches 5369..5374 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5375 run setblock 0 63 0 stonebrick
-execute if score Block block matches 5376 run setblock 0 63 0 gravel
-execute if score Block block matches 5376 run summon cave_spider 0 64 0
-execute if score Block block matches 5376 run function mob/spawn
-execute if score Block block matches 5377..5378 run setblock 0 63 0 gravel
-execute if score Block block matches 5379 run function random/block/09
-execute if score Block block matches 5380 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5381 run setblock 0 63 0 bone_block
-execute if score Block block matches 5382..5391 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5392 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5393 run setblock 0 63 0 stonebrick["stone_brick_type"="cracked"]
-execute if score Block block matches 5394 run function random/block/09
-execute if score Block block matches 5395..5401 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 5402..5409 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5410..5411 run function random/block/09
-execute if score Block block matches 5412 run setblock 0 63 0 gravel
-execute if score Block block matches 5413..5414 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5415 run function random/block/09
-execute if score Block block matches 5416 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5417..5424 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5425..5426 run setblock 0 63 0 iron_ore
-execute if score Block block matches 5427 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5428 run structure load chest09 0 63 0
-execute if score Block block matches 5428 run playsound block.ender_chest.open @a 0 63 0
-execute if score Block block matches 5429..5434 run setblock 0 63 0 light_gray_concrete_powder
-execute if score Block block matches 5435 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5436..5439 run setblock 0 63 0 stonebrick["stone_brick_type"="chiseled"]
-execute if score Block block matches 5440 run setblock 0 63 0 dark_oak_log
-execute if score Block block matches 5441..5444 run setblock 0 63 0 light_gray_concrete_powder
+execute if entity @s[scores={ija-a4-counter=4659..4671}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4672..4677}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4678..4685}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4686..4695}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=4696..4700}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4701}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=4702..4703}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4704}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4705}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4706..4707}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=4708..4710}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4711..4714}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4714}] at @s run summon silverfish ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4714}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4715..4718}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4719..4724}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4725..4734}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=4735..4740}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=4741}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4742..4744}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=4744}] at @s run summon creeper ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4744}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4745}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=4746}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4746}] at @s run playsound block.respawn_anchor.charge @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4747..4749}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=4750..4753}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4754}] at @s run fill ~ ~ ~ ~ ~ ~ carved_pumpkin [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4755..4769}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4770..4771}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4771}] at @s run summon cave_spider ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4771}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4772}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4773..4774}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4775..4780}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=4781}] at @s run fill ~ ~ ~ ~ ~ ~ carved_pumpkin [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4782}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4783..4797}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4798}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4799..4800}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4801}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4801}] at @s run summon skeleton ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4801}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4802..4807}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4808}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4809..4811}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4812}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4813..4823}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4824}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4825..4826}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4827}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4828..4829}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4829}] at @s run summon creeper ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4829}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4830..4844}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4845}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4846}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4847..4859}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4859}] at @s run summon witch ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4859}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4860..4863}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4864}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4865}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4866..4868}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4869}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4870}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4870}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4871..4885}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4886}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4886}] at @s run summon skeleton ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4886}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4887..4895}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=4896}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4897}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4898..4899}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4900..4909}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4910..4911}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4912}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4913..4916}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4916}] at @s run summon skeleton ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4916}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4917..4931}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4932}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4932}] at @s run playsound block.respawn_anchor.charge @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4933}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4934..4936}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4937..4943}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=4943}] at @s run function random/mob/09
+execute if entity @s[scores={ija-a4-counter=4943}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4944..4945}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=4946..4952}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4953..4954}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4955}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4956..4973}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4973}] at @s run summon silverfish ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=4973}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=4974..4975}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4976}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=4977}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4978..4986}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4987..4988}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=4989..4993}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4994}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4994}] at @s run playsound item.trident.thunder @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=4995}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4996..4997}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4998}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=4999..5000}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=5000}] at @s run function random/mob/09
+execute if entity @s[scores={ija-a4-counter=5000}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5001..5015}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=5016..5028}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5029}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5030}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5030}] at @s run summon cave_spider ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5030}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5031..5038}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5039}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5040}] at @s run fill ~ ~ ~ ~ ~ ~ carved_pumpkin [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5041}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5042}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5043..5055}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5056}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5057..5058}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5058}] at @s run function random/mob/09
+execute if entity @s[scores={ija-a4-counter=5058}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5059}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5060..5061}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5062..5063}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5064..5069}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5070}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5071}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5072}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5073..5082}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5082}] at @s run tag @a add party09
+execute if entity @s[scores={ija-a4-counter=5083..5084}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5085..5088}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5088}] at @s run summon skeleton ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5088}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5089..5094}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5095..5106}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5107..5114}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=5115}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5116}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5117}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5118}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5118}] at @s run function random/mob/09
+execute if entity @s[scores={ija-a4-counter=5118}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5118}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5119..5120}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5121}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5122}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5123..5130}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=5131}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5132..5133}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5134..5135}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5136..5142}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5143..5145}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5145}] at @s run summon creeper ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5145}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5146..5154}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5155..5156}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5157..5167}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5168..5171}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="mossy"]
+execute if entity @s[scores={ija-a4-counter=5172..5175}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5175}] at @s run function random/mob/09
+execute if entity @s[scores={ija-a4-counter=5175}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5176}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5177..5179}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5180}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5181}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5182}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5183}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5184..5186}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5187..5188}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5189..5191}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5192}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5193}] at @s run fill ~ ~ ~ ~ ~ ~ diamond_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5194}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5195..5200}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5201..5202}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5203}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5203}] at @s run summon witch ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5203}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5204..5205}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5206..5207}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5208..5211}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5212..5230}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5231}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5232..5233}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5233}] at @s run function random/mob/09
+execute if entity @s[scores={ija-a4-counter=5233}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5234..5237}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5238..5241}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5242}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5243..5244}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5245..5251}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=5252..5261}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5261}] at @s run summon skeleton ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5261}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5262..5271}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5272..5273}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5274..5280}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=5281..5286}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5287}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5288..5289}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5290..5291}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5291}] at @s run summon skeleton ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5291}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5292..5301}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5302..5303}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5304}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5304}] at @s run playsound block.respawn_anchor.charge @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5305}] at @s run fill ~ ~ ~ ~ ~ ~ redstone_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5306}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5307..5316}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5317..5318}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5318}] at @s run summon silverfish ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5318}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5319}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5320..5327}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5328..5330}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5331..5335}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5336..5347}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5348}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5348}] at @s run summon cave_spider ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5348}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5349}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5350..5351}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5352..5358}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5359..5361}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5362..5365}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5366}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5367..5368}] at @s run fill ~ ~ ~ ~ ~ ~ mycelium [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5369..5374}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5375}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5376}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5376}] at @s run summon cave_spider ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5376}] at @s run function mob/spawn
+execute if entity @s[scores={ija-a4-counter=5377..5378}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5379}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5380}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5381}] at @s run fill ~ ~ ~ ~ ~ ~ bone_block [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5382..5391}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5392}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5393}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="cracked"]
+execute if entity @s[scores={ija-a4-counter=5394}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5395..5401}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=5402..5409}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5410..5411}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5412}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5413..5414}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5415}] at @s run function random/block/09
+execute if entity @s[scores={ija-a4-counter=5416}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5417..5424}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5425..5426}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5427}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5428}] at @s run structure load chest09 ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5428}] at @s run playsound block.ender_chest.open @a ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5429..5434}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5435}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5436..5439}] at @s run fill ~ ~ ~ ~ ~ ~ stonebrick [] replace barrier["stone_brick_type"="chiseled"]
+execute if entity @s[scores={ija-a4-counter=5440}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5441..5444}] at @s run fill ~ ~ ~ ~ ~ ~ light_gray_concrete_powder [] replace barrier
 # End of phase chest
-execute if score Block block matches 5445 run structure load chest09g 0 63 0
-execute if score Block block matches 5445 run particle heart_particle 0 64 0
-execute if score Block block matches 5445 run playsound entity.wandering_trader.yes @a 0 63 0
+execute if entity @s[scores={ija-a4-counter=5445}] at @s run structure load chest09g ~ ~ ~
+execute if entity @s[scores={ija-a4-counter=5445}] at @s run particle heart_particle ~ ~1 ~
+execute if entity @s[scores={ija-a4-counter=5445}] at @s run playsound entity.wandering_trader.yes @a ~ ~ ~
 # Trigger next phase
-execute if score Block block matches 5446 run setblock 0 63 0 bedrock
-execute if score Block block matches 5446 run tag @a add countdown
+execute if entity @s[scores={ija-a4-counter=5446}] at @s run fill ~ ~ ~ ~ ~ ~ bedrock [] replace barrier
+execute if entity @s[scores={ija-a4-counter=5446}] at @s run tag @a add countdown
