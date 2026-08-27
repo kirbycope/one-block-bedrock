@@ -15,7 +15,7 @@ execute if entity @s[tag=ija-a4-mined] at @s run function infinite-block/increas
 execute if entity @s[scores={ija-a4-counter=..700}] at @s run weather clear 5000
 execute if entity @s[tag=ija-a4-mined] at @s unless entity @s[scores={ija-a4-upgrade-seconds-left=1..}] run function generated/phase/manager
 execute if entity @s[scores={ija-a4-cooldown=1..}] at @s unless entity @s[tag=ija-a4-mined] unless entity @s[scores={ija-a4-upgrade-seconds-left=1..}] run function generated/phase/manager
-execute if entity @s[tag=ija-a4-mined] run function generated/phase/show-floating-text
+#execute if entity @s[tag=ija-a4-mined] run function generated/phase/show-floating-text
 execute if entity @s[scores={ija-a4-cooldown=1}] at @s run function effects/block-spawn
 execute as @e[type=item,r=2] at @s run function infinite-block/catch-item
 execute if entity @s[tag=ija-a4-mined] as @a[x=0,dx=0,y=60,dy=1,z=0,dz=0] at @s run tp @s ~ ~0.3 ~
