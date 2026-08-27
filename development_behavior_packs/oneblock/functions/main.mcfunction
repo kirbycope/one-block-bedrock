@@ -32,6 +32,7 @@ function generated/player/set-blocks-mined-display-name
 scoreboard objectives add ija-a4-alldeath dummy
 #scoreboard objectives add ija-a4-tempdeath deathCount
 scoreboard objectives add ija-a4-tempdeath dummy
+scoreboard objectives add ija-a4-persistent-barrier-counter dummy
 scoreboard objectives add ija-a4-upgrade-seconds-left dummy
 scoreboard objectives add ija-a4-upgrade-second-clock dummy
 scoreboard objectives add ija-a4-end-portal-effects dummy

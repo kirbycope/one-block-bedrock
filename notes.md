@@ -96,4 +96,18 @@ Runs 20 times per second.
 - [tick.json](development_behavior_packs\oneblock\functions\tick.json) runs every tick after the datapack loads
   - Calls: [loop.mcfunction](development_behavior_packs\oneblock\functions\loop.mcfunction)
     - Calls: [events/on-load](development_behavior_packs\oneblock\functions\events\on-load.mcfunction)
-      -Calls: [generated/player/show-join-message](development_behavior_packs\oneblock\functions\generated\player\show-join-message.mcfunction)
+      - For `@a[tag=!ija-a4-joined]`: tags as joined, sets player/world spawn to `0 61 0`, and teleports to `0.5 61.3 0.5`
+    - Calls: [events/on-join](development_behavior_packs\oneblock\functions\events\on-join.mcfunction)
+      - Runs on first join / reload or reconnect (`left-game=1..`)
+      - Calls: [generated/player/show-join-message](development_behavior_packs\oneblock\functions\generated\player\show-join-message.mcfunction)
+    - Calls: [generated/player/handle-triggers](development_behavior_packs\oneblock\functions\generated\player\handle-triggers.mcfunction)
+      - Handles menu/trigger interactions when `ija-a4-trigger >= 1`
+    - Calls: [infinite-block/manager](development_behavior_packs\oneblock\functions\infinite-block\manager.mcfunction)
+      - Runs as `@e[tag=ija-a4-block]` to manage block mining, cooldowns, upgrades, and particle effects
+    - Death & Respawn Detection:
+      - Uses `@a` vs `@e[type=player]` selector difference to detect respawned players with `tempdeath >= 1`
+      - Calls: [generated/player/get-recovery-kit](development_behavior_packs\oneblock\functions\generated\player\get-recovery-kit.mcfunction)
+      - Grants Resistance V (7s) and resets `ija-a4-tempdeath`
+    - Calls: [infinite-block/create](development_behavior_packs\oneblock\functions\infinite-block\create.mcfunction)
+      - Runs at `positioned 0.5 60.5 0.5` if block is `air` and no `ija-a4-block` marker exists
+      - Places `grass_block`, summons the marker entity, and calls [infinite-block/set-default-settings](development_behavior_packs\oneblock\functions\infinite-block\set-default-settings.mcfunction)
