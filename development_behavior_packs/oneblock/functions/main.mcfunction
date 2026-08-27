@@ -1,4 +1,3 @@
-setblock 0 64 0 grass_block
 gamerule sendcommandfeedback false
 gamerule commandblockoutput false
 #gamerule logadmincommands false
@@ -18,7 +17,6 @@ scoreboard objectives add ija-a4-monster-party-enabled dummy
 scoreboard objectives add ija-a4-monster-party-countdown dummy
 scoreboard objectives add ija-a4-party-monster-time-left dummy
 
-# "team" not available in Bedrock (use tag instead)
 #team add ija-a4-monster-party-team
 #team modify ija-a4-monster-party-team collisionRule never
 #team modify ija-a4-monster-party-team friendlyFire false
@@ -28,7 +26,6 @@ scoreboard objectives add ija-a4-allmined dummy
 scoreboard objectives add ija-a4-usermined dummy
 scoreboard objectives setdisplay list ija-a4-usermined
 
-#function ija-one-block:generated/player/set-blocks-mined-display-name
 function generated/player/set-blocks-mined-display-name
 
 #scoreboard objectives add ija-a4-alldeath deathCount
@@ -46,8 +43,5 @@ scoreboard objectives add ija-a4-first-join-since-reload dummy
 scoreboard objectives add ija-a4-left-game dummy
 scoreboard objectives add ija-a4-noblock-countdown dummy
 
-#function ija-one-block:infinite-block/set-default-settings
 function infinite-block/set-default-settings
-#function ija-one-block:infinite-block/forceload-spawn-chunks
 function infinite-block/forceload-spawn-chunks
-
