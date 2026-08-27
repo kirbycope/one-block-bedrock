@@ -2,10 +2,12 @@
 
 ## Format Versions
 
-- Last Updated for [1.21.50](https://wiki.bedrock.dev/guide/format-version)
-  - Bedrock Behavior Pack [manifest.json](development_behavior_packs/oneblock/manifest.json)
-  - Bedrock Resource Pack [manifest.json](development_resource_packs/oneblock/manifest.json)
-  - Bedrock Minecraft Template [one-block-bedrock.mctemplate](one-block-bedrock.mctemplate/manifest.json) > `manifest.json`
+- Last Updated for [1.21.50](https://wiki.bedrock.dev/guide/format-version) on `08/27/2026`
+  - Development Behavior Pack [manifest.json](development_behavior_packs/oneblock/manifest.json)
+  - Development Resource Pack [manifest.json](development_resource_packs/oneblock/manifest.json)
+  - World (Save) Behavior Pack [manifest.json](minecraftWorlds/one-block-bedrock/world_behavior_packs.json)
+  - World (Save) Resource Pack [world_resource_packs.json](minecraftWorlds/one-block-bedrock/world_resource_packs.json)
+  - Bedrock Minecraft Template - [one-block-bedrock.mctemplate](one-block-bedrock.mctemplate/manifest.json) → `manifest.json`
 
 ## Load
 
