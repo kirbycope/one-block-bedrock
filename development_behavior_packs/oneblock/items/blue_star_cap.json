@@ -14,9 +14,7 @@
         "value": "§9\uE101 Blue Star Cap"
       },
       "minecraft:wearable": {
-        "slot": "slot.armor.head"
-      },
-      "minecraft:armor": {
+        "slot": "slot.armor.head",
         "protection": 1
       },
       "minecraft:durability": {
