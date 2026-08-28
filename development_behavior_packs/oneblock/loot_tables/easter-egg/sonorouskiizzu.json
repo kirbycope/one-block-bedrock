@@ -16,7 +16,27 @@
               "function": "minecraft:specific_enchants",
               "enchants": [
                 {
+                  "id": "efficiency",
+                  "level": 5
+                },
+                {
+                  "id": "fortune",
+                  "level": 3
+                },
+                {
                   "id": "looting",
+                  "level": 3
+                },
+                {
+                  "id": "mending",
+                  "level": 5
+                },
+                {
+                  "id": "silk_touch",
+                  "level": 1
+                },
+                {
+                  "id": "unbreaking",
                   "level": 3
                 }
               ]

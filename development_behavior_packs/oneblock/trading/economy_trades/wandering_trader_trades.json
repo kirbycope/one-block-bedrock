@@ -342,7 +342,7 @@
               "wants": [
                 {
                   "item": "minecraft:emerald",
-                  "quantity": 5
+                  "quantity": 10
                 }
               ],
               "gives": [
