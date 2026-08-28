@@ -29,7 +29,7 @@ execute if entity @s[scores={ija-a4-counter=740..741}] at @s run fill ~ ~ ~ ~ ~ 
 execute if entity @s[scores={ija-a4-counter=742..748}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=748}] at @s run function generated/mob/03-03-fox
 execute if entity @s[scores={ija-a4-counter=749}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=749}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-builder"
+execute if entity @s[scores={ija-a4-counter=749}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-builder.json"
 execute if entity @s[scores={ija-a4-counter=749}] at @s run function generated/helper/13
 execute if entity @s[scores={ija-a4-counter=750}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=751..756}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
@@ -51,7 +51,7 @@ execute if entity @s[scores={ija-a4-counter=791}] at @s run fill ~ ~ ~ ~ ~ ~ gol
 execute if entity @s[scores={ija-a4-counter=792}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
 execute if entity @s[scores={ija-a4-counter=793..797}] at @s run function generated/random-block/03
 execute if entity @s[scores={ija-a4-counter=798}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=798}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=798}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-regular.json"
 execute if entity @s[scores={ija-a4-counter=798}] at @s run function generated/helper/14
 execute if entity @s[scores={ija-a4-counter=799..800}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
 execute if entity @s[scores={ija-a4-counter=801..802}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
@@ -75,7 +75,7 @@ execute if entity @s[scores={ija-a4-counter=848..850}] at @s run function genera
 execute if entity @s[scores={ija-a4-counter=851}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=852}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
 execute if entity @s[scores={ija-a4-counter=853}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=853}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=853}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-regular.json"
 execute if entity @s[scores={ija-a4-counter=853}] at @s run function generated/helper/14
 execute if entity @s[scores={ija-a4-counter=854..856}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
 execute if entity @s[scores={ija-a4-counter=857..859}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
@@ -98,7 +98,7 @@ execute if entity @s[scores={ija-a4-counter=898}] at @s run fill ~ ~ ~ ~ ~ ~ ame
 execute if entity @s[scores={ija-a4-counter=899..903}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
 execute if entity @s[scores={ija-a4-counter=904}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=905}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=905}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=905}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-regular.json"
 execute if entity @s[scores={ija-a4-counter=905}] at @s run function generated/helper/14
 execute if entity @s[scores={ija-a4-counter=906}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=906}] at @s run tag @s[scores={ija-a4-monster-party-enabled=2}] add ija-a4-party
@@ -125,7 +125,7 @@ execute if entity @s[scores={ija-a4-counter=950..955}] at @s run fill ~ ~ ~ ~ ~ 
 execute if entity @s[scores={ija-a4-counter=956..959}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
 execute if entity @s[scores={ija-a4-counter=960..964}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=965}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=965}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=965}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-regular.json"
 execute if entity @s[scores={ija-a4-counter=965}] at @s run function generated/helper/14
 execute if entity @s[scores={ija-a4-counter=966..968}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=968}] at @s run function generated/mob/03-02-stray
@@ -147,7 +147,7 @@ execute if entity @s[scores={ija-a4-counter=1008}] at @s run function generated/
 execute if entity @s[scores={ija-a4-counter=1009..1012}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
 execute if entity @s[scores={ija-a4-counter=1013..1017}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=1018}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=1018}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=1018}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-regular.json"
 execute if entity @s[scores={ija-a4-counter=1018}] at @s run function generated/helper/14
 execute if entity @s[scores={ija-a4-counter=1019..1023}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=1024..1025}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
@@ -170,7 +170,7 @@ execute if entity @s[scores={ija-a4-counter=1068..1071}] at @s run fill ~ ~ ~ ~ 
 execute if entity @s[scores={ija-a4-counter=1071}] at @s run function generated/mob/03-00-goat
 execute if entity @s[scores={ija-a4-counter=1072}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
 execute if entity @s[scores={ija-a4-counter=1073}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=1073}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-variety"
+execute if entity @s[scores={ija-a4-counter=1073}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-variety.json"
 execute if entity @s[scores={ija-a4-counter=1073}] at @s run function generated/helper/10
 execute if entity @s[scores={ija-a4-counter=1074..1076}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
 execute if entity @s[scores={ija-a4-counter=1077..1081}] at @s run function generated/random-block/03
@@ -195,11 +195,11 @@ execute if entity @s[scores={ija-a4-counter=1125}] at @s run fill ~ ~ ~ ~ ~ ~ di
 execute if entity @s[scores={ija-a4-counter=1126}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
 execute if entity @s[scores={ija-a4-counter=1127..1134}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
 execute if entity @s[scores={ija-a4-counter=1135}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=1135}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=1135}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-regular.json"
 execute if entity @s[scores={ija-a4-counter=1135}] at @s run function generated/helper/14
 execute if entity @s[scores={ija-a4-counter=1136}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
 execute if entity @s[scores={ija-a4-counter=1137..1140}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=1141..1149}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
 execute if entity @s[scores={ija-a4-counter=1150}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
-execute if entity @s[scores={ija-a4-counter=1150}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-gift"
+execute if entity @s[scores={ija-a4-counter=1150}] at @s run loot insert ~ ~ ~ loot "loot_tables/ija-one-block/03-gift.json"
 execute if entity @s[scores={ija-a4-counter=1150}] at @s run function generated/helper/01

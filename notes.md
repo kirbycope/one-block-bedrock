@@ -458,3 +458,59 @@ Runs 20 times per second.
 
 
 
+
+
+## Loot Table Porting Status
+
+<details>
+<summary>Click to expand</summary>
+
+| Java Datapack (loot_table/) | Bedrock Behavior Pack (loot_tables/) | Status |
+| --- | --- | --- |
+| 00-gift.json | 00-gift.json | :white_check_mark: Ported |
+| 00-regular.json | 00-regular.json | :white_check_mark: Ported |
+| 00-variety.json | 00-variety.json | :white_check_mark: Ported |
+| 01-gift.json | 01-gift.json | :white_check_mark: Ported |
+| 01-regular.json | 01-regular.json | :white_check_mark: Ported |
+| 01-variety.json | 01-variety.json | :white_check_mark: Ported |
+| 02-gift.json | 02-gift.json | :white_check_mark: Ported |
+| 02-regular.json | 02-regular.json | :white_check_mark: Ported |
+| 02-variety.json | 02-variety.json | :white_check_mark: Ported |
+| 03-builder.json | 03-builder.json | :white_check_mark: Ported |
+| 03-gift.json | 03-gift.json | :white_check_mark: Ported |
+| 03-regular.json | 03-regular.json | :white_check_mark: Ported |
+| 03-variety.json | 03-variety.json | :white_check_mark: Ported |
+| 04-builder.json | 04-builder.json | :white_check_mark: Ported |
+| 04-gift.json | 04-gift.json | :white_check_mark: Ported |
+| 04-regular.json | 04-regular.json | :white_check_mark: Ported |
+| 04-variety.json | 04-variety.json | :white_check_mark: Ported |
+| 05-builder.json | 05-builder.json | :white_check_mark: Ported |
+| 05-gift.json | 05-gift.json | :white_check_mark: Ported |
+| 05-regular.json | 05-regular.json | :white_check_mark: Ported |
+| 05-variety.json | 05-variety.json | :white_check_mark: Ported |
+| 06-builder.json | 06-builder.json | :white_check_mark: Ported |
+| 06-gift.json | 06-gift.json | :white_check_mark: Ported |
+| 06-regular.json | 06-regular.json | :white_check_mark: Ported |
+| 06-variety.json | 06-variety.json | :white_check_mark: Ported |
+| 07-builder.json | 07-builder.json | :white_check_mark: Ported |
+| 07-gift.json | 07-gift.json | :white_check_mark: Ported |
+| 07-regular.json | 07-regular.json | :white_check_mark: Ported |
+| 07-variety.json | 07-variety.json | :white_check_mark: Ported |
+| 08-builder.json | 08-builder.json | :white_check_mark: Ported |
+| 08-gift.json | 08-gift.json | :white_check_mark: Ported |
+| 08-regular.json | 08-regular.json | :white_check_mark: Ported |
+| 08-variety.json | 08-variety.json | :white_check_mark: Ported |
+| 09-builder.json | 09-builder.json | :white_check_mark: Ported |
+| 09-gift.json | 09-gift.json | :white_check_mark: Ported |
+| 09-regular.json | 09-regular.json | :white_check_mark: Ported |
+| 09-variety.json | 09-variety.json | :white_check_mark: Ported |
+| 10-builder.json | 10-builder.json | :white_check_mark: Ported |
+| 10-gift.json | 10-gift.json | :white_check_mark: Ported |
+| 10-regular.json | 10-regular.json | :white_check_mark: Ported |
+| 10-variety.json | 10-variety.json | :white_check_mark: Ported |
+| builder-all.json | builder-all.json | :white_check_mark: Ported |
+| musical.json | musical.json | :white_check_mark: Ported |
+| odd.json | odd.json | :white_check_mark: Ported |
+| rare.json | rare.json | :white_check_mark: Ported |
+
+</details>
