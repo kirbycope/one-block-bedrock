@@ -10,5 +10,5 @@ execute if entity @s[scores={ija-a4-random-mob-type=9..10}] run function generat
 execute if entity @s[scores={ija-a4-random-mob-type=11..12}] run function generated/mob/09-05-creeper
 execute if entity @s[scores={ija-a4-random-mob-type=13..14}] run function generated/mob/09-06-evoker
 execute if entity @s[scores={ija-a4-random-mob-type=15..17}] run function generated/mob/09-07-skeleton
-execute if entity @s[scores={ija-a4-random-mob-type=18..19}] run function generated/mob/09-09-breeze
+execute if entity @s[scores={ija-a4-random-mob-type=18..19}] run function generated/mob/09-09-blaze
 execute if entity @s[scores={ija-a4-random-mob-type=20..}] run function generated/mob/09-10-zombie-horse

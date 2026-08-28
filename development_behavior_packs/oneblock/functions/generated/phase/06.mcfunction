@@ -46,7 +46,7 @@ execute if entity @s[scores={ija-a4-counter=2450}] run setblock 0 60 0 diamond_o
 execute if entity @s[scores={ija-a4-counter=2451}] run setblock 0 60 0 suspicious_sand
 execute if entity @s[scores={ija-a4-counter=2452..2456}] run setblock 0 60 0 sand
 execute if entity @s[scores={ija-a4-counter=2457..2461}] run setblock 0 60 0 red_sandstone
-execute if entity @s[scores={ija-a4-counter=2461}] at @s run function generated/mob/06-06-parched
+execute if entity @s[scores={ija-a4-counter=2461}] at @s run function generated/mob/06-06-husk
 execute if entity @s[scores={ija-a4-counter=2462..2464}] run setblock 0 60 0 red_sandstone
 execute if entity @s[scores={ija-a4-counter=2465..2469}] run setblock 0 60 0 red_sand
 execute if entity @s[scores={ija-a4-counter=2470}] run setblock 0 60 0 sandstone
@@ -103,7 +103,7 @@ execute if entity @s[scores={ija-a4-counter=2591}] run loot insert 0 60 0 loot "
 execute if entity @s[scores={ija-a4-counter=2591}] at @s run function generated/helper/10
 execute if entity @s[scores={ija-a4-counter=2592..2594}] run setblock 0 60 0 brown_terracotta
 execute if entity @s[scores={ija-a4-counter=2595}] run setblock 0 60 0 yellow_terracotta
-execute if entity @s[scores={ija-a4-counter=2595}] at @s run function generated/mob/06-02-armadillo
+execute if entity @s[scores={ija-a4-counter=2595}] at @s run function generated/mob/06-02-turtle
 execute if entity @s[scores={ija-a4-counter=2596..2600}] run setblock 0 60 0 yellow_terracotta
 execute if entity @s[scores={ija-a4-counter=2601..2605}] run setblock 0 60 0 red_terracotta
 execute if entity @s[scores={ija-a4-counter=2606..2607}] run setblock 0 60 0 emerald_ore
@@ -199,7 +199,7 @@ execute if entity @s[scores={ija-a4-counter=2833..2834}] run setblock 0 60 0 eme
 execute if entity @s[scores={ija-a4-counter=2835}] run setblock 0 60 0 lapis_ore
 execute if entity @s[scores={ija-a4-counter=2836}] run setblock 0 60 0 coal_ore
 execute if entity @s[scores={ija-a4-counter=2837..2838}] run setblock 0 60 0 red_sand
-execute if entity @s[scores={ija-a4-counter=2838}] at @s run function generated/mob/06-06-parched
+execute if entity @s[scores={ija-a4-counter=2838}] at @s run function generated/mob/06-06-husk
 execute if entity @s[scores={ija-a4-counter=2839..2842}] run setblock 0 60 0 red_sand
 execute if entity @s[scores={ija-a4-counter=2843}] run setblock 0 60 0 iron_ore
 execute if entity @s[scores={ija-a4-counter=2844..2849}] run setblock 0 60 0 red_terracotta
@@ -253,7 +253,7 @@ execute if entity @s[scores={ija-a4-counter=2988}] run setblock 0 60 0 emerald_o
 execute if entity @s[scores={ija-a4-counter=2989..2992}] run setblock 0 60 0 acacia_log
 execute if entity @s[scores={ija-a4-counter=2993}] run setblock 0 60 0 sand
 execute if entity @s[scores={ija-a4-counter=2994}] run setblock 0 60 0 red_sandstone
-execute if entity @s[scores={ija-a4-counter=2994}] at @s run function generated/mob/06-02-armadillo
+execute if entity @s[scores={ija-a4-counter=2994}] at @s run function generated/mob/06-02-turtle
 execute if entity @s[scores={ija-a4-counter=2995..3001}] run setblock 0 60 0 red_sandstone
 execute if entity @s[scores={ija-a4-counter=3002}] run setblock 0 60 0 chest
 execute if entity @s[scores={ija-a4-counter=3002}] run loot insert 0 60 0 loot "ija-one-block/musical"

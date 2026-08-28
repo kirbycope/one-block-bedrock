@@ -36,7 +36,7 @@ execute if entity @s[scores={ija-a4-counter=1800..1807}] run setblock 0 60 0 mos
 execute if entity @s[scores={ija-a4-counter=1808}] run setblock 0 60 0 pearlescent_froglight
 execute if entity @s[scores={ija-a4-counter=1809}] run setblock 0 60 0 verdant_froglight
 execute if entity @s[scores={ija-a4-counter=1810..1812}] at @s run function generated/random-block/05
-execute if entity @s[scores={ija-a4-counter=1812}] at @s run function generated/mob/05-05-bogged
+execute if entity @s[scores={ija-a4-counter=1812}] at @s run function generated/mob/05-05-stray
 execute if entity @s[scores={ija-a4-counter=1813..1815}] at @s run function generated/random-block/05
 execute if entity @s[scores={ija-a4-counter=1816..1818}] run setblock 0 60 0 redstone_ore
 execute if entity @s[scores={ija-a4-counter=1819..1825}] run setblock 0 60 0 cobblestone
@@ -99,7 +99,7 @@ execute if entity @s[scores={ija-a4-counter=1953}] run setblock 0 60 0 pearlesce
 execute if entity @s[scores={ija-a4-counter=1954}] run setblock 0 60 0 verdant_froglight
 execute if entity @s[scores={ija-a4-counter=1955}] run setblock 0 60 0 ochre_froglight
 execute if entity @s[scores={ija-a4-counter=1956}] run setblock 0 60 0 jungle_log
-execute if entity @s[scores={ija-a4-counter=1956}] at @s run function generated/mob/05-05-bogged
+execute if entity @s[scores={ija-a4-counter=1956}] at @s run function generated/mob/05-05-stray
 execute if entity @s[scores={ija-a4-counter=1957..1960}] run setblock 0 60 0 jungle_log
 execute if entity @s[scores={ija-a4-counter=1961..1965}] at @s run function generated/random-block/05
 execute if entity @s[scores={ija-a4-counter=1966..1968}] run setblock 0 60 0 redstone_ore
@@ -201,7 +201,7 @@ execute if entity @s[scores={ija-a4-counter=2210}] run setblock 0 60 0 chest
 execute if entity @s[scores={ija-a4-counter=2210}] run loot insert 0 60 0 loot "ija-one-block/05-regular"
 execute if entity @s[scores={ija-a4-counter=2210}] at @s run function generated/helper/21
 execute if entity @s[scores={ija-a4-counter=2211..2213}] run setblock 0 60 0 cobblestone
-execute if entity @s[scores={ija-a4-counter=2213}] at @s run function generated/mob/05-05-bogged
+execute if entity @s[scores={ija-a4-counter=2213}] at @s run function generated/mob/05-05-stray
 execute if entity @s[scores={ija-a4-counter=2214}] run setblock 0 60 0 cobblestone
 execute if entity @s[scores={ija-a4-counter=2215..2217}] run setblock 0 60 0 grass_block
 execute if entity @s[scores={ija-a4-counter=2218}] run setblock 0 60 0 mud
