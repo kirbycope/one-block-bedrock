@@ -25,8 +25,8 @@ execute as @s[tag=ija-a4-mined] run function generated/phase/show-floating-text
 execute as @s[scores={ija-a4-cooldown=1}] run function effects/block-spawn
 
 execute as @e[type=item,r=2] run function infinite-block/catch-item
-execute as @s[tag=ija-a4-mined] as @a[x=0,dx=0,y=60,dy=1,z=0,dz=0] run tp @s ~ ~0.3 ~
-execute as @a[x=-2,dx=4,y=60,dy=2,z=-2,dz=4] if block ~ ~ ~ barrier run tp @s ~ ~0.3 ~
+execute as @s[tag=ija-a4-mined] as @a[x=0,dx=0,y=60,dy=1,z=0,dz=0] at @s run tp @s ~ ~0.3 ~
+execute as @a[x=-2,dx=4,y=60,dy=2,z=-2,dz=4] at @s if block ~ ~ ~ barrier run tp @s ~ ~0.3 ~
 
 execute if block ~ ~ ~ barrier run scoreboard players add @s ija-a4-persistent-barrier-counter 1
 execute unless block ~ ~ ~ barrier run scoreboard players set @s ija-a4-persistent-barrier-counter 0
@@ -41,4 +41,5 @@ execute as @e[scores={ija-a4-party-monster-time-left=1..}] run function monster-
 scoreboard players add @s ija-a4-cooldown 0
 scoreboard players remove @s[scores={ija-a4-cooldown=1..}] ija-a4-cooldown 1
 tag @s[tag=ija-a4-mined] remove ija-a4-mined
+
 
