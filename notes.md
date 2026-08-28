@@ -397,13 +397,13 @@ Runs 20 times per second.
 | generated/random-mob/09.mcfunction | generated/random-mob/09.mcfunction | :white_check_mark: Ported |
 | generated/random-mob/10.mcfunction | generated/random-mob/10.mcfunction | :white_check_mark: Ported |
 | generated/random-mob/all.mcfunction | generated/random-mob/all.mcfunction | :white_check_mark: Ported |
-| infinite-block/catch-item.mcfunction | *Missing* | :x: Not Ported |
+| infinite-block/catch-item.mcfunction | infinite-block/catch-item.mcfunction | :white_check_mark: Ported |
 | infinite-block/create.mcfunction | infinite-block/create.mcfunction | :white_check_mark: Ported |
 | infinite-block/forceload-spawn-chunks.mcfunction | infinite-block/forceload-spawn-chunks.mcfunction | :white_check_mark: Ported |
 | infinite-block/increase-counter.mcfunction | infinite-block/increase-counter.mcfunction | :white_check_mark: Ported |
 | infinite-block/manager.mcfunction | infinite-block/manager.mcfunction | :white_check_mark: Ported |
 | infinite-block/set-default-settings.mcfunction | infinite-block/set-default-settings.mcfunction | :white_check_mark: Ported |
-| infinite-block/show-particles.mcfunction | *Missing* | :x: Not Ported |
+| infinite-block/show-particles.mcfunction | infinite-block/show-particles.mcfunction | :white_check_mark: Ported |
 | infinite-block/upgrade/display-number.mcfunction | *Missing* | :x: Not Ported |
 | infinite-block/upgrade/manager.mcfunction | *Missing* | :x: Not Ported |
 | loop.mcfunction | loop.mcfunction | :white_check_mark: Ported |
@@ -443,6 +443,7 @@ Runs 20 times per second.
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
 
 
 
