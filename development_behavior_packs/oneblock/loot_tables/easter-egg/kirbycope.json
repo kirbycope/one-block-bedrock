@@ -13,9 +13,13 @@
               "name": "§d\uE108 Bedrock Architect's Pickaxe"
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "treasure": true
+              "function": "minecraft:specific_enchants",
+              "enchants": [
+                {
+                  "id": "silk_touch",
+                  "level": 1
+                }
+              ]
             }
           ]
         }
