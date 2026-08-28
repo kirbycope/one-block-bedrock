@@ -22,6 +22,7 @@ execute as @s[tag=ija-a4-mined] run function infinite-block/increase-counter
 execute as @s[scores={ija-a4-counter=..700}] run weather clear 5000
 execute as @s[tag=ija-a4-mined] unless entity @s[scores={ija-a4-upgrade-seconds-left=1..}] run function generated/phase/manager
 execute as @s[scores={ija-a4-cooldown=1..}] unless entity @s[tag=ija-a4-mined] unless entity @s[scores={ija-a4-upgrade-seconds-left=1..}] run function generated/phase/manager
+execute if entity @s[scores={ija-a4-counter=1}] run titleraw @a actionbar {"rawtext":[{"text":"\u00A76Break\u00A7r the block below you!"}]}
 execute as @s[tag=ija-a4-mined] run function generated/phase/show-floating-text
 execute as @s[scores={ija-a4-cooldown=1}] run function effects/block-spawn
 
