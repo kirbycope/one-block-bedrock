@@ -408,11 +408,11 @@ Runs 20 times per second.
 | infinite-block/upgrade/manager.mcfunction | infinite-block/upgrade/manager.mcfunction | :white_check_mark: Ported |
 | loop.mcfunction | loop.mcfunction | :white_check_mark: Ported |
 | main.mcfunction | main.mcfunction | :white_check_mark: Ported |
-| monster-party/destroy-blocks.mcfunction | *Missing* | :x: Not Ported |
-| monster-party/disable.mcfunction | *Missing* | :x: Not Ported |
-| monster-party/enable.mcfunction | *Missing* | :x: Not Ported |
-| monster-party/guard-manager.mcfunction | *Missing* | :x: Not Ported |
-| monster-party/guard-spawn-effect.mcfunction | *Missing* | :x: Not Ported |
+| monster-party/destroy-blocks.mcfunction | monster-party/destroy-blocks.mcfunction | :white_check_mark: Ported |
+| monster-party/disable.mcfunction | monster-party/disable.mcfunction | :white_check_mark: Ported |
+| monster-party/enable.mcfunction | monster-party/enable.mcfunction | :white_check_mark: Ported |
+| monster-party/guard-manager.mcfunction | monster-party/guard-manager.mcfunction | :white_check_mark: Ported |
+| monster-party/guard-spawn-effect.mcfunction | monster-party/guard-spawn-effect.mcfunction | :white_check_mark: Ported |
 | monster-party/set-default-settings.mcfunction | monster-party/set-default-settings.mcfunction | :white_check_mark: Ported |
 | *None* | countdown.mcfunction | :sparkles: Bedrock Exclusive |
 | *None* | load.mcfunction | :sparkles: Bedrock Exclusive |
@@ -443,6 +443,7 @@ Runs 20 times per second.
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
 
 
 
