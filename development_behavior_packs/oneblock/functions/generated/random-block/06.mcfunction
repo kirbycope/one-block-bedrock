@@ -1,0 +1,65 @@
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+scoreboard players random @s ija-a4-random-block-type 1 2576
+execute if entity @s[scores={ija-a4-random-block-type=..210}] run setblock ~ ~ ~ grass_block
+execute if entity @s[scores={ija-a4-random-block-type=211..255}] run setblock ~ ~ ~ clay
+execute if entity @s[scores={ija-a4-random-block-type=256..270}] run setblock ~ ~ ~ podzol
+execute if entity @s[scores={ija-a4-random-block-type=271..290}] run setblock ~ ~ ~ oak_log
+execute if entity @s[scores={ija-a4-random-block-type=291..305}] run setblock ~ ~ ~ birch_log
+execute if entity @s[scores={ija-a4-random-block-type=306..315}] run setblock ~ ~ ~ melon_block
+execute if entity @s[scores={ija-a4-random-block-type=316..321}] run setblock ~ ~ ~ pumpkin
+execute if entity @s[scores={ija-a4-random-block-type=322..510}] run setblock ~ ~ ~ stone
+execute if entity @s[scores={ija-a4-random-block-type=511..575}] run setblock ~ ~ ~ gravel
+execute if entity @s[scores={ija-a4-random-block-type=576..615}] run setblock ~ ~ ~ dirt
+execute if entity @s[scores={ija-a4-random-block-type=616..645}] run setblock ~ ~ ~ dark_oak_log
+execute if entity @s[scores={ija-a4-random-block-type=646..685}] run setblock ~ ~ ~ granite
+execute if entity @s[scores={ija-a4-random-block-type=686..725}] run setblock ~ ~ ~ diorite
+execute if entity @s[scores={ija-a4-random-block-type=726..765}] run setblock ~ ~ ~ andesite
+execute if entity @s[scores={ija-a4-random-block-type=766..805}] run setblock ~ ~ ~ calcite
+execute if entity @s[scores={ija-a4-random-block-type=806..875}] run setblock ~ ~ ~ coal_ore
+execute if entity @s[scores={ija-a4-random-block-type=876..948}] run setblock ~ ~ ~ iron_ore
+execute if entity @s[scores={ija-a4-random-block-type=949..988}] run setblock ~ ~ ~ snow
+execute if entity @s[scores={ija-a4-random-block-type=989..1038}] run setblock ~ ~ ~ spruce_log
+execute if entity @s[scores={ija-a4-random-block-type=1039..1063}] run setblock ~ ~ ~ packed_ice
+execute if entity @s[scores={ija-a4-random-block-type=1064..1088}] run setblock ~ ~ ~ gold_ore
+execute if entity @s[scores={ija-a4-random-block-type=1089..1093}] run setblock ~ ~ ~ amethyst_block
+execute if entity @s[scores={ija-a4-random-block-type=1094..1173}] run setblock ~ ~ ~ prismarine
+execute if entity @s[scores={ija-a4-random-block-type=1174..1283}] run setblock ~ ~ ~ sand
+execute if entity @s[scores={ija-a4-random-block-type=1284..1323}] run setblock ~ ~ ~ prismarine_bricks
+execute if entity @s[scores={ija-a4-random-block-type=1324..1353}] run setblock ~ ~ ~ dark_prismarine
+execute if entity @s[scores={ija-a4-random-block-type=1354..1403}] run setblock ~ ~ ~ mud
+execute if entity @s[scores={ija-a4-random-block-type=1404..1423}] run setblock ~ ~ ~ sea_lantern
+execute if entity @s[scores={ija-a4-random-block-type=1424..1463}] run setblock ~ ~ ~ dripstone_block
+execute if entity @s[scores={ija-a4-random-block-type=1464..1478}] run setblock ~ ~ ~ horn_coral_block
+execute if entity @s[scores={ija-a4-random-block-type=1479..1493}] run setblock ~ ~ ~ brain_coral_block
+execute if entity @s[scores={ija-a4-random-block-type=1494..1523}] run setblock ~ ~ ~ mangrove_log
+execute if entity @s[scores={ija-a4-random-block-type=1524..1536}] run setblock ~ ~ ~ sponge
+execute if entity @s[scores={ija-a4-random-block-type=1537..1548}] run setblock ~ ~ ~ fire_coral_block
+execute if entity @s[scores={ija-a4-random-block-type=1549..1558}] run setblock ~ ~ ~ bubble_coral_block
+execute if entity @s[scores={ija-a4-random-block-type=1559..1568}] run setblock ~ ~ ~ tube_coral_block
+execute if entity @s[scores={ija-a4-random-block-type=1569..1576}] run setblock ~ ~ ~ diamond_ore
+execute if entity @s[scores={ija-a4-random-block-type=1577..1746}] run setblock ~ ~ ~ cobblestone
+execute if entity @s[scores={ija-a4-random-block-type=1747..1836}] run setblock ~ ~ ~ mossy_cobblestone
+execute if entity @s[scores={ija-a4-random-block-type=1837..1861}] run setblock ~ ~ ~ moss_block
+execute if entity @s[scores={ija-a4-random-block-type=1862..1866}] run setblock ~ ~ ~ pearlescent_froglight
+execute if entity @s[scores={ija-a4-random-block-type=1867..1871}] run setblock ~ ~ ~ verdant_froglight
+execute if entity @s[scores={ija-a4-random-block-type=1872..1876}] run setblock ~ ~ ~ ochre_froglight
+execute if entity @s[scores={ija-a4-random-block-type=1877..1961}] run setblock ~ ~ ~ jungle_log
+execute if entity @s[scores={ija-a4-random-block-type=1962..2011}] run setblock ~ ~ ~ redstone_ore
+execute if entity @s[scores={ija-a4-random-block-type=2012..2106}] run setblock ~ ~ ~ red_sandstone
+execute if entity @s[scores={ija-a4-random-block-type=2107..2196}] run setblock ~ ~ ~ red_sand
+execute if entity @s[scores={ija-a4-random-block-type=2197..2246}] run setblock ~ ~ ~ sandstone
+execute if entity @s[scores={ija-a4-random-block-type=2247..2249}] run setblock ~ ~ ~ suspicious_sand
+execute if entity @s[scores={ija-a4-random-block-type=2250..2252}] run setblock ~ ~ ~ suspicious_sand
+execute if entity @s[scores={ija-a4-random-block-type=2253..2255}] run setblock ~ ~ ~ suspicious_sand
+execute if entity @s[scores={ija-a4-random-block-type=2256..2258}] run setblock ~ ~ ~ suspicious_sand
+execute if entity @s[scores={ija-a4-random-block-type=2259..2318}] run setblock ~ ~ ~ hardened_clay
+execute if entity @s[scores={ija-a4-random-block-type=2319..2358}] run setblock ~ ~ ~ acacia_log
+execute if entity @s[scores={ija-a4-random-block-type=2359..2403}] run setblock ~ ~ ~ brown_terracotta
+execute if entity @s[scores={ija-a4-random-block-type=2404..2448}] run setblock ~ ~ ~ yellow_terracotta
+execute if entity @s[scores={ija-a4-random-block-type=2449..2493}] run setblock ~ ~ ~ orange_terracotta
+execute if entity @s[scores={ija-a4-random-block-type=2494..2538}] run setblock ~ ~ ~ red_terracotta
+execute if entity @s[scores={ija-a4-random-block-type=2539..2554}] run setblock ~ ~ ~ copper_ore
+execute if entity @s[scores={ija-a4-random-block-type=2555..2569}] run setblock ~ ~ ~ emerald_ore
+execute run setblock ~ ~ ~ lapis_ore

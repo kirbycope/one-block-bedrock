@@ -376,16 +376,16 @@ Runs 20 times per second.
 | generated/player/show-join-message.mcfunction | generated/player/show-join-message.mcfunction | :white_check_mark: Ported |
 | generated/player/show-mining-message.mcfunction | generated/player/show-mining-message.mcfunction | :white_check_mark: Ported |
 | generated/player/show-recovery-kit-message.mcfunction | generated/player/show-recovery-kit-message.mcfunction | :white_check_mark: Ported |
-| generated/random-block/01.mcfunction | random/block/01.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/02.mcfunction | random/block/02.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/03.mcfunction | random/block/03.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/04.mcfunction | random/block/04.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/05.mcfunction | random/block/05.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/06.mcfunction | random/block/06.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/07.mcfunction | random/block/07.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/08.mcfunction | random/block/08.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/09.mcfunction | random/block/09.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
-| generated/random-block/10.mcfunction | random/block/10.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
+| generated/random-block/01.mcfunction | generated/random-block/01.mcfunction | :white_check_mark: Ported |
+| generated/random-block/02.mcfunction | generated/random-block/02.mcfunction | :white_check_mark: Ported |
+| generated/random-block/03.mcfunction | generated/random-block/03.mcfunction | :white_check_mark: Ported |
+| generated/random-block/04.mcfunction | generated/random-block/04.mcfunction | :white_check_mark: Ported |
+| generated/random-block/05.mcfunction | generated/random-block/05.mcfunction | :white_check_mark: Ported |
+| generated/random-block/06.mcfunction | generated/random-block/06.mcfunction | :white_check_mark: Ported |
+| generated/random-block/07.mcfunction | generated/random-block/07.mcfunction | :white_check_mark: Ported |
+| generated/random-block/08.mcfunction | generated/random-block/08.mcfunction | :white_check_mark: Ported |
+| generated/random-block/09.mcfunction | generated/random-block/09.mcfunction | :white_check_mark: Ported |
+| generated/random-block/10.mcfunction | generated/random-block/10.mcfunction | :white_check_mark: Ported |
 | generated/random-mob/01.mcfunction | random/mob/01.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
 | generated/random-mob/02.mcfunction | random/mob/02.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
 | generated/random-mob/03.mcfunction | random/mob/03.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
@@ -417,12 +417,23 @@ Runs 20 times per second.
 | *None* | countdown.mcfunction | :sparkles: Bedrock Exclusive |
 | *None* | load.mcfunction | :sparkles: Bedrock Exclusive |
 | *None* | mob/spawn.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/01.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/02.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/03.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/04.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/05.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/06.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/07.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/08.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/09.mcfunction | :sparkles: Bedrock Exclusive |
+| *None* | random/block/10.mcfunction | :sparkles: Bedrock Exclusive |
 | *None* | random/mob/after.mcfunction | :sparkles: Bedrock Exclusive |
 | *None* | random/mob/spawn.mcfunction | :sparkles: Bedrock Exclusive |
 | *None* | set-block.mcfunction | :sparkles: Bedrock Exclusive |
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
 
 
 
