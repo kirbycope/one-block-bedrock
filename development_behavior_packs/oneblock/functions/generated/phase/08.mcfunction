@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=3816}] run function generated/helper/30
-execute if entity @s[scores={ija-a4-counter=3816}] as @a[distance=..200] run function generated/helper/05 {music:"music.overworld.cherry_grove"}
+execute if entity @s[scores={ija-a4-counter=3816}] as @a[r=200] run function generated/helper/05 {music:"music.overworld.cherry_grove"}
 execute if entity @s[scores={ija-a4-counter=3816..3830}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace barrier
 execute if entity @s[scores={ija-a4-counter=3831..3832}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=3833..3840}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace barrier
@@ -26,7 +26,7 @@ execute if entity @s[scores={ija-a4-counter=3897..3901}] at @s run fill ~ ~ ~ ~ 
 execute if entity @s[scores={ija-a4-counter=3902}] at @s run fill ~ ~ ~ ~ ~ ~ honey_block replace barrier
 execute if entity @s[scores={ija-a4-counter=3903..3904}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block replace barrier
 execute if entity @s[scores={ija-a4-counter=3905}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
-execute if entity @s[scores={ija-a4-counter=3906}] at @s run fill ~ ~ ~ ~ ~ ~ slime_block replace barrier
+execute if entity @s[scores={ija-a4-counter=3906}] at @s run fill ~ ~ ~ ~ ~ ~ slime replace barrier
 execute if entity @s[scores={ija-a4-counter=3907}] at @s run function generated/random-block/08
 execute if entity @s[scores={ija-a4-counter=3907}] at @s run function generated/mob/08-03-slime
 execute if entity @s[scores={ija-a4-counter=3908..3916}] at @s run function generated/random-block/08
@@ -49,7 +49,7 @@ execute if entity @s[scores={ija-a4-counter=3958..3963}] at @s run fill ~ ~ ~ ~ 
 execute if entity @s[scores={ija-a4-counter=3964..3965}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block replace barrier
 execute if entity @s[scores={ija-a4-counter=3965}] at @s run function generated/mob/08-03-slime
 execute if entity @s[scores={ija-a4-counter=3966}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
-execute if entity @s[scores={ija-a4-counter=3967}] at @s run fill ~ ~ ~ ~ ~ ~ slime_block replace barrier
+execute if entity @s[scores={ija-a4-counter=3967}] at @s run fill ~ ~ ~ ~ ~ ~ slime replace barrier
 execute if entity @s[scores={ija-a4-counter=3968..3969}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=3970..3972}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=3973..3974}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore replace barrier
@@ -77,12 +77,12 @@ execute if entity @s[scores={ija-a4-counter=4037..4040}] at @s run fill ~ ~ ~ ~ 
 execute if entity @s[scores={ija-a4-counter=4040}] at @s run function generated/mob/08-04-mule
 execute if entity @s[scores={ija-a4-counter=4041..4044}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=4045..4046}] at @s run fill ~ ~ ~ ~ ~ ~ honeycomb_block replace barrier
-execute if entity @s[scores={ija-a4-counter=4047}] at @s run fill ~ ~ ~ ~ ~ ~ slime_block replace barrier
+execute if entity @s[scores={ija-a4-counter=4047}] at @s run fill ~ ~ ~ ~ ~ ~ slime replace barrier
 execute if entity @s[scores={ija-a4-counter=4048..4049}] at @s run fill ~ ~ ~ ~ ~ ~ lapis_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=4050..4051}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=4052}] at @s run fill ~ ~ ~ ~ ~ ~ copper_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=4053..4055}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
-execute if entity @s[scores={ija-a4-counter=4056}] at @s run fill ~ ~ ~ ~ ~ ~ slime_block replace barrier
+execute if entity @s[scores={ija-a4-counter=4056}] at @s run fill ~ ~ ~ ~ ~ ~ slime replace barrier
 execute if entity @s[scores={ija-a4-counter=4057..4058}] at @s run function generated/random-block/08
 execute if entity @s[scores={ija-a4-counter=4058}] at @s run function generated/mob/08-01-bee
 execute if entity @s[scores={ija-a4-counter=4059..4067}] at @s run function generated/random-block/08

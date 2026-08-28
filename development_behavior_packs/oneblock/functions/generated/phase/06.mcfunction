@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=2330}] run function generated/helper/24
-execute if entity @s[scores={ija-a4-counter=2330}] as @a[distance=..200] run function generated/helper/05 {music:"music.overworld.badlands"}
+execute if entity @s[scores={ija-a4-counter=2330}] as @a[r=200] run function generated/helper/05 {music:"music.overworld.badlands"}
 execute if entity @s[scores={ija-a4-counter=2330..2347}] at @s run fill ~ ~ ~ ~ ~ ~ red_sand replace barrier
 execute if entity @s[scores={ija-a4-counter=2348..2351}] at @s run fill ~ ~ ~ ~ ~ ~ red_sandstone replace barrier
 execute if entity @s[scores={ija-a4-counter=2352..2359}] at @s run fill ~ ~ ~ ~ ~ ~ red_sand replace barrier

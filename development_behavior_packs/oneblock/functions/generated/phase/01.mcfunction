@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=49}] run function generated/helper/04
-execute if entity @s[scores={ija-a4-counter=49}] as @a[distance=..200] run function generated/helper/05 {music:"music.overworld.flower_forest"}
+execute if entity @s[scores={ija-a4-counter=49}] as @a[r=200] run function generated/helper/05 {music:"music.overworld.flower_forest"}
 execute if entity @s[scores={ija-a4-counter=49..58}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=59..61}] at @s run fill ~ ~ ~ ~ ~ ~ oak_log replace barrier
 execute if entity @s[scores={ija-a4-counter=62..66}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier

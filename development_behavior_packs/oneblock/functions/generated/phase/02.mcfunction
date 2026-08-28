@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=284}] run function generated/helper/08
-execute if entity @s[scores={ija-a4-counter=284}] as @a[distance=..200] run function generated/helper/05 {music:"music.overworld.dripstone_caves"}
+execute if entity @s[scores={ija-a4-counter=284}] as @a[r=200] run function generated/helper/05 {music:"music.overworld.dripstone_caves"}
 execute if entity @s[scores={ija-a4-counter=284..295}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
 execute if entity @s[scores={ija-a4-counter=296..297}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=298..301}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier

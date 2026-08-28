@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=1705}] run function generated/helper/20
-execute if entity @s[scores={ija-a4-counter=1705}] as @a[distance=..200] run function generated/helper/05 {music:"music.overworld.bamboo_jungle"}
+execute if entity @s[scores={ija-a4-counter=1705}] as @a[r=200] run function generated/helper/05 {music:"music.overworld.bamboo_jungle"}
 execute if entity @s[scores={ija-a4-counter=1705..1720}] at @s run fill ~ ~ ~ ~ ~ ~ cobblestone replace barrier
 execute if entity @s[scores={ija-a4-counter=1721..1723}] at @s run fill ~ ~ ~ ~ ~ ~ mossy_cobblestone replace barrier
 execute if entity @s[scores={ija-a4-counter=1724..1728}] at @s run fill ~ ~ ~ ~ ~ ~ cobblestone replace barrier

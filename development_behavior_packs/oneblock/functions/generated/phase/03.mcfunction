@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=675}] run function generated/helper/12
-execute if entity @s[scores={ija-a4-counter=675}] as @a[distance=..200] run function generated/helper/05 {music:"music.overworld.frozen_peaks"}
+execute if entity @s[scores={ija-a4-counter=675}] as @a[r=200] run function generated/helper/05 {music:"music.overworld.frozen_peaks"}
 execute if entity @s[scores={ija-a4-counter=675..682}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
 execute if entity @s[scores={ija-a4-counter=683..684}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
 execute if entity @s[scores={ija-a4-counter=685..688}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
