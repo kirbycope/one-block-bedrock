@@ -9,7 +9,7 @@ execute if entity @s[scores={ija-a4-counter=4610..4617}] run setblock 0 60 0 myc
 execute if entity @s[scores={ija-a4-counter=4618}] run setblock 0 60 0 lit_pumpkin
 execute if entity @s[scores={ija-a4-counter=4619}] run setblock 0 60 0 deepslate_diamond_ore
 execute if entity @s[scores={ija-a4-counter=4620}] run setblock 0 60 0 suspicious_gravel
-execute if entity @s[scores={ija-a4-counter=4621}] run setblock 0 60 0 terracotta
+execute if entity @s[scores={ija-a4-counter=4621}] run setblock 0 60 0 hardened_clay
 execute if entity @s[scores={ija-a4-counter=4622}] run setblock 0 60 0 lit_pumpkin
 execute if entity @s[scores={ija-a4-counter=4623..4630}] run setblock 0 60 0 stone_bricks
 execute if entity @s[scores={ija-a4-counter=4631..4637}] run setblock 0 60 0 deepslate
@@ -72,7 +72,7 @@ execute if entity @s[scores={ija-a4-counter=4774}] run loot insert 0 60 0 loot "
 execute if entity @s[scores={ija-a4-counter=4774}] at @s run function generated/helper/35
 execute if entity @s[scores={ija-a4-counter=4775}] run setblock 0 60 0 bone_block
 execute if entity @s[scores={ija-a4-counter=4776..4778}] run setblock 0 60 0 dark_oak_log
-execute if entity @s[scores={ija-a4-counter=4779}] run setblock 0 60 0 terracotta
+execute if entity @s[scores={ija-a4-counter=4779}] run setblock 0 60 0 hardened_clay
 execute if entity @s[scores={ija-a4-counter=4780..4782}] run setblock 0 60 0 deepslate_coal_ore
 execute if entity @s[scores={ija-a4-counter=4783}] at @s run function generated/random-block/09
 execute if entity @s[scores={ija-a4-counter=4784..4785}] run setblock 0 60 0 deepslate_iron_ore
@@ -108,7 +108,7 @@ execute if entity @s[scores={ija-a4-counter=4852..4854}] run setblock 0 60 0 bon
 execute if entity @s[scores={ija-a4-counter=4855}] run setblock 0 60 0 suspicious_gravel
 execute if entity @s[scores={ija-a4-counter=4856..4858}] run setblock 0 60 0 dark_oak_log
 execute if entity @s[scores={ija-a4-counter=4859..4860}] run setblock 0 60 0 amethyst_block
-execute if entity @s[scores={ija-a4-counter=4861}] run setblock 0 60 0 terracotta
+execute if entity @s[scores={ija-a4-counter=4861}] run setblock 0 60 0 hardened_clay
 execute if entity @s[scores={ija-a4-counter=4862}] run setblock 0 60 0 lit_pumpkin
 execute if entity @s[scores={ija-a4-counter=4863..4865}] run setblock 0 60 0 deepslate_coal_ore
 execute if entity @s[scores={ija-a4-counter=4866}] run setblock 0 60 0 deepslate_iron_ore
@@ -148,7 +148,7 @@ execute if entity @s[scores={ija-a4-counter=4942..4943}] run setblock 0 60 0 dar
 execute if entity @s[scores={ija-a4-counter=4943}] at @s run function generated/mob/09-08-warden
 execute if entity @s[scores={ija-a4-counter=4944}] run setblock 0 60 0 dark_oak_log
 execute if entity @s[scores={ija-a4-counter=4945..4946}] run setblock 0 60 0 amethyst_block
-execute if entity @s[scores={ija-a4-counter=4947}] run setblock 0 60 0 terracotta
+execute if entity @s[scores={ija-a4-counter=4947}] run setblock 0 60 0 hardened_clay
 execute if entity @s[scores={ija-a4-counter=4948..4950}] run setblock 0 60 0 deepslate_coal_ore
 execute if entity @s[scores={ija-a4-counter=4951..4952}] run setblock 0 60 0 deepslate_iron_ore
 execute if entity @s[scores={ija-a4-counter=4953..4954}] run setblock 0 60 0 deepslate_copper_ore

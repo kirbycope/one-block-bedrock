@@ -35,10 +35,10 @@ execute as @s[scores={random=33}] run setblock 0 63 0 crimson_nylium
 execute as @s[scores={random=34}] run setblock 0 63 0 warped_nylium
 execute as @s[scores={random=35}] run setblock 0 63 0 magma
 execute as @s[scores={random=36}] run setblock 0 63 0 emerald_ore
-execute as @s[scores={random=37}] run setblock 0 63 0 red_terracotta
-execute as @s[scores={random=38}] run setblock 0 63 0 orange_terracotta
-execute as @s[scores={random=39}] run setblock 0 63 0 yellow_terracotta
-execute as @s[scores={random=40}] run setblock 0 63 0 brown_terracotta
+execute as @s[scores={random=37}] run setblock 0 63 0 red_hardened_clay
+execute as @s[scores={random=38}] run setblock 0 63 0 orange_hardened_clay
+execute as @s[scores={random=39}] run setblock 0 63 0 yellow_hardened_clay
+execute as @s[scores={random=40}] run setblock 0 63 0 brown_hardened_clay
 execute as @s[scores={random=41}] run setblock 0 63 0 acacia_log
 execute as @s[scores={random=42}] run setblock 0 63 0 spruce_log
 execute as @s[scores={random=43}] run setblock 0 63 0 lapis_ore
@@ -51,8 +51,8 @@ execute as @s[scores={random=49}] run setblock 0 63 0 nether_wart_block
 execute as @s[scores={random=50}] run setblock 0 63 0 warped_wart_block
 execute as @s[scores={random=51}] run setblock 0 63 0 gilded_blackstone
 execute as @s[scores={random=52}] run setblock 0 63 0 shroomlight
-execute as @s[scores={random=53}] run setblock 0 63 0 light_gray_terracotta
-execute as @s[scores={random=54}] run setblock 0 63 0 white_terracotta
+execute as @s[scores={random=53}] run setblock 0 63 0 light_gray_hardened_clay
+execute as @s[scores={random=54}] run setblock 0 63 0 white_hardened_clay
 execute as @s[scores={random=55}] run setblock 0 63 0 packed_ice
 execute as @s[scores={random=56}] run setblock 0 63 0 nether_gold_ore
 execute as @s[scores={random=57}] run setblock 0 63 0 sea_lantern
