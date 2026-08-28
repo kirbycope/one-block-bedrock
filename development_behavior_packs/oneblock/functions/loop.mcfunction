@@ -13,3 +13,4 @@ effect @a[scores={ija-a4-isdead=0,ija-a4-tempdeath=1..}] resistance 7 4 true
 scoreboard players set @a[scores={ija-a4-isdead=0,ija-a4-tempdeath=1..}] ija-a4-tempdeath 0
 execute positioned 0.5 60.5 0.5 if block 0 60 0 air unless entity @e[tag=ija-a4-block] run function infinite-block/create
 
+

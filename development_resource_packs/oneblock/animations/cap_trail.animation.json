@@ -3,11 +3,27 @@
   "animations": {
     "animation.oneblock.cap_trail": {
       "loop": true,
-      "animation_length": 0.1,
+      "animation_length": 0.5,
       "particle_effects": {
         "0.0": {
           "effect": "trail",
-          "locator": "head"
+          "locator": "head_top"
+        },
+        "0.1": {
+          "effect": "trail",
+          "locator": "head_top"
+        },
+        "0.2": {
+          "effect": "trail",
+          "locator": "head_top"
+        },
+        "0.3": {
+          "effect": "trail",
+          "locator": "head_top"
+        },
+        "0.4": {
+          "effect": "trail",
+          "locator": "head_top"
         }
       }
     }
