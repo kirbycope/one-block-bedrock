@@ -25,12 +25,6 @@
 			},
 			"minecraft:push_through": {
 				"value": 1
-			},
-			"minecraft:damage_sensor": {
-				"triggers": {
-					"cause": "all",
-					"deals_damage": "no"
-				}
 			}
 		}
 	}
