@@ -46,12 +46,14 @@ function dyePlayerLeatherHelmet(player, color) {
 
 // Listen for /scriptevent commands from mcfunctions
 system.afterEvents.scriptEventReceive.subscribe((event) => {
-    const player = event.sourceEntity;
-    if (!player) return;
+    // If sourceEntity is not provided by the command runner, fallback to players
+    const targets = event.sourceEntity ? [event.sourceEntity] : world.getAllPlayers();
 
-    if (event.id === "oneblock:dye_blue" || (event.id === "oneblock:dye_helmet" && event.message.toLowerCase() === "blue")) {
-        dyePlayerLeatherHelmet(player, DYE_COLORS.blue);
-    } else if (event.id === "oneblock:dye_red" || (event.id === "oneblock:dye_helmet" && event.message.toLowerCase() === "red")) {
-        dyePlayerLeatherHelmet(player, DYE_COLORS.red);
+    for (const player of targets) {
+        if (event.id === "oneblock:dye_blue" || (event.id === "oneblock:dye_helmet" && event.message.toLowerCase() === "blue")) {
+            dyePlayerLeatherHelmet(player, DYE_COLORS.blue);
+        } else if (event.id === "oneblock:dye_red" || (event.id === "oneblock:dye_helmet" && event.message.toLowerCase() === "red")) {
+            dyePlayerLeatherHelmet(player, DYE_COLORS.red);
+        }
     }
 });
