@@ -23,8 +23,8 @@ scoreboard objectives add ija-a4-party-monster-time-left dummy
 #team modify ija-a4-monster-party-team seeFriendlyInvisibles true
 
 scoreboard objectives add ija-a4-allmined dummy
-scoreboard objectives add ija-a4-usermined dummy
-scoreboard objectives setdisplay list ija-a4-usermined
+scoreboard objectives add ija-a4-usermined dummy "§6Blocks Mined§r"
+scoreboard objectives setdisplay sidebar ija-a4-usermined
 
 function generated/player/set-blocks-mined-display-name
 
