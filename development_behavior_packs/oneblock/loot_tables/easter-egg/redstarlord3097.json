@@ -13,12 +13,6 @@
               "name": "§c\uE101 Red Star Cap"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_color": 11546150
-              }
-            },
-            {
               "function": "minecraft:specific_enchants",
               "enchants": [
                 {

@@ -13,12 +13,6 @@
               "name": "§9\uE101 Blue Star Cap"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_color": 3361970
-              }
-            },
-            {
               "function": "minecraft:specific_enchants",
               "enchants": [
                 {

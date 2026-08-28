@@ -550,11 +550,11 @@ Runs 20 times per second.
 - **Java**: Dynamically interpolates translated strings and names into entity NBT using `data modify storage`.
 - **Bedrock Gap**: Dynamic NBT string interpolation is unavailable in Bedrock commands. `set-guard-name.mcfunction` and `show-death-message.mcfunction` are omitted, while core monster party spawning and behavior remain fully functional.
 
-### 8. VIP & Easter Egg System (`events/vip/`)
+### 8. VIP & Easter Egg System (`events/vip/` + `scripts/main.js`)
 - Custom Easter Egg welcome messages, particle effects, and specialized high-tier enchanted gear/cosmetics automatically awarded to specific players upon first joining the world (`tag=!oneblock_vip_rewarded`):
   - **IJAMinecraft**: `§6\uE102 Creator's Crown` (Enchanted Gold Helmet with Minecoin sprite + Totem sound & particles)
   - **Kirbycope**: `§d\uE108 Bedrock Architect's Pickaxe` (Enchanted Netherite Pickaxe with Pickaxe sprite + End Rod particles)
-  - **SonorousKiizzu**: `§b\uE109 The Master Stick` (Looting III, Knockback II, Fire Aspect II, Sharpness V, Unbreaking III Stick with Sword sprite + Chime sound)
-  - **BlueStarLord488**: `§9\uE101 Blue Star Cap` (Protection IV / Unbreaking III / Mending Dyed Blue Leather Helmet with Armor shield sprite + Beacon sound)
-  - **RedStarLord3097**: `§c\uE101 Red Star Cap` (Protection IV / Unbreaking III / Mending Dyed Red Leather Helmet with Armor shield sprite + Dragon roar & lava particles)
+  - **SonorousKiizzu**: `§b\uE109 The Master Stick` (Looting III Stick with Sword sprite + Chime sound)
+  - **BlueStarLord488**: `§9\uE101 Blue Star Cap` (Protection IV / Unbreaking III / Mending Leather Helmet dynamically dyed Blue via `@minecraft/server` `scriptevent oneblock:dye_blue` + Beacon sound)
+  - **RedStarLord3097**: `§c\uE101 Red Star Cap` (Protection IV / Unbreaking III / Mending Leather Helmet dynamically dyed Red via `@minecraft/server` `scriptevent oneblock:dye_red` + Dragon roar & lava particles)
 

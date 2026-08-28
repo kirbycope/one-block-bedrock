@@ -16,6 +16,20 @@
 			"type": "data",
 			"uuid": "adb8cdd3-cdcb-4f0a-9086-597ecd78798d",
 			"version": [1, 21, 50]
+		},
+		{
+			"description": "Scripting",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/main.js",
+			"uuid": "14f25b29-e85d-4008-8dc0-02d250d4f3b7",
+			"version": [1, 21, 50]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.15.0"
 		}
 	]
 }
