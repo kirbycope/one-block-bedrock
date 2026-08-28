@@ -56,10 +56,10 @@ execute if entity @s[scores={ija-a4-random-block-type=2253..2255}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=2256..2258}] run setblock ~ ~ ~ suspicious_sand
 execute if entity @s[scores={ija-a4-random-block-type=2259..2318}] run setblock ~ ~ ~ hardened_clay
 execute if entity @s[scores={ija-a4-random-block-type=2319..2358}] run setblock ~ ~ ~ acacia_log
-execute if entity @s[scores={ija-a4-random-block-type=2359..2403}] run setblock ~ ~ ~ stained_hardened_clay ["color":"brown"]
-execute if entity @s[scores={ija-a4-random-block-type=2404..2448}] run setblock ~ ~ ~ stained_hardened_clay ["color":"yellow"]
-execute if entity @s[scores={ija-a4-random-block-type=2449..2493}] run setblock ~ ~ ~ stained_hardened_clay ["color":"orange"]
-execute if entity @s[scores={ija-a4-random-block-type=2494..2538}] run setblock ~ ~ ~ stained_hardened_clay ["color":"red"]
+execute if entity @s[scores={ija-a4-random-block-type=2359..2403}] run setblock ~ ~ ~ stained_hardened_clay ["color"="brown"]
+execute if entity @s[scores={ija-a4-random-block-type=2404..2448}] run setblock ~ ~ ~ stained_hardened_clay ["color"="yellow"]
+execute if entity @s[scores={ija-a4-random-block-type=2449..2493}] run setblock ~ ~ ~ stained_hardened_clay ["color"="orange"]
+execute if entity @s[scores={ija-a4-random-block-type=2494..2538}] run setblock ~ ~ ~ stained_hardened_clay ["color"="red"]
 execute if entity @s[scores={ija-a4-random-block-type=2539..2554}] run setblock ~ ~ ~ copper_ore
 execute if entity @s[scores={ija-a4-random-block-type=2555..2569}] run setblock ~ ~ ~ emerald_ore
 execute if entity @s[scores={ija-a4-random-block-type=2570..2576}] run setblock ~ ~ ~ lapis_ore

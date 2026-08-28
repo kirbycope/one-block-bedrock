@@ -23,16 +23,16 @@ execute as @s[scores={random=21}] run setblock 0 63 0 stone["stone_type"="andesi
 execute as @s[scores={random=22}] run setblock 0 63 0 stone["stone_type"="granite"]
 execute as @s[scores={random=23}] run setblock 0 63 0 dirt
 execute as @s[scores={random=24}] run setblock 0 63 0 clay
-execute as @s[scores={random=25}] run setblock 0 63 0 stained_hardened_clay ["color":"red"]
-execute as @s[scores={random=26}] run setblock 0 63 0 stained_hardened_clay ["color":"orange"]
-execute as @s[scores={random=27}] run setblock 0 63 0 stained_hardened_clay ["color":"yellow"]
-execute as @s[scores={random=28}] run setblock 0 63 0 stained_hardened_clay ["color":"brown"]
+execute as @s[scores={random=25}] run setblock 0 63 0 stained_hardened_clay ["color"="red"]
+execute as @s[scores={random=26}] run setblock 0 63 0 stained_hardened_clay ["color"="orange"]
+execute as @s[scores={random=27}] run setblock 0 63 0 stained_hardened_clay ["color"="yellow"]
+execute as @s[scores={random=28}] run setblock 0 63 0 stained_hardened_clay ["color"="brown"]
 execute as @s[scores={random=29}] run setblock 0 63 0 acacia_log
 execute as @s[scores={random=30}] run setblock 0 63 0 spruce_log
 execute as @s[scores={random=31}] run setblock 0 63 0 dark_oak_log
 execute as @s[scores={random=32}] run setblock 0 63 0 birch_log
-execute as @s[scores={random=33}] run setblock 0 63 0 stained_hardened_clay ["color":"silver"]
-execute as @s[scores={random=34}] run setblock 0 63 0 stained_hardened_clay ["color":"white"]
+execute as @s[scores={random=33}] run setblock 0 63 0 stained_hardened_clay ["color"="silver"]
+execute as @s[scores={random=34}] run setblock 0 63 0 stained_hardened_clay ["color"="white"]
 execute as @s[scores={random=35}] run setblock 0 63 0 gold_ore
 execute as @s[scores={random=36}] run setblock 0 63 0 packed_ice
 execute as @s[scores={random=37}] run setblock 0 63 0 sea_lantern
