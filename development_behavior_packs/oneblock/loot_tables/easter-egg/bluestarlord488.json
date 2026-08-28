@@ -5,17 +5,45 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:diamond_chestplate",
+          "name": "minecraft:leather_helmet",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§9⭐ Blue Star Guardian Plate"
+              "name": "§9⭐ Blue Star Cap"
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "treasure": true
+              "function": "minecraft:specific_enchants",
+              "enchants": [
+                {
+                  "id": "protection",
+                  "level": 4
+                },
+                {
+                  "id": "unbreaking",
+                  "level": 3
+                },
+                {
+                  "id": "mending",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:blue_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
             }
           ]
         }

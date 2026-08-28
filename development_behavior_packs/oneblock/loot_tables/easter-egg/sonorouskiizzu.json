@@ -5,17 +5,25 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:trident",
+          "name": "minecraft:stick",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§b🔱 Sonorous Resonance"
+              "name": "§b⭐ The Master Stick"
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "treasure": true
+              "function": "minecraft:specific_enchants",
+              "enchants": [
+                {
+                  "id": "looting",
+                  "level": 3
+                },
+                {
+                  "id": "unbreaking",
+                  "level": 3
+                }
+              ]
             }
           ]
         }

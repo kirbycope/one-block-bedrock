@@ -554,7 +554,7 @@ Runs 20 times per second.
 - Custom Easter Egg welcome messages, particle effects, and specialized high-tier enchanted gear/cosmetics automatically awarded to specific players upon first joining the world (`tag=!oneblock_vip_rewarded`):
   - **IJAMinecraft**: `§6👑 Creator's Crown` (Enchanted Gold Helmet + Totem sound & particles)
   - **Kirbycope**: `§d⭐ Bedrock Architect's Pickaxe` & `§5✨ Wings of the Port` (Elytra + End Rod particles)
-  - **SonorousKiizzu**: `§b🔱 Sonorous Resonance` (Enchanted Trident + Chime sound)
-  - **BlueStarLord488**: `§9⭐ Blue Star Guardian Plate` (Diamond Chestplate + Beacon sound)
-  - **RedStarLord3097**: `§c🔥 Red Star Solar Blade` (Netherite Sword + Dragon roar & lava particles)
+  - **SonorousKiizzu**: `§b⭐ The Master Stick` (Looting III / Unbreaking III Stick + Chime sound)
+  - **BlueStarLord488**: `§9⭐ Blue Star Cap` (Protection IV / Unbreaking III Leather Helmet + Blue Dye + Beacon sound)
+  - **RedStarLord3097**: `§c🔥 Red Star Cap` (Protection IV / Unbreaking III Leather Helmet + Red Dye + Dragon roar & lava particles)
 
