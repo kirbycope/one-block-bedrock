@@ -1,20 +1,20 @@
 ﻿tp @s 0.5 60.5 0.5
 execute as @s[scores={ija-a4-end-portal-effects=1..}] run function effects/end-portal
-execute if block ~ ~ ~ farmland run setblock ~ ~ ~ dirt
+execute if block 0 60 0 farmland run setblock 0 60 0 dirt
 execute unless block ~ ~ ~ chest run kill @e[type=armor_stand,tag=ija-a4-chest]
 function infinite-block/show-particles
 
-execute if block ~ ~ ~ air run tag @s add ija-a4-mined
-execute if block ~ ~ ~ fire run tag @s add ija-a4-mined
-execute if block ~ ~ ~ water run tag @s add ija-a4-mined
-execute if block ~ ~ ~ flowing_water run tag @s add ija-a4-mined
+execute if block 0 60 0 air run tag @s add ija-a4-mined
+execute if block 0 60 0 fire run tag @s add ija-a4-mined
+execute if block 0 60 0 water run tag @s add ija-a4-mined
+execute if block 0 60 0 flowing_water run tag @s add ija-a4-mined
 
 execute as @s[scores={ija-a4-upgrade-seconds-left=1..}] run function infinite-block/upgrade/manager
 
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace air
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace fire
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace water
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace flowing_water
+execute as @s[tag=ija-a4-mined] run fill 0 60 0 0 60 0 barrier replace air
+execute as @s[tag=ija-a4-mined] run fill 0 60 0 0 60 0 barrier replace fire
+execute as @s[tag=ija-a4-mined] run fill 0 60 0 0 60 0 barrier replace water
+execute as @s[tag=ija-a4-mined] run fill 0 60 0 0 60 0 barrier replace flowing_water
 
 tag @s[scores={ija-a4-counter=0}] add ija-a4-mined
 scoreboard players add @s ija-a4-counter 0
@@ -27,11 +27,11 @@ execute as @s[scores={ija-a4-cooldown=1}] run function effects/block-spawn
 
 execute as @e[type=item,r=2] run function infinite-block/catch-item
 execute as @s[tag=ija-a4-mined] as @a[x=0,dx=0,y=60,dy=1,z=0,dz=0] at @s run tp @s ~ ~0.3 ~
-execute as @a[x=-2,dx=4,y=60,dy=2,z=-2,dz=4] at @s if block ~ ~ ~ barrier run tp @s ~ ~0.3 ~
+execute as @a[x=-2,dx=4,y=60,dy=2,z=-2,dz=4] at @s if block 0 60 0 barrier run tp @s ~ ~0.3 ~
 
-execute if block ~ ~ ~ barrier run scoreboard players add @s ija-a4-persistent-barrier-counter 1
+execute if block 0 60 0 barrier run scoreboard players add @s ija-a4-persistent-barrier-counter 1
 execute unless block ~ ~ ~ barrier run scoreboard players set @s ija-a4-persistent-barrier-counter 0
-execute as @s[scores={ija-a4-persistent-barrier-counter=20..}] run setblock ~ ~ ~ dirt
+execute as @s[scores={ija-a4-persistent-barrier-counter=20..}] run setblock 0 60 0 dirt
 scoreboard players set @s[scores={ija-a4-persistent-barrier-counter=20..}] ija-a4-persistent-barrier-counter 0
 
 scoreboard players add @s ija-a4-monster-party-countdown 0
