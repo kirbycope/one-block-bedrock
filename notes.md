@@ -1,4 +1,4 @@
-﻿# Notes
+# Notes
 
 ## Format Versions
 
@@ -107,12 +107,13 @@ Runs 20 times per second.
     - Calls: [infinite-block/manager](development_behavior_packs\oneblock\functions\infinite-block\manager.mcfunction)
       - Runs as `@e[tag=ija-a4-block]` to manage block mining, cooldowns, upgrades, and particle effects
     - Death & Respawn Detection:
-      - Uses `@a` vs `@e[type=player]` selector difference to detect respawned players with `tempdeath >= 1`
-      - Calls: [generated/player/get-recovery-kit](development_behavior_packs\oneblock\functions\generated\player\get-recovery-kit.mcfunction)
-      - Grants Resistance V (7s) and resets `ija-a4-tempdeath`
+      - Since Bedrock lacks native `deathCount` objective types, uses `@a` vs `@e[type=player,r=0.01]` selector difference to detect dead players (`ija-a4-isdead=1`), incrementing `tempdeath` and lifetime `alldeath`.
+      - When player respawns (`isdead=0` and `tempdeath >= 1`):
+        - Calls: [generated/player/get-recovery-kit](development_behavior_packs\oneblock\functions\generated\player\get-recovery-kit.mcfunction) if `alldeath <= 3`
+        - Grants Resistance V (7s) and resets `ija-a4-tempdeath` to 0
     - Calls: [infinite-block/create](development_behavior_packs\oneblock\functions\infinite-block\create.mcfunction)
       - Runs at `positioned 0.5 60.5 0.5` if block is `air` and no `ija-a4-block` marker exists
-      - Places `grass_block`, summons the marker entity, and calls [infinite-block/set-default-settings](development_behavior_packs\oneblock\functions\infinite-block\set-default-settings.mcfunction)
+      - Places `grass_block`, summons the marker entity (`oneblock:label_entity`), and calls [infinite-block/set-default-settings](development_behavior_packs\oneblock\functions\infinite-block\set-default-settings.mcfunction)
 
 ## Porting Status Chart
 
@@ -512,5 +513,39 @@ Runs 20 times per second.
 | musical.json | musical.json | :white_check_mark: Ported |
 | odd.json | odd.json | :white_check_mark: Ported |
 | rare.json | rare.json | :white_check_mark: Ported |
+| *None* (Java Inline NBT) | water-bucket.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
+## Platform Differences & Known Gaps
+
+### 1. Interactive Chat Menus (`generated/menu/*`)
+- **Java**: Uses JSON `clickEvent` / `run_command` in `tellraw` to allow players to click on chat text to toggle settings (e.g., language selection, monster party toggle, admin tools).
+- **Bedrock Gap**: Minecraft Bedrock does not support interactive click events in chat. Settings are hardcoded to defaults (English language, Monster Party enabled).
+
+### 2. Death & Respawn Detection (`loop.mcfunction`)
+- **Java**: Relies on vanilla engine `deathCount` objectives (`tempdeath`, `alldeath`) that automatically increment when a player dies.
+- **Bedrock Emulation**: Bedrock only supports `dummy` scoreboard objectives. The port utilizes the `@a` vs `@e[type=player,r=0.01]` selector mechanic from the [Bedrock Wiki](https://wiki.bedrock.dev/commands/on-player-death) to detect when a player enters the death screen, incrementing `tempdeath` and `alldeath`, and dispatching `get-recovery-kit` on respawn.
+
+### 3. Marker & Controller Architecture (`oneblock:label_entity`)
+- **Java**: Uses vanilla `armor_stand` entities with NBT tags `{Invisible:1b,Marker:1b,NoGravity:1b}` which makes them non-solid and non-targetable by player raycasts/attacks.
+- **Bedrock Solution**: Vanilla Bedrock `armor_stand` entities cannot have their collision or interaction hitboxes removed via commands. The port implements a custom entity `oneblock:label_entity` with:
+  - `collision_box`: `width: 0.0, height: 0.0` (intangible to mining raycasts)
+  - `health`: `100000` + `damage_sensor`: `{ "triggers": [{ "cause": "all", "deals_damage": "no" }] }` (prevents player punching from killing the controller while mining blocks)
+  - `physics`: `has_gravity: false, has_collision: false`
+
+### 4. Chest Loot Generation & Inline NBT (`00.mcfunction` - `10.mcfunction`)
+- **Java**: Combines `/fill ... {LootTable:"..."}` and inline NBT items (e.g. Counter 36 water bucket chest `{Items:[{Slot:13,id:"minecraft:water_bucket",count:1}]}`).
+- **Bedrock Solution**: Bedrock commands cannot inject block entity NBT directly. The port uses `/setblock 0 60 0 chest` followed by `/loot insert 0 60 0 loot "ija-one-block/..."` with 45 converted Bedrock-schema loot tables and a dedicated `water-bucket.json` loot table.
+
+### 5. Player Mining Physics & Stabilization (`manager.mcfunction`)
+- **Java**: Java server-side block replacement immediately preserves player standing position on top of the regenerating block.
+- **Bedrock Solution**: Bedrock's client prediction causes players standing on the infinite block to begin falling into the empty space during the mining tick before the new block is placed. `manager.mcfunction` teleports players standing within the mining volume to `Y=61.0` upon break and pushes them upward if intersecting a barrier block.
+
+### 6. Mined Item Teleportation (`catch-item.mcfunction`)
+- **Java**: Java executes relative item teleportation `tp @s ~0.5 ~0.3 ~0.5` from the block's coordinate space.
+- **Bedrock Solution**: Bedrock item entities frequently fall into the void during initial spawn. `catch-item.mcfunction` uses absolute coordinates `tp @s 0.5 61.3 0.5` to warp all newly broken items directly above the infinite block.
+
+### 7. Guard Mob Naming & Translation Messages (`monster-party/`)
+- **Java**: Dynamically interpolates translated strings and names into entity NBT using `data modify storage`.
+- **Bedrock Gap**: Dynamic NBT string interpolation is unavailable in Bedrock commands. `set-guard-name.mcfunction` and `show-death-message.mcfunction` are omitted, while core monster party spawning and behavior remain fully functional.
