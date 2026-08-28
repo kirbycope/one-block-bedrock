@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=5369}] run function generated/helper/37
-execute if entity @s[scores={ija-a4-counter=5369}] as @a[r=200] run function generated/helper/05 {music:"music.end"}
+execute if entity @s[scores={ija-a4-counter=5369}] as @a[r=200] run function generated/helper/05
 execute if entity @s[scores={ija-a4-counter=5369..5383}] at @s run fill ~ ~ ~ ~ ~ ~ end_stone replace barrier
 execute if entity @s[scores={ija-a4-counter=5384..5395}] at @s run fill ~ ~ ~ ~ ~ ~ end_bricks replace barrier
 execute if entity @s[scores={ija-a4-counter=5396..5403}] at @s run fill ~ ~ ~ ~ ~ ~ end_stone replace barrier

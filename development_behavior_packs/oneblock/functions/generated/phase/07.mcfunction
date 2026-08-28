@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=3076}] run function generated/helper/27
-execute if entity @s[scores={ija-a4-counter=3076}] as @a[r=200] run function generated/helper/05 {music:"music.nether.nether_wastes"}
+execute if entity @s[scores={ija-a4-counter=3076}] as @a[r=200] run function generated/helper/05
 execute if entity @s[scores={ija-a4-counter=3076..3092}] at @s run fill ~ ~ ~ ~ ~ ~ netherrack replace barrier
 execute if entity @s[scores={ija-a4-counter=3093..3096}] at @s run fill ~ ~ ~ ~ ~ ~ blackstone replace barrier
 execute if entity @s[scores={ija-a4-counter=3097..3101}] at @s run fill ~ ~ ~ ~ ~ ~ netherrack replace barrier

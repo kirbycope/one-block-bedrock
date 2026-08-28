@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=1152}] run function generated/helper/16
-execute if entity @s[scores={ija-a4-counter=1152}] as @a[r=200] run function generated/helper/05 {music:"music.under_water"}
+execute if entity @s[scores={ija-a4-counter=1152}] as @a[r=200] run function generated/helper/05
 execute if entity @s[scores={ija-a4-counter=1152..1164}] at @s run fill ~ ~ ~ ~ ~ ~ sand replace barrier
 execute if entity @s[scores={ija-a4-counter=1165..1166}] at @s run fill ~ ~ ~ ~ ~ ~ prismarine replace barrier
 execute if entity @s[scores={ija-a4-counter=1167..1174}] at @s run fill ~ ~ ~ ~ ~ ~ sand replace barrier

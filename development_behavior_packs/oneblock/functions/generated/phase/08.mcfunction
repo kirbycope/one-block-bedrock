@@ -2,7 +2,7 @@
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-counter=3816}] run function generated/helper/30
-execute if entity @s[scores={ija-a4-counter=3816}] as @a[r=200] run function generated/helper/05 {music:"music.overworld.cherry_grove"}
+execute if entity @s[scores={ija-a4-counter=3816}] as @a[r=200] run function generated/helper/05
 execute if entity @s[scores={ija-a4-counter=3816..3830}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace barrier
 execute if entity @s[scores={ija-a4-counter=3831..3832}] at @s run fill ~ ~ ~ ~ ~ ~ emerald_ore replace barrier
 execute if entity @s[scores={ija-a4-counter=3833..3840}] at @s run fill ~ ~ ~ ~ ~ ~ quartz_block replace barrier
