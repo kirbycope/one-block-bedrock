@@ -1,7 +1,7 @@
 tp @s 0.5 60.5 0.5
 execute as @s[scores={ija-a4-end-portal-effects=1..}] run function effects/end-portal
 execute if block 0 60 0 farmland run setblock 0 60 0 dirt
-execute unless block ~ ~ ~ chest run kill @e[type=armor_stand,tag=ija-a4-chest]
+execute unless block ~ ~ ~ chest run kill @e[type=oneblock:label_entity,tag=ija-a4-chest]
 function infinite-block/show-particles
 
 execute if block 0 60 0 air run tag @s add ija-a4-mined
