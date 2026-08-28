@@ -547,5 +547,5 @@ Runs 20 times per second.
   - **IJAMinecraft**: `§6\uE102 Creator's Crown` (Enchanted Gold Helmet with Minecoin sprite + Totem sound & particles)
   - **Kirbycope**: `§d\uE108 Bedrock Architect's Pickaxe` (Enchanted Netherite Pickaxe with Pickaxe sprite + End Rod particles)
   - **SonorousKiizzu**: `§b\uE109 The Master Stick` (Looting III Stick with Sword sprite + Chime sound)
-  - **BlueStarLord488**: `§9\uE101 Blue Star Cap` (`oneblock:blue_star_cap` - Custom textured & modeled Blue Helmet with Protection IV / Unbreaking III / Mending + Beacon sound)
-  - **RedStarLord3097**: `§c\uE101 Red Star Cap` (`oneblock:red_star_cap` - Custom textured & modeled Red Helmet with Protection IV / Unbreaking III / Mending + Dragon roar & lava particles)
+  - **BlueStarLord488**: `§9\uE101 Blue Star Cap` (`oneblock:blue_star_cap` - Custom textured & modeled Blue Helmet with Protection IV / Unbreaking III / Mending + Beacon sound + Continuous Blue Flame particle trail when equipped)
+  - **RedStarLord3097**: `§c\uE101 Red Star Cap` (`oneblock:red_star_cap` - Custom textured & modeled Red Helmet with Protection IV / Unbreaking III / Mending + Dragon roar & lava particles + Continuous Redstone Dust particle trail when equipped)
