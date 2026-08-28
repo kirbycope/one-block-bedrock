@@ -33,6 +33,7 @@ execute if entity @s[scores={ija-a4-counter=33}] run setblock 0 60 0 oak_log
 execute if entity @s[scores={ija-a4-counter=34}] run setblock 0 60 0 gravel
 execute if entity @s[scores={ija-a4-counter=35}] run setblock 0 60 0 grass_block
 execute if entity @s[scores={ija-a4-counter=36}] run setblock 0 60 0 chest
+execute if entity @s[scores={ija-a4-counter=36}] run loot insert 0 60 0 loot "ija-one-block/water-bucket"
 execute if entity @s[scores={ija-a4-counter=36}] at @s run function generated/helper/00
 execute if entity @s[scores={ija-a4-counter=37}] run setblock 0 60 0 grass_block
 execute if entity @s[scores={ija-a4-counter=38}] run setblock 0 60 0 gravel
