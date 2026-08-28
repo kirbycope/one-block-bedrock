@@ -2,6 +2,6 @@
 # https://ijaminecraft.com/map/oneblock/
 
 scoreboard players random @s ija-a4-random-mob-amount 1 2
-summon evoker ~ ~1.6 ~
-execute if entity @s[scores={ija-a4-random-mob-amount=2..}] run summon evoker ~ ~1.6 ~
+summon evocation_illager ~ ~1.6 ~
+execute if entity @s[scores={ija-a4-random-mob-amount=2..}] run summon evocation_illager ~ ~1.6 ~
 function effects/mob-spawn
