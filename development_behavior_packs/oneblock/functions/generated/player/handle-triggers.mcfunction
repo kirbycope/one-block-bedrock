@@ -1,4 +1,4 @@
-# Copyright: OneBlock by IJAMinecraft
+﻿# Copyright: OneBlock by IJAMinecraft
 # https://ijaminecraft.com/map/oneblock/
 
 execute if entity @s[scores={ija-a4-trigger=1}] at @s run function generated/menu/main
@@ -76,5 +76,6 @@ execute if entity @s[scores={ija-a4-trigger=72}] at @s run function generated/he
 execute if entity @s[scores={ija-a4-trigger=73}] at @s run function generated/helper/63
 execute if entity @s[scores={ija-a4-trigger=74}] at @s run function generated/helper/63
 execute if entity @s[scores={ija-a4-trigger=75}] at @s run function generated/helper/63
-scoreboard players enable @s ija-a4-trigger
+# disabled scoreboard enable trigger
 scoreboard players set @s ija-a4-trigger 0
+
