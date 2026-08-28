@@ -13,6 +13,12 @@
               "name": "§9\uE101 Blue Star Cap"
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_color": 3361970
+              }
+            },
+            {
               "function": "minecraft:specific_enchants",
               "enchants": [
                 {
@@ -28,22 +34,6 @@
                   "level": 1
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:blue_dye",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 4
             }
           ]
         }

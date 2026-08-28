@@ -16,20 +16,24 @@
               "function": "minecraft:specific_enchants",
               "enchants": [
                 {
-                  "id": "fortune",
-                  "level": 3
-                },
-                {
                   "id": "looting",
                   "level": 3
                 },
                 {
-                  "id": "loyalty",
-                  "level": 3
+                  "id": "knockback",
+                  "level": 2
                 },
                 {
-                  "id": "silk_touch",
-                  "level": 1
+                  "id": "fire_aspect",
+                  "level": 2
+                },
+                {
+                  "id": "sharpness",
+                  "level": 5
+                },
+                {
+                  "id": "unbreaking",
+                  "level": 3
                 }
               ]
             }
