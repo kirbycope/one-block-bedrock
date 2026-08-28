@@ -552,9 +552,9 @@ Runs 20 times per second.
 
 ### 8. VIP & Easter Egg System (`events/vip/`)
 - Custom Easter Egg welcome messages, particle effects, and specialized high-tier enchanted gear/cosmetics automatically awarded to specific players upon first joining the world (`tag=!oneblock_vip_rewarded`):
-  - **IJAMinecraft**: `§6👑 Creator's Crown` (Enchanted Gold Helmet + Totem sound & particles)
-  - **Kirbycope**: `§d⭐ Bedrock Architect's Pickaxe` & `§5✨ Wings of the Port` (Elytra + End Rod particles)
-  - **SonorousKiizzu**: `§b⭐ The Master Stick` (Looting III / Unbreaking III Stick + Chime sound)
-  - **BlueStarLord488**: `§9⭐ Blue Star Cap` (Protection IV / Unbreaking III Leather Helmet + Blue Dye + Beacon sound)
-  - **RedStarLord3097**: `§c🔥 Red Star Cap` (Protection IV / Unbreaking III Leather Helmet + Red Dye + Dragon roar & lava particles)
+  - **IJAMinecraft**: `§6\uE102 Creator's Crown` (Enchanted Gold Helmet with Minecoin sprite + Totem sound & particles)
+  - **Kirbycope**: `§d\uE108 Bedrock Architect's Pickaxe` & `§5\uE086 Wings of the Port` (Enchanted Pickaxe with Pickaxe sprite & Elytra with Wings sprite + End Rod particles)
+  - **SonorousKiizzu**: `§b\uE109 The Master Stick` (Fortune III, Looting III, Loyalty III, Silk Touch I Stick with Sword sprite + Chime sound)
+  - **BlueStarLord488**: `§9\uE101 Blue Star Cap` (Protection IV / Unbreaking III / Mending Leather Helmet with Armor shield sprite + 4x Blue Dye + Beacon sound)
+  - **RedStarLord3097**: `§c\uE101 Red Star Cap` (Protection IV / Unbreaking III / Mending Leather Helmet with Armor shield sprite + 4x Red Dye + Dragon roar & lava particles)
 

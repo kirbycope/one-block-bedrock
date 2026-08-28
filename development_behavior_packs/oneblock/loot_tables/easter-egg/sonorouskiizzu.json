@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§bThe Master Stick"
+              "name": "§b\uE109 The Master Stick"
             },
             {
               "function": "minecraft:specific_enchants",

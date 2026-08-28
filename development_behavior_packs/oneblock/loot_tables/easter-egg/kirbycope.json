@@ -10,23 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§dBedrock Architect's Pickaxe"
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "treasure": true
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:elytra",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": "§5Wings of the Port"
+              "name": "§d\uE108 Bedrock Architect's Pickaxe"
             },
             {
               "function": "minecraft:enchant_with_levels",
