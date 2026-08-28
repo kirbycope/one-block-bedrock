@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§c🔥 Red Star Cap"
+              "name": "§cRed Star Cap"
             },
             {
               "function": "minecraft:specific_enchants",

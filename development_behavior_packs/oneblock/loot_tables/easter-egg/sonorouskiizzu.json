@@ -10,18 +10,26 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§b⭐ The Master Stick"
+              "name": "§bThe Master Stick"
             },
             {
               "function": "minecraft:specific_enchants",
               "enchants": [
                 {
+                  "id": "fortune",
+                  "level": 3
+                },
+                {
                   "id": "looting",
                   "level": 3
                 },
                 {
-                  "id": "unbreaking",
+                  "id": "loyalty",
                   "level": 3
+                },
+                {
+                  "id": "silk_touch",
+                  "level": 1
                 }
               ]
             }

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§9⭐ Blue Star Cap"
+              "name": "§9Blue Star Cap"
             },
             {
               "function": "minecraft:specific_enchants",

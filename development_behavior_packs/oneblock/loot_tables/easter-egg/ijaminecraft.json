@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§6👑 Creator's Crown"
+              "name": "§6Creator's Crown"
             },
             {
               "function": "minecraft:enchant_with_levels",
