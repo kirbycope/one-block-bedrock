@@ -374,7 +374,7 @@ Runs 20 times per second.
 | generated/player/handle-triggers.mcfunction | generated/player/handle-triggers.mcfunction | :white_check_mark: Ported |
 | generated/player/set-blocks-mined-display-name.mcfunction | generated/player/set-blocks-mined-display-name.mcfunction | :white_check_mark: Ported |
 | generated/player/show-join-message.mcfunction | generated/player/show-join-message.mcfunction | :white_check_mark: Ported |
-| generated/player/show-mining-message.mcfunction | *Missing* | :x: Not Ported |
+| generated/player/show-mining-message.mcfunction | generated/player/show-mining-message.mcfunction | :white_check_mark: Ported |
 | generated/player/show-recovery-kit-message.mcfunction | generated/player/show-recovery-kit-message.mcfunction | :white_check_mark: Ported |
 | generated/random-block/01.mcfunction | random/block/01.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
 | generated/random-block/02.mcfunction | random/block/02.mcfunction | :white_check_mark: Ported (Moved/Renamed) |
@@ -423,6 +423,7 @@ Runs 20 times per second.
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
 
 
 
