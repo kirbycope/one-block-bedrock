@@ -365,11 +365,11 @@ Runs 20 times per second.
 | generated/phase/10.mcfunction | generated/phase/10.mcfunction | :white_check_mark: Ported |
 | generated/phase/afterphases.mcfunction | generated/phase/afterphases.mcfunction | :white_check_mark: Ported |
 | generated/phase/manager.mcfunction | generated/phase/manager.mcfunction | :white_check_mark: Ported |
-| generated/phase/set-phase-upgrader-name.mcfunction | *Missing* | :x: Not Ported |
-| generated/phase/show-end-portal-title.mcfunction | *Missing* | :x: Not Ported |
-| generated/phase/show-floating-text.mcfunction | *Missing* | :x: Not Ported |
+| generated/phase/set-phase-upgrader-name.mcfunction | generated/phase/set-phase-upgrader-name.mcfunction | :white_check_mark: Ported |
+| generated/phase/show-end-portal-title.mcfunction | generated/phase/show-end-portal-title.mcfunction | :white_check_mark: Ported |
+| generated/phase/show-floating-text.mcfunction | generated/phase/show-floating-text.mcfunction | :white_check_mark: Ported |
 | generated/phase/start-upgrade.mcfunction | generated/phase/start-upgrade.mcfunction | :white_check_mark: Ported |
-| generated/phase/update-texts.mcfunction | *Missing* | :x: Not Ported |
+| generated/phase/update-texts.mcfunction | generated/phase/update-texts.mcfunction | :white_check_mark: Ported |
 | generated/player/get-recovery-kit.mcfunction | generated/player/get-recovery-kit.mcfunction | :white_check_mark: Ported |
 | generated/player/handle-triggers.mcfunction | generated/player/handle-triggers.mcfunction | :white_check_mark: Ported |
 | generated/player/set-blocks-mined-display-name.mcfunction | generated/player/set-blocks-mined-display-name.mcfunction | :white_check_mark: Ported |
@@ -423,6 +423,7 @@ Runs 20 times per second.
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
 
 
 

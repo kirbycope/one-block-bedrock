@@ -1,231 +1,205 @@
-# Announce phase
-execute if entity @s[scores={ija-a4-counter=681}] at @s run tellraw @a {"rawtext":[{"text":"§6You reached phase 3: Icy Tundra!"}]}
-execute if entity @s[scores={ija-a4-counter=681}] at @s run tellraw @a {"rawtext":[{"text":"§eWinter covers the land with its icy hands."}]}
-# Set block
-execute if entity @s[scores={ija-a4-counter=681..689}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=690..691}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=692..695}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=696..701}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=702}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=703..705}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=706..707}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=708..709}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=710..711}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=712..714}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=715..716}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=717..721}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=721}] at @s run summon wolf ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=721}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=722..723}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=724..733}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=734..735}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=736}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=737..739}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=740..744}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=745..746}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=747}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=748}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=748}] at @s run summon stray ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=748}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=749}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=749}] at @s run playsound block.ender_chest.open @a ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=750..751}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=752..757}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=758}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=759..760}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=761..769}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=770}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=771..772}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=772}] at @s run summon stray ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=772}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=773..780}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=781..782}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=783..785}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=786}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=787..791}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=792}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=793..794}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=795..798}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=799}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=799}] at @s run summon fox  ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=799}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=800..803}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=804}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=805..807}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=808..810}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=811..821}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=822}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=823}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=824}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=824}] at @s run summon fox ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=824}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=825..828}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=829}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=830..833}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=834..836}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=837..845}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=846..847}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=848..849}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=850}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=851}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=851}] at @s run function random/mob/03
-execute if entity @s[scores={ija-a4-counter=851}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=852}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=853}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=854..855}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=856..858}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=859}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=860..861}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=862}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=863..865}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=866..868}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=869..870}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=871}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=872..873}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=874..876}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=876}] at @s run summon polar_bear ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=876}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=877}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=878}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=879..880}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=881}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=882..883}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=884}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=885..886}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=887}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=888..889}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=890}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=891..895}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=896..897}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=898}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=899}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=900..901}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=902..903}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=903}] at @s run function random/mob/03
-execute if entity @s[scores={ija-a4-counter=903}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=904..906}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=907}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=908..913}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=914}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=915..918}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=919}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=920..928}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=928}] at @s run summon wolf ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=928}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=929}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=930..939}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=939}] at @s run tag @a add party03
-execute if entity @s[scores={ija-a4-counter=940}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=941..942}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=943..944}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=945}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=946}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=947..948}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=949}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=950..953}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=954..955}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=955}] at @s run summon stray ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=955}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=956}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=957}] at @s run function random/block/03
-execute if entity @s[scores={ija-a4-counter=958}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=959..966}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=967..968}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=969}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=970..971}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=972..980}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=980}] at @s run summon stray ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=980}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=981}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=982}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=983..984}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=985..986}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=987}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=988..989}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=990}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=991..992}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=993..1004}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1005}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1006}] at @s run fill ~ ~ ~ ~ ~ ~ gravel [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1007}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1007}] at @s run summon fox ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=1007}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=1008..1014}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1015}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1016}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1017..1023}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1024}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=1025..1030}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1031..1032}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1032}] at @s run summon wolf ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=1032}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=1033..1035}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1036}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1037}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1038}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1039..1040}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1041}] at @s run fill ~ ~ ~ ~ ~ ~ birch_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1042..1045}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1046..1047}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1048..1056}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1057..1058}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1059}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1059}] at @s run summon stray ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=1059}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=1060}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1061}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1062..1066}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1067..1071}] at @s run fill ~ ~ ~ ~ ~ ~ grass [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1072..1077}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1078}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1079}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=1080}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1081..1083}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1084}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1084}] at @s run summon stray ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=1084}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=1085}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1086}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1087}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1088..1089}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1090..1091}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1092}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1093..1094}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1095}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1096..1100}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1101..1104}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1105..1107}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1108..1109}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1110}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="andesite"]
-execute if entity @s[scores={ija-a4-counter=1111}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1111}] at @s run summon stray ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=1111}] at @s run function mob/spawn
-execute if entity @s[scores={ija-a4-counter=1112..1114}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1115}] at @s run fill ~ ~ ~ ~ ~ ~ dark_oak_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1116..1119}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1120..1124}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1125}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1126..1128}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1129..1130}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1131..1132}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1133}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1134}] at @s run structure load chest03 ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=1135}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1136..1138}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1139..1140}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1141}] at @s run fill ~ ~ ~ ~ ~ ~ snow [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1142..1143}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1144}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1145..1146}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1147}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1148}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1149..1150}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-execute if entity @s[scores={ija-a4-counter=1151..1152}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="granite"]
-execute if entity @s[scores={ija-a4-counter=1153}] at @s run fill ~ ~ ~ ~ ~ ~ stone [] replace barrier["stone_type"="diorite"]
-# End of phase chest
-execute if entity @s[scores={ija-a4-counter=1154}] at @s run structure load chest03g ~ ~ ~
-execute if entity @s[scores={ija-a4-counter=1154}] at @s run particle heart_particle ~ ~1 ~
-execute if entity @s[scores={ija-a4-counter=1154}] at @s run playsound entity.wandering_trader.yes @a ~ ~ ~
-# Trigger next phase
-execute if entity @s[scores={ija-a4-counter=1155}] at @s run fill ~ ~ ~ ~ ~ ~ bedrock [] replace barrier
-execute if entity @s[scores={ija-a4-counter=1155}] at @s run tag @a add countdown
+# Copyright: OneBlock by IJAMinecraft
+# https://ijaminecraft.com/map/oneblock/
+
+execute if entity @s[scores={ija-a4-counter=675}] run function generated/helper/12
+execute if entity @s[scores={ija-a4-counter=675}] as @a[distance=..200] run function generated/helper/05 {music:"music.overworld.frozen_peaks"}
+execute if entity @s[scores={ija-a4-counter=675..682}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=683..684}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=685..688}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=689..693}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=694..696}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=697}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
+execute if entity @s[scores={ija-a4-counter=698..703}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=704}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=705..707}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=708}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=708}] at @s run function generated/mob/03-02-stray
+execute if entity @s[scores={ija-a4-counter=709}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=710..716}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=717..721}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=722..724}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=725}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=725}] at @s run function generated/mob/03-00-goat
+execute if entity @s[scores={ija-a4-counter=726..729}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=730..732}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=733..735}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=736..737}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=738..739}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=740..741}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=742..748}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=748}] at @s run function generated/mob/03-03-fox
+execute if entity @s[scores={ija-a4-counter=749}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=749}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-builder"
+execute if entity @s[scores={ija-a4-counter=749}] at @s run function generated/helper/13
+execute if entity @s[scores={ija-a4-counter=750}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=751..756}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=757..760}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=761..765}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=766..767}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=768..772}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=772}] at @s run function generated/mob/03-06-chicken
+execute if entity @s[scores={ija-a4-counter=773}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=774..776}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=777..779}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=780..781}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=782..783}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=784..786}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=787..788}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=788}] at @s run function generated/random-mob/03
+execute if entity @s[scores={ija-a4-counter=789..790}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=791}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=792}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
+execute if entity @s[scores={ija-a4-counter=793..797}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=798}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=798}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=798}] at @s run function generated/helper/14
+execute if entity @s[scores={ija-a4-counter=799..800}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=801..802}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=803..805}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=805}] at @s run function generated/mob/03-05-pig
+execute if entity @s[scores={ija-a4-counter=806..811}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=812..817}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=818..824}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=825}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=825}] at @s run function generated/mob/03-02-stray
+execute if entity @s[scores={ija-a4-counter=826..829}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=830..832}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=833..835}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=836..837}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=838..840}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=841..843}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=844..845}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=846..847}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=847}] at @s run function generated/mob/03-02-stray
+execute if entity @s[scores={ija-a4-counter=848..850}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=851}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=852}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
+execute if entity @s[scores={ija-a4-counter=853}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=853}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=853}] at @s run function generated/helper/14
+execute if entity @s[scores={ija-a4-counter=854..856}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=857..859}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=860..861}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=862..867}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=868..873}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=873}] at @s run function generated/mob/03-01-wolf
+execute if entity @s[scores={ija-a4-counter=874}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=875..876}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=877..878}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=879..881}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=882..886}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=887..888}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=888}] at @s run function generated/mob/03-07-polar-bear
+execute if entity @s[scores={ija-a4-counter=889..891}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=892..894}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=895..896}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=897}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=898}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
+execute if entity @s[scores={ija-a4-counter=899..903}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=904}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=905}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=905}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=905}] at @s run function generated/helper/14
+execute if entity @s[scores={ija-a4-counter=906}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=906}] at @s run tag @s[scores={ija-a4-monster-party-enabled=2}] add ija-a4-party
+execute if entity @s[scores={ija-a4-counter=906}] at @s run tag @s[scores={ija-a4-monster-party-enabled=2}] add ija-a4-party3
+execute if entity @s[scores={ija-a4-counter=907..909}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=910..914}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=915..919}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=920..922}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=923..928}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=928}] at @s run function generated/mob/03-04-cow
+execute if entity @s[scores={ija-a4-counter=929..931}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=932..933}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=934..936}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=937..938}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=939..941}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=942..943}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=944..945}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=946}] at @s run fill ~ ~ ~ ~ ~ ~ gold_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=947}] at @s run fill ~ ~ ~ ~ ~ ~ amethyst_block replace barrier
+execute if entity @s[scores={ija-a4-counter=948}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=948}] at @s run function generated/mob/03-02-stray
+execute if entity @s[scores={ija-a4-counter=949}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=950..955}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=956..959}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=960..964}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=965}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=965}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=965}] at @s run function generated/helper/14
+execute if entity @s[scores={ija-a4-counter=966..968}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=968}] at @s run function generated/mob/03-02-stray
+execute if entity @s[scores={ija-a4-counter=969..971}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=972..978}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=979..981}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=982..984}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=985..986}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=987}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=987}] at @s run function generated/mob/03-05-pig
+execute if entity @s[scores={ija-a4-counter=988..989}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=990..991}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=992..994}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=995..996}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=997..1004}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=1005..1006}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=1007..1008}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=1008}] at @s run function generated/random-mob/03
+execute if entity @s[scores={ija-a4-counter=1009..1012}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=1013..1017}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=1018}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=1018}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=1018}] at @s run function generated/helper/14
+execute if entity @s[scores={ija-a4-counter=1019..1023}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=1024..1025}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=1026..1027}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=1027}] at @s run function generated/mob/03-06-chicken
+execute if entity @s[scores={ija-a4-counter=1028..1030}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=1031..1035}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=1036..1038}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=1039..1040}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=1041..1042}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=1043..1044}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=1045..1046}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=1047..1053}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=1053}] at @s run function generated/mob/03-03-fox
+execute if entity @s[scores={ija-a4-counter=1054..1055}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=1056..1060}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=1061..1065}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=1066..1067}] at @s run fill ~ ~ ~ ~ ~ ~ gravel replace barrier
+execute if entity @s[scores={ija-a4-counter=1068..1071}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=1071}] at @s run function generated/mob/03-00-goat
+execute if entity @s[scores={ija-a4-counter=1072}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=1073}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=1073}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-variety"
+execute if entity @s[scores={ija-a4-counter=1073}] at @s run function generated/helper/10
+execute if entity @s[scores={ija-a4-counter=1074..1076}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=1077..1081}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=1082..1083}] at @s run fill ~ ~ ~ ~ ~ ~ granite replace barrier
+execute if entity @s[scores={ija-a4-counter=1084..1086}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=1087..1088}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=1088}] at @s run function generated/mob/03-02-stray
+execute if entity @s[scores={ija-a4-counter=1089}] at @s run fill ~ ~ ~ ~ ~ ~ calcite replace barrier
+execute if entity @s[scores={ija-a4-counter=1090..1091}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=1092}] at @s run fill ~ ~ ~ ~ ~ ~ iron_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=1093..1094}] at @s run fill ~ ~ ~ ~ ~ ~ snow replace barrier
+execute if entity @s[scores={ija-a4-counter=1095..1096}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=1097..1098}] at @s run fill ~ ~ ~ ~ ~ ~ coal_ore replace barrier
+execute if entity @s[scores={ija-a4-counter=1099..1106}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=1107..1112}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=1112}] at @s run function generated/mob/03-02-stray
+execute if entity @s[scores={ija-a4-counter=1113..1114}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=1115..1119}] at @s run fill ~ ~ ~ ~ ~ ~ spruce_log replace barrier
+execute if entity @s[scores={ija-a4-counter=1120..1123}] at @s run function generated/random-block/03
+execute if entity @s[scores={ija-a4-counter=1124}] at @s run fill ~ ~ ~ ~ ~ ~ packed_ice replace barrier
+execute if entity @s[scores={ija-a4-counter=1125}] at @s run fill ~ ~ ~ ~ ~ ~ diorite replace barrier
+execute if entity @s[scores={ija-a4-counter=1126}] at @s run fill ~ ~ ~ ~ ~ ~ andesite replace barrier
+execute if entity @s[scores={ija-a4-counter=1127..1134}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=1135}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=1135}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-regular"
+execute if entity @s[scores={ija-a4-counter=1135}] at @s run function generated/helper/14
+execute if entity @s[scores={ija-a4-counter=1136}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=1137..1140}] at @s run fill ~ ~ ~ ~ ~ ~ grass_block replace barrier
+execute if entity @s[scores={ija-a4-counter=1141..1149}] at @s run fill ~ ~ ~ ~ ~ ~ stone replace barrier
+execute if entity @s[scores={ija-a4-counter=1150}] at @s run fill ~ ~ ~ ~ ~ ~ chest replace barrier
+execute if entity @s[scores={ija-a4-counter=1150}] at @s run loot insert ~ ~ ~ loot "ija-one-block:03-gift"
+execute if entity @s[scores={ija-a4-counter=1150}] at @s run function generated/helper/01

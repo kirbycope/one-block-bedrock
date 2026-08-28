@@ -35,6 +35,6 @@ execute if entity @s[scores={ija-a4-counter=5368,ija-a4-cooldown=1}] run functio
 execute if entity @s[scores={ija-a4-counter=5369..6248,ija-a4-cooldown=1}] at @s run function generated/phase/10
 scoreboard players set @s[scores={ija-a4-counter=6249,ija-a4-cooldown=1}] ija-a4-upgrade-seconds-left 110
 execute if entity @s[scores={ija-a4-counter=6249,ija-a4-cooldown=1}] run function generated/phase/start-upgrade
-execute if entity @s[scores={ija-a4-counter=6247,ija-a4-cooldown=1}] at @s unless block ~2 ~-2 ~ minecraft:end_portal_frame run function endportal
+execute if entity @s[scores={ija-a4-counter=6247,ija-a4-cooldown=1}] at @s unless block ~2 ~-2 ~ end_portal_frame run function end-portal/spawn
 scoreboard players set @s[scores={ija-a4-counter=6262..,ija-a4-cooldown=1}] ija-a4-counter 6261
 execute if entity @s[scores={ija-a4-counter=6250..,ija-a4-cooldown=1}] at @s run function generated/phase/afterphases
