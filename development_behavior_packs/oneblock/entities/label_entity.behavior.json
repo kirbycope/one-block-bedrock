@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.50",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "oneblock:label_entity",
@@ -9,12 +9,12 @@
 		},
 		"components": {
 			"minecraft:collision_box": {
-				"width": 1.0,
-				"height": 1.25
+				"width": 0.0,
+				"height": 0.0
 			},
 			"minecraft:nameable": {
 			},
-			"minecraft:persistent":{
+			"minecraft:persistent": {
 			},
 			"minecraft:physics": {
 				"has_gravity": false,
@@ -25,6 +25,12 @@
 			},
 			"minecraft:push_through": {
 				"value": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": "no"
+				}
 			}
 		}
 	}

@@ -26,7 +26,7 @@ execute if entity @s[scores={ija-a4-counter=100..105}] run fill 0 60 0 0 60 0 gr
 execute if entity @s[scores={ija-a4-counter=106..108}] run fill 0 60 0 0 60 0 clay replace barrier
 execute if entity @s[scores={ija-a4-counter=109..115}] run fill 0 60 0 0 60 0 grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=116}] run fill 0 60 0 0 60 0 chest replace barrier
-execute if entity @s[scores={ija-a4-counter=116}] run loot insert 0 60 0 loot "loot_tables/ija-one-block/01-regular.json"
+execute if entity @s[scores={ija-a4-counter=116}] run loot insert 0 60 0 loot "ija-one-block/01-regular"
 execute if entity @s[scores={ija-a4-counter=116}] at @s run function generated/helper/06
 execute if entity @s[scores={ija-a4-counter=117..120}] at @s run function generated/random-block/01
 execute if entity @s[scores={ija-a4-counter=121..122}] run fill 0 60 0 0 60 0 podzol replace barrier
@@ -56,7 +56,7 @@ execute if entity @s[scores={ija-a4-counter=161}] at @s run function generated/m
 execute if entity @s[scores={ija-a4-counter=162}] run fill 0 60 0 0 60 0 podzol replace barrier
 execute if entity @s[scores={ija-a4-counter=163..165}] at @s run function generated/random-block/01
 execute if entity @s[scores={ija-a4-counter=166}] run fill 0 60 0 0 60 0 chest replace barrier
-execute if entity @s[scores={ija-a4-counter=166}] run loot insert 0 60 0 loot "loot_tables/ija-one-block/01-regular.json"
+execute if entity @s[scores={ija-a4-counter=166}] run loot insert 0 60 0 loot "ija-one-block/01-regular"
 execute if entity @s[scores={ija-a4-counter=166}] at @s run function generated/helper/06
 execute if entity @s[scores={ija-a4-counter=167..168}] run fill 0 60 0 0 60 0 oak_log replace barrier
 execute if entity @s[scores={ija-a4-counter=169..171}] run fill 0 60 0 0 60 0 clay replace barrier
@@ -82,7 +82,7 @@ execute if entity @s[scores={ija-a4-counter=214}] run fill 0 60 0 0 60 0 grass_b
 execute if entity @s[scores={ija-a4-counter=214}] at @s run function generated/random-mob/01
 execute if entity @s[scores={ija-a4-counter=215..219}] run fill 0 60 0 0 60 0 grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=220}] run fill 0 60 0 0 60 0 chest replace barrier
-execute if entity @s[scores={ija-a4-counter=220}] run loot insert 0 60 0 loot "loot_tables/ija-one-block/01-regular.json"
+execute if entity @s[scores={ija-a4-counter=220}] run loot insert 0 60 0 loot "ija-one-block/01-regular"
 execute if entity @s[scores={ija-a4-counter=220}] at @s run function generated/helper/06
 execute if entity @s[scores={ija-a4-counter=221..222}] run fill 0 60 0 0 60 0 grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=223..224}] run fill 0 60 0 0 60 0 oak_log replace barrier
@@ -106,11 +106,11 @@ execute if entity @s[scores={ija-a4-counter=263}] run fill 0 60 0 0 60 0 melon_b
 execute if entity @s[scores={ija-a4-counter=264}] at @s run function generated/random-block/01
 execute if entity @s[scores={ija-a4-counter=265..274}] run fill 0 60 0 0 60 0 grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=275}] run fill 0 60 0 0 60 0 chest replace barrier
-execute if entity @s[scores={ija-a4-counter=275}] run loot insert 0 60 0 loot "loot_tables/ija-one-block/01-regular.json"
+execute if entity @s[scores={ija-a4-counter=275}] run loot insert 0 60 0 loot "ija-one-block/01-regular"
 execute if entity @s[scores={ija-a4-counter=275}] at @s run function generated/helper/06
 execute if entity @s[scores={ija-a4-counter=276}] run fill 0 60 0 0 60 0 grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=277}] run fill 0 60 0 0 60 0 melon_block replace barrier
 execute if entity @s[scores={ija-a4-counter=278..281}] run fill 0 60 0 0 60 0 grass_block replace barrier
 execute if entity @s[scores={ija-a4-counter=282}] run fill 0 60 0 0 60 0 chest replace barrier
-execute if entity @s[scores={ija-a4-counter=282}] run loot insert 0 60 0 loot "loot_tables/ija-one-block/01-gift.json"
+execute if entity @s[scores={ija-a4-counter=282}] run loot insert 0 60 0 loot "ija-one-block/01-gift"
 execute if entity @s[scores={ija-a4-counter=282}] at @s run function generated/helper/01
