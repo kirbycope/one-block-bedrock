@@ -8,6 +8,14 @@ This is a complete, feature-faithful Bedrock Edition behavior pack port of the o
 
 ---
 
+## 📥 Installation
+
+1. Download the [one-block-bedrock.mctemplate](https://github.com/kirbycope/one-block-bedrock/raw/main/one-block-bedrock.mctemplate)
+2. Double-click the `.mctemplate` file to import it into Minecraft Bedrock.
+3. Create a new world using the template and enjoy!
+
+---
+
 ## 🎮 How It Works
 
 You start on a solitary floating block in the sky. Every time you mine the block, it instantly regenerates into a new block or chest, and can also spawn mobs on top of it. As you break more blocks, the world levels up through themed **Phases**, unlocking rarer materials, exotic mobs, and higher-tier loot chests.
@@ -53,14 +61,6 @@ Throughout your playthrough, specialized chests will appear on the infinite bloc
 - 🎲 **Variety Chests**: Mixed utility items, seeds, saplings, and resources.
 - 🎵 **Musical Chests**: Music discs and jukebox essentials.
 - 💎 **Rare & Odd Chests**: Rare ores, enchanted books, golden apples, and exotic items.
-
----
-
-## 📥 Installation
-
-1. Download the [one-block-bedrock.mctemplate](https://github.com/kirbycope/one-block-bedrock/raw/main/one-block-bedrock.mctemplate)
-2. Double-click the `.mctemplate` file to import it into Minecraft Bedrock.
-3. Create a new world using the template and enjoy!
 
 ---
 

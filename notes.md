@@ -549,3 +549,12 @@ Runs 20 times per second.
 ### 7. Guard Mob Naming & Translation Messages (`monster-party/`)
 - **Java**: Dynamically interpolates translated strings and names into entity NBT using `data modify storage`.
 - **Bedrock Gap**: Dynamic NBT string interpolation is unavailable in Bedrock commands. `set-guard-name.mcfunction` and `show-death-message.mcfunction` are omitted, while core monster party spawning and behavior remain fully functional.
+
+### 8. VIP & Easter Egg System (`events/vip/`)
+- Custom Easter Egg welcome messages, particle effects, and specialized high-tier enchanted gear/cosmetics automatically awarded to specific players upon first joining the world (`tag=!oneblock_vip_rewarded`):
+  - **IJAMinecraft**: `§6👑 Creator's Crown` (Enchanted Gold Helmet + Totem sound & particles)
+  - **Kirbycope**: `§d⭐ Bedrock Architect's Pickaxe` & `§5✨ Wings of the Port` (Elytra + End Rod particles)
+  - **SonorousKiizzu**: `§b🔱 Sonorous Resonance` (Enchanted Trident + Chime sound)
+  - **BlueStarLord488**: `§9⭐ Blue Star Guardian Plate` (Diamond Chestplate + Beacon sound)
+  - **RedStarLord3097**: `§c🔥 Red Star Solar Blade` (Netherite Sword + Dragon roar & lava particles)
+
