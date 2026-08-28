@@ -4,8 +4,8 @@
     "description": {
       "identifier": "oneblock:red_star_cap",
       "materials": {
-        "default": "armor",
-        "enchanted": "armor_enchanted"
+        "default": "armor_leather",
+        "enchanted": "armor_leather_enchanted"
       },
       "textures": {
         "default": "textures/models/armor/red_star_layer_1",
