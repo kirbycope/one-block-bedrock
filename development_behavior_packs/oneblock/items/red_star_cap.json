@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "oneblock:red_star_cap",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:icon": "red_star_cap",
+      "minecraft:display_name": {
+        "value": "§c\uE101 Red Star Cap"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
+      },
+      "minecraft:armor": {
+        "protection": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 55
+      },
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "armor_head"
+      }
+    }
+  }
+}

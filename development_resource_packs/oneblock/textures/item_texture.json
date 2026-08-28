@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "oneblock",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "blue_star_cap": {
+      "textures": "textures/items/blue_star_cap"
+    },
+    "red_star_cap": {
+      "textures": "textures/items/red_star_cap"
+    }
+  }
+}
