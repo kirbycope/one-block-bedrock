@@ -1,4 +1,4 @@
-execute as @s[scores={ija-a4-end-portal-effects=1..}] run function effects/end-portal
+﻿execute as @s[scores={ija-a4-end-portal-effects=1..}] run function effects/end-portal
 execute if block ~ ~ ~ farmland run setblock ~ ~ ~ dirt
 execute unless block ~ ~ ~ chest run kill @e[type=armor_stand,tag=ija-a4-chest]
 function infinite-block/show-particles
@@ -10,10 +10,10 @@ execute if block ~ ~ ~ flowing_water run tag @s add ija-a4-mined
 
 execute as @s[scores={ija-a4-upgrade-seconds-left=1..}] run function infinite-block/upgrade/manager
 
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier 0 replace air
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier 0 replace fire
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier 0 replace water
-execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier 0 replace flowing_water
+execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace air
+execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace fire
+execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace water
+execute as @s[tag=ija-a4-mined] run fill ~ ~ ~ ~ ~ ~ barrier replace flowing_water
 
 tag @s[scores={ija-a4-counter=0}] add ija-a4-mined
 scoreboard players add @s ija-a4-counter 0
@@ -41,3 +41,4 @@ execute as @e[scores={ija-a4-party-monster-time-left=1..}] run function monster-
 scoreboard players add @s ija-a4-cooldown 0
 scoreboard players remove @s[scores={ija-a4-cooldown=1..}] ija-a4-cooldown 1
 tag @s[tag=ija-a4-mined] remove ija-a4-mined
+
