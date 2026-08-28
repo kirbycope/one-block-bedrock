@@ -1,4 +1,5 @@
-﻿execute as @s[scores={ija-a4-end-portal-effects=1..}] run function effects/end-portal
+﻿tp @s 0.5 60.5 0.5
+execute as @s[scores={ija-a4-end-portal-effects=1..}] run function effects/end-portal
 execute if block ~ ~ ~ farmland run setblock ~ ~ ~ dirt
 execute unless block ~ ~ ~ chest run kill @e[type=armor_stand,tag=ija-a4-chest]
 function infinite-block/show-particles
@@ -41,5 +42,7 @@ execute as @e[scores={ija-a4-party-monster-time-left=1..}] run function monster-
 scoreboard players add @s ija-a4-cooldown 0
 scoreboard players remove @s[scores={ija-a4-cooldown=1..}] ija-a4-cooldown 1
 tag @s[tag=ija-a4-mined] remove ija-a4-mined
+
+
 
 
