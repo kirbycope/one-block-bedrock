@@ -404,8 +404,8 @@ Runs 20 times per second.
 | infinite-block/manager.mcfunction | infinite-block/manager.mcfunction | :white_check_mark: Ported |
 | infinite-block/set-default-settings.mcfunction | infinite-block/set-default-settings.mcfunction | :white_check_mark: Ported |
 | infinite-block/show-particles.mcfunction | infinite-block/show-particles.mcfunction | :white_check_mark: Ported |
-| infinite-block/upgrade/display-number.mcfunction | *Missing* | :x: Not Ported |
-| infinite-block/upgrade/manager.mcfunction | *Missing* | :x: Not Ported |
+| infinite-block/upgrade/display-number.mcfunction | infinite-block/upgrade/display-number.mcfunction | :white_check_mark: Ported |
+| infinite-block/upgrade/manager.mcfunction | infinite-block/upgrade/manager.mcfunction | :white_check_mark: Ported |
 | loop.mcfunction | loop.mcfunction | :white_check_mark: Ported |
 | main.mcfunction | main.mcfunction | :white_check_mark: Ported |
 | monster-party/destroy-blocks.mcfunction | *Missing* | :x: Not Ported |
@@ -443,6 +443,7 @@ Runs 20 times per second.
 | *None* | tick.json | :sparkles: Bedrock Exclusive |
 
 </details>
+
 
 
 
