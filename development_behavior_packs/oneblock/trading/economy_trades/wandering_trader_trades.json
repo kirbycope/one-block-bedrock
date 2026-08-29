@@ -472,7 +472,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:dead_dead_bush",
+                  "item": "minecraft:deadbush",
                   "quantity": 1
                 }
               ],
