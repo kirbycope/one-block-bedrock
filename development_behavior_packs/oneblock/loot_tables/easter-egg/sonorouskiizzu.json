@@ -5,12 +5,22 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:stick",
+          "name": "oneblock:master_stick",
           "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "§b\uE109 The Master Stick"
+              "name": "§d\uE109 The Master Stick"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                "§7A legendary Omni-Tool artifact.",
+                "§d★ Epic VIP Relic",
+                "§e★ Fortune III (All Blocks & Crops)",
+                "§c★ Looting III & Sharpness V (Mob Drops & Slaying)",
+                "§b★ Unbreakable Master Quality"
+              ]
             },
             {
               "function": "minecraft:specific_enchants",
@@ -28,16 +38,20 @@
                   "level": 3
                 },
                 {
-                  "id": "mending",
+                  "id": "sharpness",
                   "level": 5
                 },
                 {
-                  "id": "silk_touch",
-                  "level": 1
+                  "id": "fire_aspect",
+                  "level": 2
                 },
                 {
                   "id": "unbreaking",
                   "level": 3
+                },
+                {
+                  "id": "mending",
+                  "level": 1
                 }
               ]
             }

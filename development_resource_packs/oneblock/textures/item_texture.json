@@ -7,6 +7,9 @@
     },
     "red_star_cap": {
       "textures": "textures/items/red_star_cap"
+    },
+    "master_stick": {
+      "textures": "textures/items/stick"
     }
   }
 }
