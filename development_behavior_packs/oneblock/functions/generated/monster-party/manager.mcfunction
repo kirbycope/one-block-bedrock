@@ -11,12 +11,13 @@ execute if entity @s[tag=ija-a4-party8] run function generated/monster-party/08-
 execute if entity @s[tag=ija-a4-party9] run function generated/monster-party/09-manager
 execute if entity @s[tag=ija-a4-party10] run function generated/monster-party/10-manager
 execute if entity @s[scores={ija-a4-monster-party-countdown=75}] at @s run playsound block.respawn_anchor.set_spawn @a[r=35] ~ ~ ~ 1 0.5 1
-tag @s remove ija-a4-party
-tag @s remove ija-a4-party3
-tag @s remove ija-a4-party4
-tag @s remove ija-a4-party5
-tag @s remove ija-a4-party6
-tag @s remove ija-a4-party7
-tag @s remove ija-a4-party8
-tag @s remove ija-a4-party9
-tag @s remove ija-a4-party10
+# The party tags stay on the block until the countdown runs out: the managers above only run while the block is tagged, and the countdown reaches 1 on its last tick
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party3
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party4
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party5
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party6
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party7
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party8
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party9
+tag @s[scores={ija-a4-monster-party-countdown=1}] remove ija-a4-party10

@@ -84,4 +84,4 @@ execute if entity @s[scores={ija-a4-random-block-type=3152..3163}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=3164..3166}] run setblock ~ ~ ~ crying_obsidian
 execute if entity @s[scores={ija-a4-random-block-type=3167..3171}] run setblock ~ ~ ~ ancient_debris
 execute if entity @s[scores={ija-a4-random-block-type=3172..3201}] run setblock ~ ~ ~ quartz_ore
-execute run setblock ~ ~ ~ nether_gold_ore
+execute if entity @s[scores={ija-a4-random-block-type=3202..}] run setblock ~ ~ ~ nether_gold_ore

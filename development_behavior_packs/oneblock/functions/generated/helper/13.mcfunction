@@ -1,5 +1,5 @@
 kill @e[tag=ija-a4-chest]
-summon oneblock:label_entity "ija-a4-chest" ~ ~ ~
-tag @e[type=oneblock:label_entity,name="ija-a4-chest",c=1] add ija-a4-chest
-tag @e[type=oneblock:label_entity,name="ija-a4-chest",c=1] add ija-a4-chest-has-particles
-tag @e[type=oneblock:label_entity,name="ija-a4-chest",c=1] add ija-a4-chest-builder
+summon oneblock:label_entity "Builder's Chest" ~ ~ ~
+tag @e[type=oneblock:label_entity,name="Builder's Chest",c=1] add ija-a4-chest
+tag @e[type=oneblock:label_entity,name="Builder's Chest",c=1] add ija-a4-chest-has-particles
+tag @e[type=oneblock:label_entity,name="Builder's Chest",c=1] add ija-a4-chest-builder

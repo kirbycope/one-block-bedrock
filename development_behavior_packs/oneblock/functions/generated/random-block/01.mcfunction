@@ -8,4 +8,4 @@ execute if entity @s[scores={ija-a4-random-block-type=116..130}] run setblock ~ 
 execute if entity @s[scores={ija-a4-random-block-type=131..150}] run setblock ~ ~ ~ oak_log
 execute if entity @s[scores={ija-a4-random-block-type=151..165}] run setblock ~ ~ ~ birch_log
 execute if entity @s[scores={ija-a4-random-block-type=166..175}] run setblock ~ ~ ~ melon_block
-execute run setblock ~ ~ ~ pumpkin
+execute if entity @s[scores={ija-a4-random-block-type=176..}] run setblock ~ ~ ~ pumpkin

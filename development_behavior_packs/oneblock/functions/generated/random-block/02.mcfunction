@@ -18,4 +18,4 @@ execute if entity @s[scores={ija-a4-random-block-type=417..436}] run setblock ~ 
 execute if entity @s[scores={ija-a4-random-block-type=437..456}] run setblock ~ ~ ~ andesite
 execute if entity @s[scores={ija-a4-random-block-type=457..476}] run setblock ~ ~ ~ calcite
 execute if entity @s[scores={ija-a4-random-block-type=477..496}] run setblock ~ ~ ~ coal_ore
-execute run setblock ~ ~ ~ iron_ore
+execute if entity @s[scores={ija-a4-random-block-type=497..}] run setblock ~ ~ ~ iron_ore

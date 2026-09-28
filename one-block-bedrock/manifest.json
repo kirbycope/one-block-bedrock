@@ -2,9 +2,9 @@
     "header": {
         "name": "One Block",
         "description": "One Block",
-        "base_game_version": [1,20,51],
+        "base_game_version": [1,21,50],
         "lock_template_options": true,
-        "version": [1,20,51],
+        "version": [1,21,50],
         "uuid": "b7b28168-3173-4d35-952f-ed9ac710a448"
     },
     "modules": [

@@ -117,4 +117,4 @@ execute if entity @s[scores={ija-a4-random-block-type=4569..4573}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=4574..4793}] run setblock ~ ~ ~ end_stone
 execute if entity @s[scores={ija-a4-random-block-type=4794..4943}] run setblock ~ ~ ~ end_bricks
 execute if entity @s[scores={ija-a4-random-block-type=4944..5078}] run setblock ~ ~ ~ purpur_block
-execute run setblock ~ ~ ~ purpur_pillar
+execute if entity @s[scores={ija-a4-random-block-type=5079..}] run setblock ~ ~ ~ purpur_pillar

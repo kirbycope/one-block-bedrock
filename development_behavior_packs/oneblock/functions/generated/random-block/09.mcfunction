@@ -113,4 +113,4 @@ execute if entity @s[scores={ija-a4-random-block-type=4415..4430}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=4431..4444}] run setblock ~ ~ ~ deepslate_redstone_ore
 execute if entity @s[scores={ija-a4-random-block-type=4445..4449}] run setblock ~ ~ ~ deepslate_diamond_ore
 execute if entity @s[scores={ija-a4-random-block-type=4450..4454}] run setblock ~ ~ ~ deepslate_emerald_ore
-execute run setblock ~ ~ ~ deepslate_lapis_ore
+execute if entity @s[scores={ija-a4-random-block-type=4455..}] run setblock ~ ~ ~ deepslate_lapis_ore

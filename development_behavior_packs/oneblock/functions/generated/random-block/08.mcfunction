@@ -91,4 +91,4 @@ execute if entity @s[scores={ija-a4-random-block-type=3717..3731}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=3732..3735}] run setblock ~ ~ ~ honey_block
 execute if entity @s[scores={ija-a4-random-block-type=3736..3739}] run setblock ~ ~ ~ slime
 execute if entity @s[scores={ija-a4-random-block-type=3740}] run setblock ~ ~ ~ bee_nest
-execute run setblock ~ ~ ~ beehive
+execute if entity @s[scores={ija-a4-random-block-type=3741..}] run setblock ~ ~ ~ beehive

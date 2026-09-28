@@ -38,4 +38,4 @@ execute if entity @s[scores={ija-a4-random-block-type=1345..1357}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=1358..1369}] run setblock ~ ~ ~ fire_coral_block
 execute if entity @s[scores={ija-a4-random-block-type=1370..1379}] run setblock ~ ~ ~ bubble_coral_block
 execute if entity @s[scores={ija-a4-random-block-type=1380..1389}] run setblock ~ ~ ~ tube_coral_block
-execute run setblock ~ ~ ~ diamond_ore
+execute if entity @s[scores={ija-a4-random-block-type=1390..}] run setblock ~ ~ ~ diamond_ore

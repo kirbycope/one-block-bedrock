@@ -63,7 +63,7 @@ execute if entity @s[scores={ija-a4-counter=4751..4755}] run setblock 0 60 0 myc
 execute if entity @s[scores={ija-a4-counter=4756..4760}] run setblock 0 60 0 sculk
 execute if entity @s[scores={ija-a4-counter=4761..4765}] run setblock 0 60 0 tuff
 execute if entity @s[scores={ija-a4-counter=4766..4768}] run setblock 0 60 0 gravel
-execute if entity @s[scores={ija-a4-counter=4768}] at @s run function generated/mob/09-09-blaze
+execute if entity @s[scores={ija-a4-counter=4768}] at @s run function generated/mob/09-09-breeze
 execute if entity @s[scores={ija-a4-counter=4769..4770}] run setblock 0 60 0 gravel
 execute if entity @s[scores={ija-a4-counter=4771}] run setblock 0 60 0 suspicious_gravel
 execute if entity @s[scores={ija-a4-counter=4772..4773}] run setblock 0 60 0 bone_block
@@ -234,7 +234,7 @@ execute if entity @s[scores={ija-a4-counter=5133}] run loot insert 0 60 0 loot "
 execute if entity @s[scores={ija-a4-counter=5133}] at @s run function generated/helper/22
 execute if entity @s[scores={ija-a4-counter=5134..5138}] run setblock 0 60 0 mossy_stone_bricks
 execute if entity @s[scores={ija-a4-counter=5139..5146}] run setblock 0 60 0 stone_bricks
-execute if entity @s[scores={ija-a4-counter=5146}] at @s run function generated/mob/09-09-blaze
+execute if entity @s[scores={ija-a4-counter=5146}] at @s run function generated/mob/09-09-breeze
 execute if entity @s[scores={ija-a4-counter=5147..5150}] run setblock 0 60 0 stone_bricks
 execute if entity @s[scores={ija-a4-counter=5151..5155}] run setblock 0 60 0 moss_block
 execute if entity @s[scores={ija-a4-counter=5156..5160}] run setblock 0 60 0 chiseled_stone_bricks

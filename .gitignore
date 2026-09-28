@@ -4,3 +4,5 @@ resource_packs/
 world_templates/
 *.dat
 /java
+__pycache__/
+.pytest_cache/

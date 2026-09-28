@@ -46,4 +46,4 @@ execute if entity @s[scores={ija-a4-random-block-type=1805..1809}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=1810..1814}] run setblock ~ ~ ~ verdant_froglight
 execute if entity @s[scores={ija-a4-random-block-type=1815..1819}] run setblock ~ ~ ~ ochre_froglight
 execute if entity @s[scores={ija-a4-random-block-type=1820..1904}] run setblock ~ ~ ~ jungle_log
-execute run setblock ~ ~ ~ redstone_ore
+execute if entity @s[scores={ija-a4-random-block-type=1905..}] run setblock ~ ~ ~ redstone_ore

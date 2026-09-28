@@ -23,4 +23,4 @@ execute if entity @s[scores={ija-a4-random-block-type=799..838}] run setblock ~ 
 execute if entity @s[scores={ija-a4-random-block-type=839..888}] run setblock ~ ~ ~ spruce_log
 execute if entity @s[scores={ija-a4-random-block-type=889..913}] run setblock ~ ~ ~ packed_ice
 execute if entity @s[scores={ija-a4-random-block-type=914..918}] run setblock ~ ~ ~ gold_ore
-execute run setblock ~ ~ ~ amethyst_block
+execute if entity @s[scores={ija-a4-random-block-type=919..}] run setblock ~ ~ ~ amethyst_block

@@ -62,4 +62,4 @@ execute if entity @s[scores={ija-a4-random-block-type=2449..2493}] run setblock 
 execute if entity @s[scores={ija-a4-random-block-type=2494..2538}] run setblock ~ ~ ~ stained_hardened_clay ["color"="red"]
 execute if entity @s[scores={ija-a4-random-block-type=2539..2554}] run setblock ~ ~ ~ copper_ore
 execute if entity @s[scores={ija-a4-random-block-type=2555..2569}] run setblock ~ ~ ~ emerald_ore
-execute run setblock ~ ~ ~ lapis_ore
+execute if entity @s[scores={ija-a4-random-block-type=2570..}] run setblock ~ ~ ~ lapis_ore
