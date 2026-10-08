@@ -6,3 +6,6 @@ world_templates/
 /java
 __pycache__/
 .pytest_cache/
+
+# the release build, written by tools/build_addon.py
+/build/

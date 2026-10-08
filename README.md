@@ -120,3 +120,8 @@ minutes. `tests/monster_party.py` is the same party check as a one-shot script f
 
 - Original Java Edition map by [IJAMinecraft](https://ijaminecraft.com/map/oneblock/)
 - Bedrock Edition port by [Kirbycope](https://github.com/kirbycope/one-block-bedrock)
+
+## Releasing
+Pushing a tag that starts with `v` (for example `git tag v1.0.0 && git push origin v1.0.0`) runs the Release workflow in `.github/workflows/release.yml`, which builds the world template and attaches `one-block-bedrock.mctemplate` to a GitHub Release.
+
+To build it locally, run `python tools/build_addon.py`. It writes `build/one-block-bedrock.mctemplate`, which git ignores, and leaves the committed `one-block-bedrock.mctemplate` as it is.
