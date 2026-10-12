@@ -77,6 +77,17 @@ python tools/build_template.py           # rebuild one-block-bedrock.mctemplate
 python tools/build_template.py --check   # non-zero when the archive or the pack lists are stale
 ```
 
+Both packs' `pack_icon.png` is generated rather than drawn, so it can be remade if the block ever changes:
+
+```powershell
+python tools/make_pack_icons.py            # write both packs' icons
+python tools/make_pack_icons.py --preview  # see it, and how it reads at 128, 64 and 32, without writing
+```
+
+It cuts the block out of `assets/pack_icon_source.png`, a screenshot of this world taken from spectator with
+the HUD hidden, and sets it on the sky's own blue. That file's docstring has the commands for retaking the
+screenshot.
+
 The archive takes `manifest.json`, `levelname.txt` and `world_icon.jpeg` from `one-block-bedrock/`,
 `level.dat` from `minecraftWorlds/one-block-bedrock/` with an empty `db/` so the game generates the void
 world on first load, and the two packs from `development_behavior_packs/` and `development_resource_packs/`.

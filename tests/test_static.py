@@ -93,3 +93,28 @@ def test_template_archive_is_up_to_date():
     for path, text in copies.items():
         with open(path, encoding="utf-8") as handle:
             assert handle.read() == text, f"{os.path.relpath(path, ROOT)} is stale"
+
+
+def test_both_packs_carry_the_same_readable_icon():
+    """Minecraft draws pack_icon.png in its pack list, and both packs shipped without one, so One Block sat
+    there as an empty square. tools/make_pack_icons.py writes them from assets/pack_icon_source.png."""
+    icons = [os.path.join(ROOT, prefix, "oneblock", "pack_icon.png")
+             for prefix in ("development_behavior_packs", "development_resource_packs")]
+    for path in icons:
+        assert os.path.exists(path), f"{os.path.relpath(path, ROOT)} is missing"
+    with open(icons[0], "rb") as a, open(icons[1], "rb") as b:
+        assert a.read() == b.read(), "the two packs should show the same icon"
+    try:
+        from PIL import Image
+    except ImportError:
+        return                      # Pillow is not a test dependency here; the checks above still ran
+    with Image.open(icons[0]) as image:
+        assert image.width == image.height, "a pack icon is square"
+        assert 128 <= image.width <= 512, f"{image.width} px is the wrong size for a pack list"
+
+
+def test_the_pack_icon_source_screenshot_is_committed():
+    """The icon is generated, so the screenshot it is generated from has to be in the repository or the
+    tool cannot be run again."""
+    source = os.path.join(ROOT, "assets", "pack_icon_source.png")
+    assert os.path.exists(source), "assets/pack_icon_source.png is missing"
