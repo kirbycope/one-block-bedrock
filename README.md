@@ -10,7 +10,7 @@ This is a complete, feature-faithful Bedrock Edition behavior pack port of the o
 
 ## 📥 Installation
 
-1. Download the [one-block-bedrock.mctemplate](https://github.com/kirbycope/one-block-bedrock/raw/main/one-block-bedrock.mctemplate)
+1. Download the [one-block-bedrock.mctemplate](https://github.com/kirbycope/one-block-bedrock/releases/latest/download/one-block-bedrock.mctemplate)
 2. Double-click the `.mctemplate` file to import it into Minecraft Bedrock.
 3. Create a new world using the template and enjoy!
 
@@ -131,6 +131,9 @@ minutes. `tests/monster_party.py` is the same party check as a one-shot script f
 
 - Original Java Edition map by [IJAMinecraft](https://ijaminecraft.com/map/oneblock/)
 - Bedrock Edition port by [Kirbycope](https://github.com/kirbycope/one-block-bedrock)
+
+## Requirements
+Minecraft Bedrock 1.26.0 or newer, with no experiments.
 
 ## Releasing
 Pushing a tag that starts with `v` (for example `git tag v1.0.0 && git push origin v1.0.0`) runs the Release workflow in `.github/workflows/release.yml`, which builds the world template and attaches `one-block-bedrock.mctemplate` to a GitHub Release.

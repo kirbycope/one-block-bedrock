@@ -4,18 +4,18 @@
 		"name": "One Block",
 		"description": "One Block Behavior Pack",
 		"uuid": "3b2e9ec7-ece7-46ef-950e-6febab276aa8",
-		"version": [1, 21, 50],
-		"min_engine_version": [1, 21, 50]
+		"version": [1, 22, 0],
+		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
-		"authors": ["kirbycope"]
+		"authors": ["Kirbycope"]
 	},
 	"modules": [
 		{
 			"description": "Behavior",
 			"type": "data",
 			"uuid": "adb8cdd3-cdcb-4f0a-9086-597ecd78798d",
-			"version": [1, 21, 50]
+			"version": [1, 22, 0]
 		}
 	]
 }
